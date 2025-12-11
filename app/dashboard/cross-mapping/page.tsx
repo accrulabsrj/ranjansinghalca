@@ -8,15 +8,21 @@ export default function CrossMappingPage() {
   const otherActs = acts.filter(act => act.id !== 'saaa100')
 
   return (
-    <div className="min-h-screen bg-accru-bg">
+    <div className="min-h-screen bg-gradient-to-b from-secondary-50 to-white">
       <Navigation />
       
       <main className="container mx-auto px-4 py-12">
-        <div className="mb-8">
-          <h1 className="text-4xl font-bold text-accru-dark mb-4">
+        <div className="mb-12 text-center">
+          <div className="inline-block mb-6">
+            <span className="px-4 py-2 bg-accent-100 text-accent-700 rounded-full text-sm font-medium border border-accent-200">
+              Legal Framework Analysis
+            </span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold text-primary-900 mb-4">
             Cross-Mapping: Laws & SAAA-100
           </h1>
-          <p className="text-lg text-gray-600 max-w-3xl">
+          <div className="w-32 h-1 bg-gradient-to-r from-accent-400 to-accent-600 mx-auto rounded-full mb-6"></div>
+          <p className="text-lg text-secondary-600 max-w-3xl mx-auto leading-relaxed">
             Understand how different legal frameworks relate to the SAAA-100 audit standard.
             This mapping helps CAs and AI governance consultants identify compliance requirements
             across multiple jurisdictions.
@@ -24,11 +30,11 @@ export default function CrossMappingPage() {
         </div>
 
         {saa100 && (
-          <div className="bg-yellow-50 border-l-4 border-yellow-400 rounded-lg p-4 mb-8">
+          <div className="bg-warning-50 border-l-4 border-warning-400 rounded-xl p-5 mb-8 shadow-soft">
             <div className="flex items-start">
               <div className="flex-shrink-0">
                 <svg
-                  className="h-5 w-5 text-yellow-400"
+                  className="h-6 w-6 text-warning-500"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -39,11 +45,11 @@ export default function CrossMappingPage() {
                   />
                 </svg>
               </div>
-              <div className="ml-3">
-                <h3 className="text-sm font-medium text-yellow-800">
+              <div className="ml-4">
+                <h3 className="text-sm font-semibold text-warning-800 mb-2">
                   Important: SAAA-100 is a Draft Proposal
                 </h3>
-                <div className="mt-2 text-sm text-yellow-700">
+                <div className="mt-2 text-sm text-warning-700 leading-relaxed">
                   <p>
                     <strong>SAAA-100</strong> is a draft proposal by <strong>CA Ranjan Singhal</strong> and
                     is not a final standard. This cross-mapping is provided for reference purposes only

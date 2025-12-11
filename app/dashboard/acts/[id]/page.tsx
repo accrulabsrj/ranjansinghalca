@@ -39,7 +39,7 @@ export default async function ActPage({ params }: { params: Promise<{ id: string
     }
 
     return (
-      <div className="min-h-screen bg-accru-bg">
+      <div className="min-h-screen bg-gradient-to-b from-secondary-50 to-white">
         <Navigation />
         <div className="container mx-auto px-4 py-8">
           {/* Debug: Ensure page is rendering */}
@@ -54,12 +54,12 @@ export default async function ActPage({ params }: { params: Promise<{ id: string
     console.error('Error rendering ActPage:', error)
     // Don't throw - let the error boundary handle it
     return (
-      <div className="min-h-screen bg-accru-bg">
+      <div className="min-h-screen bg-gradient-to-b from-secondary-50 to-white">
         <Navigation />
         <div className="container mx-auto px-4 py-8">
-          <div className="bg-red-50 border-l-4 border-red-400 p-4 rounded">
-            <h2 className="text-xl font-bold text-red-800 mb-2">Error Loading Act</h2>
-            <p className="text-red-700 mb-2">
+          <div className="bg-red-50 border-l-4 border-red-400 p-6 rounded-xl shadow-soft">
+            <h2 className="text-xl font-bold text-red-800 mb-3">Error Loading Act</h2>
+            <p className="text-red-700 mb-3 leading-relaxed">
               There was an error loading this act. Please try again or go back to the home page.
             </p>
             <p className="text-red-600 text-sm">

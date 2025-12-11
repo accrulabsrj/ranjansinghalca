@@ -95,43 +95,53 @@ export default function ActDashboard({ act, dashboardData: initialData }: ActDas
   return (
     <div className="max-w-7xl mx-auto">
       {/* Header */}
-      <div className="bg-gradient-to-r from-accru-dark to-accru-blue text-white rounded-lg shadow-lg p-8 mb-6">
-        <div className="flex items-start justify-between">
-          <div>
-            <div className="flex items-center gap-3 mb-2">
-              <h1 className="text-4xl font-bold">
+      <div className="bg-gradient-to-br from-primary-800 via-primary-900 to-primary-800 text-white rounded-2xl shadow-strong p-8 md:p-10 mb-8 relative overflow-hidden">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMiIvPjwvZz48L2c+PC9zdmc+')] opacity-10"></div>
+        <div className="flex items-start justify-between relative z-10">
+          <div className="flex-1">
+            <div className="flex items-center gap-3 mb-3 flex-wrap">
+              <h1 className="text-4xl md:text-5xl font-bold">
                 {act.shortName}
               </h1>
               {act.isDraft && (
-                <span className="bg-yellow-400 text-yellow-900 text-sm font-semibold px-3 py-1 rounded">
+                <span className="bg-warning-400 text-warning-900 text-sm font-semibold px-4 py-1.5 rounded-full border border-warning-300">
                   DRAFT PROPOSAL
                 </span>
               )}
             </div>
-            <p className="text-xl text-white/90 mb-4">{act.fullName}</p>
-            <div className="flex items-center gap-6 text-sm text-white/80">
-              <span>
+            <p className="text-xl md:text-2xl text-white/90 mb-6">{act.fullName}</p>
+            <div className="flex items-center gap-6 text-sm text-white/80 flex-wrap">
+              <span className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
                 <strong>Jurisdiction:</strong> {act.jurisdiction}
               </span>
-              <span>
+              <span className="flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
                 <strong>Year:</strong> {act.year}
               </span>
             </div>
           </div>
           <Link
             href="/dashboard"
-            className="text-white/80 hover:text-white text-sm font-medium transition-colors"
+            className="text-white/80 hover:text-white text-sm font-medium transition-colors flex items-center gap-2 hover:bg-white/10 px-4 py-2 rounded-lg ml-4"
           >
-            ← Back to Dashboard
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            Back to Dashboard
           </Link>
         </div>
 
         {act.disclaimer && (
-          <div className="mt-6 p-4 bg-yellow-500/20 border-l-4 border-yellow-400 rounded">
+          <div className="mt-6 p-5 bg-warning-500/20 backdrop-blur-sm border-l-4 border-warning-400 rounded-xl relative z-10">
             <div className="flex items-start">
               <div className="flex-shrink-0">
                 <svg
-                  className="h-5 w-5 text-yellow-400"
+                  className="h-6 w-6 text-warning-300"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -142,14 +152,14 @@ export default function ActDashboard({ act, dashboardData: initialData }: ActDas
                   />
                 </svg>
               </div>
-              <div className="ml-3">
-                <h3 className="text-sm font-medium text-yellow-200">
+              <div className="ml-4">
+                <h3 className="text-sm font-semibold text-warning-200 mb-2">
                   Important Disclaimer
                 </h3>
-                <div className="mt-2 text-sm text-white/90">
+                <div className="mt-2 text-sm text-white/90 leading-relaxed">
                   <p>{act.disclaimer}</p>
                   {act.id === 'saaa100' && (
-                    <p className="mt-2">
+                    <p className="mt-2 font-medium">
                       <strong>Author:</strong> CA Ranjan Singhal
                     </p>
                   )}
@@ -161,17 +171,17 @@ export default function ActDashboard({ act, dashboardData: initialData }: ActDas
       </div>
 
       {/* Navigation Tabs */}
-      <div className="bg-white rounded-lg shadow-md mb-6 overflow-hidden">
-        <div className="border-b border-gray-200">
-          <nav className="flex overflow-x-auto -mb-px">
+      <div className="bg-white rounded-xl shadow-soft mb-8 overflow-hidden border border-secondary-200">
+        <div className="border-b border-secondary-200 bg-secondary-50/50">
+          <nav className="flex overflow-x-auto -mb-px scrollbar-hide">
             {availableTabs.map((tab) => (
               <button
                 key={tab.key}
                 onClick={() => setActiveSection(tab.key)}
-                className={`px-6 py-4 text-sm font-medium border-b-2 whitespace-nowrap transition-colors ${
+                className={`px-6 py-4 text-sm font-medium border-b-2 whitespace-nowrap transition-all ${
                   activeSection === tab.key
-                    ? 'border-accru-accent text-accru-accent'
-                    : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                    ? 'border-accent-500 text-accent-700 bg-white'
+                    : 'border-transparent text-secondary-600 hover:text-primary-700 hover:border-secondary-300 hover:bg-white/50'
                 }`}
               >
                 {tab.label}
@@ -183,15 +193,16 @@ export default function ActDashboard({ act, dashboardData: initialData }: ActDas
         {/* Content Area */}
         <div className="p-8">
           {error && (
-            <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-4 rounded">
-              <p className="text-sm text-yellow-800">
+            <div className="bg-warning-50 border-l-4 border-warning-400 p-4 mb-6 rounded-lg">
+              <p className="text-sm text-warning-800">
                 <strong>Warning:</strong> {error}
               </p>
             </div>
           )}
           {loading && (
             <div className="text-center py-12">
-              <p className="text-gray-500">Loading dashboard content...</p>
+              <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-accent-600 mb-4"></div>
+              <p className="text-secondary-500 font-medium">Loading dashboard content...</p>
             </div>
           )}
           
@@ -201,29 +212,29 @@ export default function ActDashboard({ act, dashboardData: initialData }: ActDas
                 <SectionContent section={dashboardData.overview} />
               ) : (
                 <div>
-                  <h2 className="text-3xl font-bold text-accru-dark mb-6">Overview</h2>
+                  <h2 className="text-3xl md:text-4xl font-bold text-primary-900 mb-6">Overview</h2>
                   <div className="prose max-w-none">
-                    <p className="text-lg text-gray-700 mb-4">
-                      This dashboard provides a comprehensive view of {act.shortName} ({act.fullName}).
+                    <p className="text-lg text-secondary-700 mb-6 leading-relaxed">
+                      This dashboard provides a comprehensive view of <span className="font-semibold text-primary-800">{act.shortName}</span> ({act.fullName}).
                       Navigate through the sections above to explore different aspects of this legal framework.
                     </p>
                     {dashboardData ? (
-                      <p className="text-gray-600 mb-4">
+                      <p className="text-secondary-600 mb-6">
                         Overview content is being prepared. Please check back soon.
                       </p>
                     ) : (
-                      <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-4">
-                        <p className="text-sm text-yellow-800">
+                      <div className="bg-warning-50 border-l-4 border-warning-400 p-5 mb-6 rounded-lg">
+                        <p className="text-sm text-warning-800">
                           <strong>Loading...</strong> Dashboard data is being loaded. If this message persists, 
                           please refresh the page or check back later.
                         </p>
                       </div>
                     )}
-                    <div className="bg-blue-50 rounded-lg p-4 mb-4">
-                      <p className="text-sm text-blue-800">
+                    <div className="bg-accent-50 rounded-xl p-5 mb-4 border border-accent-200">
+                      <p className="text-sm text-accent-900 font-medium mb-2">
                         <strong>Source:</strong> {act.officialSourcePath || 'Not available'}
                       </p>
-                      <p className="text-sm text-blue-800 mt-1">
+                      <p className="text-sm text-accent-800">
                         <strong>Note:</strong> This content is extracted from official sources. 
                         Always refer to the original documents for authoritative legal text.
                       </p>
@@ -240,7 +251,7 @@ export default function ActDashboard({ act, dashboardData: initialData }: ActDas
                 <SectionContent section={dashboardData.definitions} />
               ) : (
                 <div className="text-center py-12">
-                  <p className="text-gray-500">
+                  <p className="text-secondary-500 font-medium">
                     Definitions section is being prepared. Please check back soon.
                   </p>
                 </div>
@@ -254,7 +265,7 @@ export default function ActDashboard({ act, dashboardData: initialData }: ActDas
 
           {!loading && activeSection !== 'overview' && activeSection !== 'definitions' && !dashboardData?.sections[activeSection] && (
             <div className="text-center py-12">
-              <p className="text-gray-500">
+              <p className="text-secondary-500 font-medium">
                 Content for this section is being prepared. Please check back soon.
               </p>
             </div>
@@ -275,18 +286,18 @@ function SectionContent({ section }: { section: any }) {
   
   return (
     <div>
-      <div className="flex items-center justify-between mb-6">
-        <h2 className="text-3xl font-bold text-accru-dark">{section.title}</h2>
+      <div className="flex items-center justify-between mb-8 flex-wrap gap-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-primary-900">{section.title}</h2>
         
         {/* View Mode Toggle */}
         {(hasBareAct || hasLayman || hasCrossMapping) && (
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap">
             <button
               onClick={() => setViewMode('content')}
-              className={`px-4 py-2 text-sm rounded-lg transition-colors ${
+              className={`px-4 py-2 text-sm rounded-lg font-medium transition-all ${
                 viewMode === 'content'
-                  ? 'bg-accru-accent text-white'
-                  : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                  ? 'bg-accent-600 text-white shadow-medium'
+                  : 'bg-secondary-200 text-secondary-700 hover:bg-secondary-300'
               }`}
             >
               Content
@@ -294,10 +305,10 @@ function SectionContent({ section }: { section: any }) {
             {hasBareAct && (
               <button
                 onClick={() => setViewMode('bareAct')}
-                className={`px-4 py-2 text-sm rounded-lg transition-colors ${
+                className={`px-4 py-2 text-sm rounded-lg font-medium transition-all ${
                   viewMode === 'bareAct'
-                    ? 'bg-accru-accent text-white'
-                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                    ? 'bg-accent-600 text-white shadow-medium'
+                    : 'bg-secondary-200 text-secondary-700 hover:bg-secondary-300'
                 }`}
               >
                 Bare Act
@@ -306,10 +317,10 @@ function SectionContent({ section }: { section: any }) {
             {hasLayman && (
               <button
                 onClick={() => setViewMode('layman')}
-                className={`px-4 py-2 text-sm rounded-lg transition-colors ${
+                className={`px-4 py-2 text-sm rounded-lg font-medium transition-all ${
                   viewMode === 'layman'
-                    ? 'bg-accru-accent text-white'
-                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                    ? 'bg-accent-600 text-white shadow-medium'
+                    : 'bg-secondary-200 text-secondary-700 hover:bg-secondary-300'
                 }`}
               >
                 Layman Explanation
@@ -318,10 +329,10 @@ function SectionContent({ section }: { section: any }) {
             {hasCrossMapping && (
               <button
                 onClick={() => setViewMode('crossMapping')}
-                className={`px-4 py-2 text-sm rounded-lg transition-colors ${
+                className={`px-4 py-2 text-sm rounded-lg font-medium transition-all ${
                   viewMode === 'crossMapping'
-                    ? 'bg-accru-accent text-white'
-                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                    ? 'bg-accent-600 text-white shadow-medium'
+                    : 'bg-secondary-200 text-secondary-700 hover:bg-secondary-300'
                 }`}
               >
                 Cross-Mapping
@@ -335,24 +346,24 @@ function SectionContent({ section }: { section: any }) {
         {/* Main Content View */}
         {viewMode === 'content' && (
           <>
-            <div className="text-gray-700 whitespace-pre-line mb-6">
+            <div className="text-secondary-700 whitespace-pre-line mb-8 leading-relaxed text-lg">
               {section.content}
             </div>
             
             {section.subsections && section.subsections.length > 0 && (
               <div className="space-y-6 mt-8">
                 {section.subsections.map((subsection: any, idx: number) => (
-                  <div key={idx} className="bg-gray-50 rounded-lg p-6">
-                    <h3 className="text-xl font-semibold text-accru-blue mb-3">
+                  <div key={idx} className="bg-gradient-to-br from-secondary-50 to-white rounded-xl p-6 shadow-soft border border-secondary-200">
+                    <h3 className="text-xl font-semibold text-primary-800 mb-4">
                       {subsection.title}
                     </h3>
-                    <div className="text-gray-700 whitespace-pre-line">
+                    <div className="text-secondary-700 whitespace-pre-line leading-relaxed">
                       {subsection.content}
                     </div>
                     {subsection.citations && subsection.citations.length > 0 && (
-                      <div className="mt-4 pt-4 border-t border-gray-200">
-                        <p className="text-sm text-gray-500">
-                          <strong>Citations:</strong> {subsection.citations.join(', ')}
+                      <div className="mt-6 pt-4 border-t border-secondary-200">
+                        <p className="text-sm text-secondary-600">
+                          <strong className="text-primary-700">Citations:</strong> <span className="text-secondary-700">{subsection.citations.join(', ')}</span>
                         </p>
                       </div>
                     )}
@@ -367,9 +378,14 @@ function SectionContent({ section }: { section: any }) {
         {viewMode === 'bareAct' && (
           <div className="space-y-6">
             {section.bareActText && (
-              <div className="bg-blue-50 border-l-4 border-blue-400 p-6 rounded">
-                <h3 className="text-lg font-semibold text-blue-900 mb-3">Bare Act Text</h3>
-                <div className="text-gray-800 whitespace-pre-line font-mono text-sm">
+              <div className="bg-primary-50 border-l-4 border-primary-500 p-6 rounded-xl shadow-soft">
+                <h3 className="text-lg font-semibold text-primary-900 mb-4 flex items-center gap-2">
+                  <svg className="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  Bare Act Text
+                </h3>
+                <div className="text-secondary-800 whitespace-pre-line font-mono text-sm leading-relaxed bg-white p-4 rounded-lg border border-primary-200">
                   {section.bareActText}
                 </div>
               </div>
@@ -377,9 +393,9 @@ function SectionContent({ section }: { section: any }) {
             
             {section.subsections?.map((subsection: any, idx: number) => 
               subsection.bareActText && (
-                <div key={idx} className="bg-blue-50 border-l-4 border-blue-400 p-6 rounded">
-                  <h3 className="text-lg font-semibold text-blue-900 mb-3">{subsection.title} - Bare Act Text</h3>
-                  <div className="text-gray-800 whitespace-pre-line font-mono text-sm">
+                <div key={idx} className="bg-primary-50 border-l-4 border-primary-500 p-6 rounded-xl shadow-soft">
+                  <h3 className="text-lg font-semibold text-primary-900 mb-4">{subsection.title} - Bare Act Text</h3>
+                  <div className="text-secondary-800 whitespace-pre-line font-mono text-sm leading-relaxed bg-white p-4 rounded-lg border border-primary-200">
                     {subsection.bareActText}
                   </div>
                 </div>
@@ -387,7 +403,7 @@ function SectionContent({ section }: { section: any }) {
             )}
             
             {!section.bareActText && !section.subsections?.some((s: any) => s.bareActText) && (
-              <p className="text-gray-500">Bare act text not available for this section.</p>
+              <p className="text-secondary-500 font-medium text-center py-8">Bare act text not available for this section.</p>
             )}
           </div>
         )}
@@ -396,9 +412,14 @@ function SectionContent({ section }: { section: any }) {
         {viewMode === 'layman' && (
           <div className="space-y-6">
             {section.laymanExplanation && (
-              <div className="bg-green-50 border-l-4 border-green-400 p-6 rounded">
-                <h3 className="text-lg font-semibold text-green-900 mb-3">Layman Explanation</h3>
-                <div className="text-gray-800 whitespace-pre-line">
+              <div className="bg-success-50 border-l-4 border-success-500 p-6 rounded-xl shadow-soft">
+                <h3 className="text-lg font-semibold text-success-900 mb-4 flex items-center gap-2">
+                  <svg className="w-5 h-5 text-success-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                  Layman Explanation
+                </h3>
+                <div className="text-secondary-800 whitespace-pre-line leading-relaxed bg-white p-5 rounded-lg border border-success-200">
                   {section.laymanExplanation}
                 </div>
               </div>
@@ -406,9 +427,9 @@ function SectionContent({ section }: { section: any }) {
             
             {section.subsections?.map((subsection: any, idx: number) => 
               subsection.laymanExplanation && (
-                <div key={idx} className="bg-green-50 border-l-4 border-green-400 p-6 rounded">
-                  <h3 className="text-lg font-semibold text-green-900 mb-3">{subsection.title} - Layman Explanation</h3>
-                  <div className="text-gray-800 whitespace-pre-line">
+                <div key={idx} className="bg-success-50 border-l-4 border-success-500 p-6 rounded-xl shadow-soft">
+                  <h3 className="text-lg font-semibold text-success-900 mb-4">{subsection.title} - Layman Explanation</h3>
+                  <div className="text-secondary-800 whitespace-pre-line leading-relaxed bg-white p-5 rounded-lg border border-success-200">
                     {subsection.laymanExplanation}
                   </div>
                 </div>
@@ -416,7 +437,7 @@ function SectionContent({ section }: { section: any }) {
             )}
             
             {!section.laymanExplanation && !section.subsections?.some((s: any) => s.laymanExplanation) && (
-              <p className="text-gray-500">Layman explanation not available for this section.</p>
+              <p className="text-secondary-500 font-medium text-center py-8">Layman explanation not available for this section.</p>
             )}
           </div>
         )}
@@ -425,9 +446,14 @@ function SectionContent({ section }: { section: any }) {
         {viewMode === 'crossMapping' && (
           <div className="space-y-6">
             {section.crossMapping && (
-              <div className="bg-purple-50 border-l-4 border-purple-400 p-6 rounded">
-                <h3 className="text-lg font-semibold text-purple-900 mb-3">Cross-Mapping</h3>
-                <div className="text-gray-800 whitespace-pre-line">
+              <div className="bg-accent-50 border-l-4 border-accent-500 p-6 rounded-xl shadow-soft">
+                <h3 className="text-lg font-semibold text-accent-900 mb-4 flex items-center gap-2">
+                  <svg className="w-5 h-5 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                  </svg>
+                  Cross-Mapping
+                </h3>
+                <div className="text-secondary-800 whitespace-pre-line leading-relaxed bg-white p-5 rounded-lg border border-accent-200">
                   {section.crossMapping}
                 </div>
               </div>
@@ -435,9 +461,9 @@ function SectionContent({ section }: { section: any }) {
             
             {section.subsections?.map((subsection: any, idx: number) => 
               subsection.crossMapping && (
-                <div key={idx} className="bg-purple-50 border-l-4 border-purple-400 p-6 rounded">
-                  <h3 className="text-lg font-semibold text-purple-900 mb-3">{subsection.title} - Cross-Mapping</h3>
-                  <div className="text-gray-800 whitespace-pre-line">
+                <div key={idx} className="bg-accent-50 border-l-4 border-accent-500 p-6 rounded-xl shadow-soft">
+                  <h3 className="text-lg font-semibold text-accent-900 mb-4">{subsection.title} - Cross-Mapping</h3>
+                  <div className="text-secondary-800 whitespace-pre-line leading-relaxed bg-white p-5 rounded-lg border border-accent-200">
                     {subsection.crossMapping}
                   </div>
                 </div>
@@ -445,16 +471,16 @@ function SectionContent({ section }: { section: any }) {
             )}
             
             {!section.crossMapping && !section.subsections?.some((s: any) => s.crossMapping) && (
-              <p className="text-gray-500">Cross-mapping not available for this section.</p>
+              <p className="text-secondary-500 font-medium text-center py-8">Cross-mapping not available for this section.</p>
             )}
           </div>
         )}
 
         {/* Citations (always shown) */}
         {section.citations && section.citations.length > 0 && (
-          <div className="mt-6 pt-6 border-t border-gray-200">
-            <p className="text-sm text-gray-500">
-              <strong>Citations:</strong> {section.citations.join(', ')}
+          <div className="mt-8 pt-6 border-t border-secondary-200 bg-secondary-50 rounded-lg p-4">
+            <p className="text-sm text-secondary-700">
+              <strong className="text-primary-700">Citations:</strong> <span className="text-secondary-600">{section.citations.join(', ')}</span>
             </p>
           </div>
         )}

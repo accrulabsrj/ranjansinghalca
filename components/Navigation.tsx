@@ -43,15 +43,15 @@ export default function Navigation() {
   }
 
   return (
-    <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <nav className="bg-white border-b border-secondary-200 sticky top-0 z-50 shadow-soft backdrop-blur-sm bg-white/95">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gray-900 rounded flex items-center justify-center text-white font-bold text-sm">
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="w-10 h-10 bg-gradient-to-br from-primary-700 to-primary-900 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-medium group-hover:shadow-strong transition-all duration-300 group-hover:scale-105">
               CA
             </div>
-            <span className="font-semibold text-lg text-gray-900">Ranjan Singhal</span>
+            <span className="font-semibold text-lg text-primary-900 group-hover:text-primary-700 transition-colors">Ranjan Singhal</span>
           </Link>
           
           {/* Desktop Navigation */}
@@ -59,33 +59,126 @@ export default function Navigation() {
             {isHomePage ? (
               <>
                 <a 
-                  href="#about" 
-                  onClick={(e) => handleAnchorClick(e, '#about')}
-                  className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm"
-                >
-                  About
-                </a>
-                <a 
                   href="#services" 
                   onClick={(e) => handleAnchorClick(e, '#services')}
-                  className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm"
+                  className="text-secondary-600 hover:text-primary-700 px-3 py-2 text-sm font-medium transition-colors rounded-md hover:bg-secondary-50"
                 >
                   Services
+                </a>
+                <a 
+                  href="#achievements" 
+                  onClick={(e) => handleAnchorClick(e, '#achievements')}
+                  className="text-secondary-600 hover:text-primary-700 px-3 py-2 text-sm font-medium transition-colors rounded-md hover:bg-secondary-50"
+                >
+                  Achievements
+                </a>
+                
+                {/* AccruLabs.ai Link */}
+                <a 
+                  href="https://www.AccruLabs.ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-secondary-600 hover:text-primary-700 px-3 py-2 text-sm font-medium transition-colors rounded-md hover:bg-secondary-50"
+                >
+                  AccruLabs.ai
+                </a>
+                
+                {/* Regulations and Acts Dropdown */}
+                <div className="relative" ref={dropdownRef}>
+                  <button
+                    onClick={() => setActsDropdownOpen(!actsDropdownOpen)}
+                    className={`px-3 py-2 text-sm flex items-center gap-1 font-medium transition-colors rounded-md ${
+                      pathname?.startsWith('/dashboard/acts') 
+                        ? 'text-accent-600 bg-accent-50' 
+                        : 'text-secondary-600 hover:text-primary-700 hover:bg-secondary-50'
+                    }`}
+                  >
+                    Regulations and Acts
+                    <svg 
+                      className={`w-4 h-4 transition-transform ${actsDropdownOpen ? 'rotate-180' : ''}`}
+                      fill="none" 
+                      stroke="currentColor" 
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                  {actsDropdownOpen && (
+                    <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-strong border border-secondary-200 py-2 z-50 overflow-hidden">
+                      <Link
+                        href="/dashboard"
+                        onClick={() => setActsDropdownOpen(false)}
+                        className="block px-4 py-2.5 text-sm text-secondary-700 hover:bg-accent-50 hover:text-accent-700 font-medium transition-colors"
+                      >
+                        All Acts Dashboard
+                      </Link>
+                      <div className="border-t border-secondary-200 my-1"></div>
+                      {acts.map((act) => (
+                        <Link
+                          key={act.id}
+                          href={`/dashboard/acts/${act.id}`}
+                          onClick={() => setActsDropdownOpen(false)}
+                          className={`block px-4 py-2.5 text-sm transition-colors ${
+                            pathname === `/dashboard/acts/${act.id}` 
+                              ? 'bg-accent-50 text-accent-700 font-medium border-l-4 border-accent-500' 
+                              : 'text-secondary-600 hover:bg-secondary-50 hover:text-primary-700'
+                          }`}
+                        >
+                          {act.shortName}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                
+                <a 
+                  href="#about" 
+                  onClick={(e) => handleAnchorClick(e, '#about')}
+                  className="text-secondary-600 hover:text-primary-700 px-3 py-2 text-sm font-medium transition-colors rounded-md hover:bg-secondary-50"
+                >
+                  About
                 </a>
                 <a 
                   href="#contact" 
                   onClick={(e) => handleAnchorClick(e, '#contact')}
-                  className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm"
+                  className="text-secondary-600 hover:text-primary-700 px-3 py-2 text-sm font-medium transition-colors rounded-md hover:bg-secondary-50"
                 >
                   Contact
+                </a>
+              </>
+            ) : (
+              <>
+                <Link 
+                  href="/#services"
+                  className="text-secondary-600 hover:text-primary-700 px-3 py-2 text-sm font-medium transition-colors rounded-md hover:bg-secondary-50"
+                >
+                  Services
+                </Link>
+                <Link 
+                  href="/#achievements"
+                  className="text-secondary-600 hover:text-primary-700 px-3 py-2 text-sm font-medium transition-colors rounded-md hover:bg-secondary-50"
+                >
+                  Achievements
+                </Link>
+                
+                {/* AccruLabs.ai Link */}
+                <a 
+                  href="https://www.AccruLabs.ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-secondary-600 hover:text-primary-700 px-3 py-2 text-sm font-medium transition-colors rounded-md hover:bg-secondary-50"
+                >
+                  AccruLabs.ai
                 </a>
                 
                 {/* Regulations and Acts Dropdown */}
                 <div className="relative" ref={dropdownRef}>
                   <button
                     onClick={() => setActsDropdownOpen(!actsDropdownOpen)}
-                    className={`text-gray-600 hover:text-gray-900 px-3 py-2 text-sm flex items-center gap-1 ${
-                      pathname?.startsWith('/dashboard/acts') ? 'text-blue-600 font-medium' : ''
+                    className={`px-3 py-2 text-sm flex items-center gap-1 font-medium transition-colors rounded-md ${
+                      pathname?.startsWith('/dashboard/acts') 
+                        ? 'text-accent-600 bg-accent-50' 
+                        : 'text-secondary-600 hover:text-primary-700 hover:bg-secondary-50'
                     }`}
                   >
                     Regulations and Acts
@@ -99,89 +192,28 @@ export default function Navigation() {
                     </svg>
                   </button>
                   {actsDropdownOpen && (
-                    <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-md shadow-lg border border-gray-200 py-2 z-50">
+                    <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-strong border border-secondary-200 py-2 z-50 overflow-hidden">
                       <Link
                         href="/dashboard"
                         onClick={() => setActsDropdownOpen(false)}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 font-medium"
-                      >
-                        All Acts Dashboard
-                      </Link>
-                      <div className="border-t border-gray-200 my-1"></div>
-                      {acts.map((act) => (
-                        <Link
-                          key={act.id}
-                          href={`/dashboard/acts/${act.id}`}
-                          onClick={() => setActsDropdownOpen(false)}
-                          className={`block px-4 py-2 text-sm hover:bg-gray-50 ${
-                            pathname === `/dashboard/acts/${act.id}` ? 'bg-blue-50 text-blue-700 font-medium' : 'text-gray-600'
-                          }`}
-                        >
-                          {act.shortName}
-                        </Link>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              </>
-            ) : (
-              <>
-                <Link 
-                  href="/#about"
-                  className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm"
-                >
-                  About
-                </Link>
-                <Link 
-                  href="/#services"
-                  className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm"
-                >
-                  Services
-                </Link>
-                <Link 
-                  href="/#contact"
-                  className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm"
-                >
-                  Contact
-                </Link>
-                
-                {/* Regulations and Acts Dropdown */}
-                <div className="relative" ref={dropdownRef}>
-                  <button
-                    onClick={() => setActsDropdownOpen(!actsDropdownOpen)}
-                    className={`text-gray-600 hover:text-gray-900 px-3 py-2 text-sm flex items-center gap-1 ${
-                      pathname?.startsWith('/dashboard/acts') ? 'text-blue-600 font-medium' : ''
-                    }`}
-                  >
-                    Regulations and Acts
-                    <svg 
-                      className={`w-4 h-4 transition-transform ${actsDropdownOpen ? 'rotate-180' : ''}`}
-                      fill="none" 
-                      stroke="currentColor" 
-                      viewBox="0 0 24 24"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </button>
-                  {actsDropdownOpen && (
-                    <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-md shadow-lg border border-gray-200 py-2 z-50">
-                      <Link
-                        href="/dashboard"
-                        onClick={() => setActsDropdownOpen(false)}
-                        className={`block px-4 py-2 text-sm hover:bg-gray-50 font-medium ${
-                          pathname === '/dashboard' ? 'bg-blue-50 text-blue-700' : 'text-gray-700'
+                        className={`block px-4 py-2.5 text-sm transition-colors font-medium ${
+                          pathname === '/dashboard' 
+                            ? 'bg-accent-50 text-accent-700 border-l-4 border-accent-500' 
+                            : 'text-secondary-700 hover:bg-accent-50 hover:text-accent-700'
                         }`}
                       >
                         All Acts Dashboard
                       </Link>
-                      <div className="border-t border-gray-200 my-1"></div>
+                      <div className="border-t border-secondary-200 my-1"></div>
                       {acts.map((act) => (
                         <Link
                           key={act.id}
                           href={`/dashboard/acts/${act.id}`}
                           onClick={() => setActsDropdownOpen(false)}
-                          className={`block px-4 py-2 text-sm hover:bg-gray-50 ${
-                            pathname === `/dashboard/acts/${act.id}` ? 'bg-blue-50 text-blue-700 font-medium' : 'text-gray-600'
+                          className={`block px-4 py-2.5 text-sm transition-colors ${
+                            pathname === `/dashboard/acts/${act.id}` 
+                              ? 'bg-accent-50 text-accent-700 font-medium border-l-4 border-accent-500' 
+                              : 'text-secondary-600 hover:bg-secondary-50 hover:text-primary-700'
                           }`}
                         >
                           {act.shortName}
@@ -190,6 +222,19 @@ export default function Navigation() {
                     </div>
                   )}
                 </div>
+                
+                <Link 
+                  href="/#about"
+                  className="text-secondary-600 hover:text-primary-700 px-3 py-2 text-sm font-medium transition-colors rounded-md hover:bg-secondary-50"
+                >
+                  About
+                </Link>
+                <Link 
+                  href="/#contact"
+                  className="text-secondary-600 hover:text-primary-700 px-3 py-2 text-sm font-medium transition-colors rounded-md hover:bg-secondary-50"
+                >
+                  Contact
+                </Link>
               </>
             )}
           </div>
@@ -198,7 +243,7 @@ export default function Navigation() {
           <div className="md:hidden">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="text-gray-600 hover:text-gray-900 p-2"
+              className="text-secondary-600 hover:text-primary-700 p-2 rounded-md hover:bg-secondary-50 transition-colors"
               aria-label="Toggle menu"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -214,37 +259,42 @@ export default function Navigation() {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200">
-            <div className="flex flex-col space-y-2">
+          <div className="md:hidden py-4 border-t border-secondary-200 bg-secondary-50/50">
+            <div className="flex flex-col space-y-1">
               {isHomePage ? (
                 <>
                   <a 
-                    href="#about" 
-                    onClick={(e) => handleAnchorClick(e, '#about')}
-                    className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm"
-                  >
-                    About
-                  </a>
-                  <a 
                     href="#services" 
                     onClick={(e) => handleAnchorClick(e, '#services')}
-                    className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm"
+                    className="text-secondary-700 hover:text-primary-700 hover:bg-white px-3 py-2.5 text-sm font-medium rounded-md transition-colors"
                   >
                     Services
                   </a>
                   <a 
-                    href="#contact" 
-                    onClick={(e) => handleAnchorClick(e, '#contact')}
-                    className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm"
+                    href="#achievements" 
+                    onClick={(e) => handleAnchorClick(e, '#achievements')}
+                    className="text-secondary-700 hover:text-primary-700 hover:bg-white px-3 py-2.5 text-sm font-medium rounded-md transition-colors"
                   >
-                    Contact
+                    Achievements
                   </a>
-                  <div className="px-3 py-2">
-                    <div className="text-gray-600 text-sm font-medium mb-2">Regulations and Acts</div>
+                  
+                  {/* AccruLabs.ai Link */}
+                  <a 
+                    href="https://www.AccruLabs.ai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="text-secondary-700 hover:text-primary-700 hover:bg-white px-3 py-2.5 text-sm font-medium rounded-md transition-colors"
+                  >
+                    AccruLabs.ai
+                  </a>
+                  
+                  <div className="px-3 py-3 mt-2">
+                    <div className="text-secondary-700 text-sm font-semibold mb-3">Regulations and Acts</div>
                     <Link 
                       href="/dashboard"
                       onClick={() => setMobileMenuOpen(false)}
-                      className="block text-blue-600 hover:text-blue-700 px-4 py-2 text-sm font-medium"
+                      className="block text-accent-600 hover:text-accent-700 hover:bg-white px-4 py-2.5 text-sm font-medium rounded-md transition-colors"
                     >
                       All Acts Dashboard
                     </Link>
@@ -254,43 +304,64 @@ export default function Navigation() {
                           key={act.id}
                           href={`/dashboard/acts/${act.id}`}
                           onClick={() => setMobileMenuOpen(false)}
-                          className="block text-gray-600 hover:text-gray-900 px-4 py-1.5 text-sm"
+                          className="block text-secondary-600 hover:text-primary-700 hover:bg-white px-4 py-2 text-sm rounded-md transition-colors"
                         >
                           {act.shortName}
                         </Link>
                       ))}
                     </div>
                   </div>
+                  
+                  <a 
+                    href="#about" 
+                    onClick={(e) => handleAnchorClick(e, '#about')}
+                    className="text-secondary-700 hover:text-primary-700 hover:bg-white px-3 py-2.5 text-sm font-medium rounded-md transition-colors"
+                  >
+                    About
+                  </a>
+                  <a 
+                    href="#contact" 
+                    onClick={(e) => handleAnchorClick(e, '#contact')}
+                    className="text-secondary-700 hover:text-primary-700 hover:bg-white px-3 py-2.5 text-sm font-medium rounded-md transition-colors"
+                  >
+                    Contact
+                  </a>
                 </>
               ) : (
                 <>
                   <Link 
-                    href="/#about"
-                    className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm"
-                  >
-                    About
-                  </Link>
-                  <Link 
                     href="/#services"
-                    className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm"
+                    className="text-secondary-700 hover:text-primary-700 hover:bg-white px-3 py-2.5 text-sm font-medium rounded-md transition-colors"
                   >
                     Services
                   </Link>
                   <Link 
-                    href="/#contact"
-                    className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm"
+                    href="/#achievements"
+                    className="text-secondary-700 hover:text-primary-700 hover:bg-white px-3 py-2.5 text-sm font-medium rounded-md transition-colors"
                   >
-                    Contact
+                    Achievements
                   </Link>
-                  <div className="px-3 py-2">
-                    <div className="text-gray-600 text-sm font-medium mb-2">Regulations and Acts</div>
+                  
+                  {/* AccruLabs.ai Link */}
+                  <a 
+                    href="https://www.AccruLabs.ai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="text-secondary-700 hover:text-primary-700 hover:bg-white px-3 py-2.5 text-sm font-medium rounded-md transition-colors"
+                  >
+                    AccruLabs.ai
+                  </a>
+                  
+                  <div className="px-3 py-3 mt-2">
+                    <div className="text-secondary-700 text-sm font-semibold mb-3">Regulations and Acts</div>
                     <Link 
                       href="/dashboard"
                       onClick={() => setMobileMenuOpen(false)}
-                      className={`block px-4 py-2 text-sm font-medium ${
+                      className={`block px-4 py-2.5 text-sm font-medium rounded-md transition-colors ${
                         pathname === '/dashboard'
-                          ? 'text-blue-700 bg-blue-50'
-                          : 'text-blue-600 hover:text-blue-700'
+                          ? 'text-accent-700 bg-accent-50'
+                          : 'text-accent-600 hover:text-accent-700 hover:bg-white'
                       }`}
                     >
                       All Acts Dashboard
@@ -301,10 +372,10 @@ export default function Navigation() {
                           key={act.id}
                           href={`/dashboard/acts/${act.id}`}
                           onClick={() => setMobileMenuOpen(false)}
-                          className={`block px-4 py-1.5 text-sm ${
+                          className={`block px-4 py-2 text-sm rounded-md transition-colors ${
                             pathname === `/dashboard/acts/${act.id}`
-                              ? 'text-blue-700 bg-blue-50 font-medium'
-                              : 'text-gray-600 hover:text-gray-900'
+                              ? 'text-accent-700 bg-accent-50 font-medium'
+                              : 'text-secondary-600 hover:text-primary-700 hover:bg-white'
                           }`}
                         >
                           {act.shortName}
@@ -312,6 +383,19 @@ export default function Navigation() {
                       ))}
                     </div>
                   </div>
+                  
+                  <Link 
+                    href="/#about"
+                    className="text-secondary-700 hover:text-primary-700 hover:bg-white px-3 py-2.5 text-sm font-medium rounded-md transition-colors"
+                  >
+                    About
+                  </Link>
+                  <Link 
+                    href="/#contact"
+                    className="text-secondary-700 hover:text-primary-700 hover:bg-white px-3 py-2.5 text-sm font-medium rounded-md transition-colors"
+                  >
+                    Contact
+                  </Link>
                 </>
               )}
             </div>
