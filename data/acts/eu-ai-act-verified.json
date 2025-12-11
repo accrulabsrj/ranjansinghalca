@@ -1,0 +1,161 @@
+{
+  "actId": "eu_ai_act",
+  "sections": {
+    "applicability": {
+      "id": "applicability",
+      "title": "Applicability",
+      "content": "This Regulation applies to:\n\n(a) providers placing on the market or putting into service AI systems or placing on the market general-purpose AI models in the Union, irrespective of whether those providers are established or located within the Union or in a third country;\n\n(b) deployers of AI systems that have their place of establishment or are located in the Union;\n\n(c) providers and deployers of AI systems that have their place of establishment or are located in a third country, where the output produced by the system is used in the Union;\n\n(d) importers and distributors of AI systems;\n\n(e) product manufacturers putting into service or placing on the market an AI system together with their product and under their own name or trademark;\n\n(f) authorised representatives of providers, which are not established in the Union;\n\n(g) affected persons that are located in the Union.",
+      "subsections": [
+        {
+          "id": "territorial-scope",
+          "title": "Territorial Scope",
+          "content": "The Regulation applies to AI systems placed on the market, put into service, or used in the European Union, regardless of where the provider or deployer is located.",
+          "citations": [
+            "Article 2(1)"
+          ]
+        },
+        {
+          "id": "exclusions",
+          "title": "Exclusions",
+          "content": "This Regulation does not apply to AI systems developed or used exclusively for military, defence or national security purposes, regardless of the type of entity carrying out those activities. It also does not apply to AI systems used for the sole purpose of research, development or prototyping activities.",
+          "citations": [
+            "Article 2(3)"
+          ]
+        }
+      ],
+      "citations": [
+        "Article 2, Regulation (EU) 2024/... on Artificial Intelligence"
+      ]
+    },
+    "stakeholders": {
+      "id": "stakeholders",
+      "title": "Stakeholders",
+      "content": "Key stakeholders under the EU AI Act:\n\nProvider means a natural or legal person, public authority, agency or other body that develops an AI system or that has an AI system developed and places it on the market or puts it into service under its own name or trademark, whether for payment or free of charge.\n\nDeployer means a natural or legal person, public authority, agency or other body using an AI system under its authority, except where the AI system is used in the course of a personal non-professional activity.\n\nAuthorised Representative means any natural or legal person established in the Union who has received a written mandate from a provider to perform the obligations and procedures laid down in this Regulation on the provider's behalf.\n\nImporter means any natural or legal person established in the Union that places on the market an AI system that bears the name or trademark of a natural or legal person established outside the Union.\n\nDistributor means any natural or legal person in the supply chain, other than the provider or the importer, that makes an AI system available on the Union market.",
+      "subsections": [
+        {
+          "id": "provider",
+          "title": "Provider",
+          "content": "The entity that develops an AI system or has it developed and places it on the market or puts it into service.",
+          "citations": [
+            "Article 3(2)"
+          ]
+        },
+        {
+          "id": "deployer",
+          "title": "Deployer",
+          "content": "The entity using an AI system under its authority, excluding personal non-professional use.",
+          "citations": [
+            "Article 3(4)"
+          ]
+        }
+      ],
+      "citations": [
+        "Article 3, EU AI Act"
+      ]
+    },
+    "exemptions": {
+      "id": "exemptions",
+      "title": "Exemptions and Exceptions",
+      "content": "The Regulation provides certain exemptions:\n\n1. Research and Development: AI systems developed and used exclusively for research, development or prototyping activities before they are placed on the market or put into service.\n\n2. Open Source AI: AI systems released under a free and open-source licence, subject to certain conditions.\n\n3. National Security: AI systems exclusively developed or used for military, defence or national security purposes.\n\n4. Law Enforcement: Specific exemptions for law enforcement use under certain conditions and safeguards.",
+      "subsections": [
+        {
+          "id": "research-exemption",
+          "title": "Research and Development Exemption",
+          "content": "AI systems developed and used exclusively for research, development or prototyping activities are exempt, provided they are not placed on the market or put into service.",
+          "citations": [
+            "Article 2(5)"
+          ]
+        },
+        {
+          "id": "open-source-exemption",
+          "title": "Open Source AI Systems",
+          "content": "AI systems released under free and open-source licences may be exempt from certain requirements, subject to conditions specified in the Regulation.",
+          "citations": [
+            "Article 2(6)"
+          ]
+        }
+      ],
+      "citations": [
+        "Article 2, EU AI Act"
+      ]
+    },
+    "obligations": {
+      "id": "obligations",
+      "title": "Obligations Based on Risk Categories",
+      "content": "The Regulation categorizes AI systems into risk categories with corresponding obligations:\n\nProhibited AI Practices (Article 5): AI systems that are prohibited due to unacceptable risk, including:\n- AI systems using subliminal techniques to distort behaviour\n- AI systems exploiting vulnerabilities of specific groups\n- AI systems for social scoring by public authorities\n- Real-time remote biometric identification in publicly accessible spaces for law enforcement (with limited exceptions)\n\nHigh-Risk AI Systems (Articles 6-7): AI systems subject to strict requirements including:\n- Risk management system\n- Data governance and data quality\n- Technical documentation\n- Record-keeping\n- Transparency and provision of information to users\n- Human oversight\n- Accuracy, robustness and cybersecurity\n- Conformity assessment\n\nLimited Risk AI Systems (Article 50): Subject to transparency obligations, including informing users that they are interacting with an AI system.\n\nMinimal Risk AI Systems: Subject to voluntary codes of conduct.",
+      "subsections": [
+        {
+          "id": "prohibited-practices",
+          "title": "Prohibited AI Practices",
+          "content": "AI systems that use subliminal techniques, exploit vulnerabilities, enable social scoring by public authorities, or use real-time remote biometric identification in publicly accessible spaces (with limited exceptions) are prohibited.",
+          "citations": [
+            "Article 5"
+          ]
+        },
+        {
+          "id": "high-risk-requirements",
+          "title": "High-Risk AI System Requirements",
+          "content": "High-risk AI systems must comply with requirements including risk management, data governance, technical documentation, record-keeping, transparency, human oversight, and accuracy/robustness measures. They must undergo conformity assessment before being placed on the market or put into service.",
+          "citations": [
+            "Articles 8-15"
+          ]
+        },
+        {
+          "id": "general-purpose-ai",
+          "title": "General-Purpose AI Models",
+          "content": "General-purpose AI models must comply with transparency obligations and, if they pose systemic risks, additional requirements including model evaluations, adversarial testing, and incident reporting.",
+          "citations": [
+            "Articles 51-55"
+          ]
+        }
+      ],
+      "citations": [
+        "Articles 5-15, 50-55, EU AI Act"
+      ]
+    },
+    "regulatory": {
+      "id": "regulatory",
+      "title": "Regulatory Framework",
+      "content": "The Regulation establishes:\n\nEuropean Artificial Intelligence Board (Articles 56-65): Composed of representatives from Member States and the Commission, to facilitate cooperation and coordination, provide guidance, and ensure consistent application of the Regulation.\n\nNational Supervisory Authorities (Article 66): Each Member State designates one or more national supervisory authorities responsible for monitoring the application and enforcement of the Regulation.\n\nNotified Bodies (Articles 31-44): Conformity assessment bodies that assess compliance of high-risk AI systems with the requirements of the Regulation.\n\nMarket Surveillance (Articles 73-78): Authorities monitor AI systems placed on the market to ensure compliance and take corrective measures when necessary.",
+      "subsections": [
+        {
+          "id": "ai-board",
+          "title": "European AI Board",
+          "content": "The Board facilitates cooperation between national supervisory authorities, provides guidance, and ensures consistent application of the Regulation across the Union.",
+          "citations": [
+            "Articles 56-65"
+          ]
+        },
+        {
+          "id": "supervisory-authorities",
+          "title": "National Supervisory Authorities",
+          "content": "Each Member State designates supervisory authorities responsible for monitoring application and enforcement of the Regulation within their territory.",
+          "citations": [
+            "Article 66"
+          ]
+        }
+      ],
+      "citations": [
+        "Articles 56-78, EU AI Act"
+      ]
+    },
+    "penalties": {
+      "id": "penalties",
+      "title": "Penalties and Enforcement",
+      "content": "The Regulation prescribes administrative fines:\n\nFor Prohibited Practices (Article 99(1)): Up to €35,000,000 or, if the offender is an undertaking, up to 7% of its total worldwide annual turnover in the preceding financial year, whichever is higher.\n\nFor Non-compliance with High-Risk Requirements (Article 99(2)): Up to €15,000,000 or, if the offender is an undertaking, up to 3% of its total worldwide annual turnover in the preceding financial year, whichever is higher.\n\nFor Supply of Incorrect Information (Article 99(3)): Up to €7,500,000 or, if the offender is an undertaking, up to 1.5% of its total worldwide annual turnover in the preceding financial year, whichever is higher.\n\nFor SMEs and Startups (Article 99(4)): Lower maximum amounts may apply, taking into account the economic situation of SMEs and startups.",
+      "subsections": [
+        {
+          "id": "penalty-factors",
+          "title": "Factors for Determining Penalties",
+          "content": "When determining the amount of the fine, the supervisory authority shall consider the nature, gravity and duration of the infringement, the intentional or negligent character of the infringement, and the degree of responsibility of the natural or legal person.",
+          "citations": [
+            "Article 99(5)"
+          ]
+        }
+      ],
+      "citations": [
+        "Article 99, EU AI Act"
+      ]
+    }
+  }
+}

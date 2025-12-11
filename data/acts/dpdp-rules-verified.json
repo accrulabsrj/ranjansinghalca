@@ -1,0 +1,117 @@
+{
+  "actId": "dpdp_rules",
+  "sections": {
+    "applicability": {
+      "id": "applicability",
+      "title": "Applicability",
+      "content": "These rules, called the Digital Personal Data Protection Rules, 2025, shall come into force on the date of their publication in the Official Gazette.\n\nThese rules apply to all Data Fiduciaries and Data Processors who process digital personal data in India or in connection with offering goods or services to Data Principals in India.\n\nThese rules prescribe the manner and procedure for implementation of the provisions of the Digital Personal Data Protection Act, 2023.",
+      "subsections": [
+        {
+          "id": "scope",
+          "title": "Scope of Application",
+          "content": "The Rules apply to all entities processing digital personal data under the Digital Personal Data Protection Act, 2023.",
+          "citations": [
+            "Rule 1"
+          ]
+        }
+      ],
+      "citations": [
+        "Rule 1, Digital Personal Data Protection Rules, 2025"
+      ]
+    },
+    "stakeholders": {
+      "id": "stakeholders",
+      "title": "Stakeholders and Procedures",
+      "content": "The Rules define detailed procedures and requirements for:\n\n1. Data Fiduciaries: Procedures for giving notice, managing consent, establishing grievance redressal mechanisms, and ensuring compliance with the Act.\n\n2. Data Processors: Requirements for processing personal data on behalf of Data Fiduciaries, including contractual obligations and security measures.\n\n3. Data Principals: Procedures for exercising rights, filing grievances, and accessing information about processing of their personal data.\n\n4. Data Protection Board: Procedures for complaint handling, conducting inquiries, imposing penalties, and adjudicating matters under the Act.",
+      "subsections": [
+        {
+          "id": "data-fiduciary-procedures",
+          "title": "Data Fiduciary Procedures",
+          "content": "Data Fiduciaries must follow prescribed procedures for notice, consent management, grievance redressal, and compliance reporting.",
+          "citations": [
+            "Rules 3-5"
+          ]
+        },
+        {
+          "id": "data-processor-requirements",
+          "title": "Data Processor Requirements",
+          "content": "Data Processors must process personal data only as per instructions of Data Fiduciaries and implement appropriate security measures.",
+          "citations": [
+            "Rule 4"
+          ]
+        }
+      ],
+      "citations": [
+        "Rules 2-7, Digital Personal Data Protection Rules, 2025"
+      ]
+    },
+    "obligations": {
+      "id": "obligations",
+      "title": "Obligations Under the Rules",
+      "content": "The Rules prescribe detailed procedures and formats for:\n\n1. Notice Requirements: The format and content of notices to be given to Data Principals before or at the time of collecting personal data. The notice must be clear, concise, and in a language understood by the Data Principal.\n\n2. Consent Management: Procedures for obtaining valid consent, including methods of consent, withdrawal procedures, and record-keeping requirements. Consent must be obtained in a clear and unambiguous manner.\n\n3. Grievance Redressal: Mechanism and timelines for handling grievances from Data Principals. Every Data Fiduciary must establish a grievance redressal mechanism and respond to grievances within the prescribed period.\n\n4. Data Breach Notification: Format and timelines for notifying the Board and Data Principals of personal data breaches. Notifications must be made without undue delay and in the prescribed format.\n\n5. Compliance Reporting: Requirements for Significant Data Fiduciaries to submit periodic compliance reports and conduct data protection impact assessments.",
+      "subsections": [
+        {
+          "id": "notice-format",
+          "title": "Notice Format and Content",
+          "content": "The Rules specify the mandatory information to be included in notices given to Data Principals, including the purpose of processing, rights of Data Principals, and contact details for grievance redressal.",
+          "citations": [
+            "Rule 3"
+          ]
+        },
+        {
+          "id": "consent-procedures",
+          "title": "Consent Management Procedures",
+          "content": "Detailed procedures for obtaining, managing, and withdrawing consent, including methods of consent, record-keeping, and mechanisms for consent withdrawal.",
+          "citations": [
+            "Rule 4"
+          ]
+        },
+        {
+          "id": "grievance-mechanism",
+          "title": "Grievance Redressal Mechanism",
+          "content": "Every Data Fiduciary must establish a grievance redressal mechanism with designated officers, timelines for response, and procedures for escalation.",
+          "citations": [
+            "Rule 5"
+          ]
+        },
+        {
+          "id": "breach-notification",
+          "title": "Data Breach Notification",
+          "content": "Procedures and formats for notifying the Board and affected Data Principals of personal data breaches, including timelines and required information.",
+          "citations": [
+            "Rule 6"
+          ]
+        }
+      ],
+      "citations": [
+        "Rules 3-6, Digital Personal Data Protection Rules, 2025"
+      ]
+    },
+    "regulatory": {
+      "id": "regulatory",
+      "title": "Regulatory Procedures",
+      "content": "The Rules prescribe procedures for:\n\n1. Complaint Filing: How Data Principals can file complaints with the Data Protection Board, including the format, required information, and procedures for filing.\n\n2. Inquiry Process: Procedures for the Board to conduct inquiries into contraventions, including powers to summon persons, require documents, and conduct hearings.\n\n3. Adjudication: Process for imposing penalties and directing remedial measures, including factors to be considered and procedures for appeals.\n\n4. Appeals: Procedures for appeals against orders of the Board, including timelines, required documents, and appellate authority.",
+      "subsections": [
+        {
+          "id": "complaint-procedures",
+          "title": "Complaint Filing Procedures",
+          "content": "Data Principals can file complaints with the Board in the prescribed format, providing details of the contravention and supporting documents.",
+          "citations": [
+            "Rule 7"
+          ]
+        },
+        {
+          "id": "inquiry-procedures",
+          "title": "Inquiry Procedures",
+          "content": "The Board may conduct inquiries, summon persons, require documents, and hold hearings to determine contraventions of the Act.",
+          "citations": [
+            "Rule 8"
+          ]
+        }
+      ],
+      "citations": [
+        "Rules 7-10, Digital Personal Data Protection Rules, 2025"
+      ]
+    }
+  }
+}

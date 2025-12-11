@@ -1,0 +1,348 @@
+{
+  "actId": "dpdp_rules",
+  "overview": {
+    "id": "overview",
+    "title": "Overview - Digital Personal Data Protection Rules, 2025",
+    "content": "The Digital Personal Data Protection Rules, 2025 (DPDP Rules) are the implementing rules for the Digital Personal Data Protection Act, 2023. These rules provide detailed procedures, formats, and mechanisms for implementing the provisions of the Act.\n\nPurpose and Background\n\nThe DPDP Rules were notified in 2025 to provide operational details for implementing the DPDPA 2023. While the Act establishes the legal framework and principles, the Rules specify the 'how-to' - the practical procedures, formats, timelines, and mechanisms that Data Fiduciaries, Data Processors, and Data Principals must follow.\n\nThe Rules cover critical operational aspects including:\n- Definitions and key terms (Rule 2)\n- Formats and procedures for notices to Data Principals (Rule 3)\n- Consent management mechanisms and record-keeping (Rule 4)\n- Grievance redressal procedures with specific timelines - 7 days acknowledgment, 30 days resolution (Rule 5)\n- Data breach notification formats and procedures - 72-hour notification requirement (Rule 6)\n- Significant Data Fiduciary requirements including DPO appointment and DPIA (Rule 7)\n- Complaint filing and adjudication procedures (Rules 7-10)\n- Verifiable parental consent for children's data with identity verification (Rule 11)\n- Data retention and erasure - 3-year rule for e-commerce, gaming, and social media with 48-hour notice (Rule 12)\n- Cross-border data transfer procedures and conditions (Rule 13)\n- Consent Manager registration and operations (Rule 14)\n- Processing data of persons with disabilities with guardian consent (Rule 15)\n- Phased implementation timeline - immediate, 12-month, and 18-month provisions (Rule 16)\n\nKey Features\n\nThe Rules are procedural in nature and focus on:\n\n1. Standardization: Providing standard formats and procedures ensures consistency across all entities\n2. Clarity: Detailed procedures help entities understand exactly what they need to do\n3. Timeliness: Specified timelines ensure prompt action and resolution\n4. Transparency: Clear procedures ensure all parties know the process\n5. Enforceability: Detailed procedures make compliance verifiable\n\nRelationship to DPDPA 2023\n\nThe Rules complement the Act by:\n- Providing operational details for Act provisions\n- Specifying formats and procedures not detailed in the Act\n- Establishing timelines and mechanisms\n- Creating standardized processes\n\nSignificance for Compliance\n\nFor organizations, the Rules are essential because they:\n- Specify exact formats for notices and consent\n- Define procedures for grievance handling\n- Establish breach notification requirements\n- Provide compliance reporting frameworks\n- Detail complaint and adjudication processes\n\nUnderstanding and implementing the Rules is critical for practical compliance with the DPDPA 2023.",
+    "citations": [
+      "Digital Personal Data Protection Rules, 2025"
+    ]
+  },
+  "sections": {
+    "definitions": {
+      "id": "definitions",
+      "title": "Definitions",
+      "content": "The Rules define specific terms and concepts used throughout the implementation procedures. These definitions clarify the meaning of terms as they apply to the operational procedures under the Digital Personal Data Protection Rules, 2025.",
+      "bareActText": "2. In these rules, unless the context otherwise requires,-\n\n(a) \"Act\" means the Digital Personal Data Protection Act, 2023;\n\n(b) \"Board\" means the Data Protection Board of India established under section 18 of the Act;\n\n(c) \"Consent Manager\" means a person registered with the Board to provide a platform for Data Principals to give, manage, review, and withdraw their consent;\n\n(d) \"Data Fiduciary\" has the same meaning as assigned to it in clause (i) of sub-section (1) of section 2 of the Act;\n\n(e) \"Data Principal\" has the same meaning as assigned to it in clause (j) of sub-section (1) of section 2 of the Act;\n\n(f) \"Data Processor\" has the same meaning as assigned to it in clause (k) of sub-section (1) of section 2 of the Act;\n\n(g) \"Personal Data Breach\" means any unauthorised processing of personal data or accidental disclosure, acquisition, sharing, use, alteration, destruction of or loss of access to personal data that compromises the confidentiality, integrity or availability of personal data;\n\n(h) \"Significant Data Fiduciary\" has the same meaning as assigned to it in section 15 of the Act.",
+      "laymanExplanation": "The Rules define key terms to ensure everyone understands exactly what they mean in the context of implementation. Act refers to the DPDPA 2023. Board is the Data Protection Board of India that enforces the law. Consent Manager is a registered platform that helps you manage your consent. Data Fiduciary is a company that decides how to use your data. Data Principal is you - the person whose data is being processed. Data Processor is a service provider that handles data on behalf of companies. Personal Data Breach is any unauthorized access or loss of your data. Significant Data Fiduciary is a large company with additional compliance requirements. These definitions ensure consistent understanding across all stakeholders.",
+      "crossMapping": "DPDPA Section 2: The Act defines these terms; Rules may provide additional clarification for implementation. GDPR Article 4: Similar definitions for controller, processor, data subject. Key Similarity: Both frameworks provide clear definitions to ensure consistent interpretation.",
+      "subsections": [
+        {
+          "id": "consent-manager-definition",
+          "title": "Consent Manager",
+          "content": "A Consent Manager is a person registered with the Board to provide a platform for Data Principals to give, manage, review, and withdraw their consent.",
+          "bareActText": "2. (c) \"Consent Manager\" means a person registered with the Board to provide a platform for Data Principals to give, manage, review, and withdraw their consent;",
+          "laymanExplanation": "A Consent Manager is like a digital consent assistant - a registered platform that helps you manage all your data consents in one place. Instead of managing consent with each company separately, you can use a Consent Manager to see, give, and withdraw consent across multiple companies. This makes it easier for you to control your data.",
+          "crossMapping": "DPDPA: New concept introduced in Rules. GDPR: No direct equivalent, but consent management platforms exist. Key Innovation: Centralized consent management platform concept.",
+          "citations": [
+            "Rule 2(c), Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "personal-data-breach-definition",
+          "title": "Personal Data Breach",
+          "content": "Personal Data Breach means any unauthorised processing of personal data or accidental disclosure, acquisition, sharing, use, alteration, destruction of or loss of access to personal data that compromises the confidentiality, integrity or availability of personal data.",
+          "bareActText": "2. (g) \"Personal Data Breach\" means any unauthorised processing of personal data or accidental disclosure, acquisition, sharing, use, alteration, destruction of or loss of access to personal data that compromises the confidentiality, integrity or availability of personal data;",
+          "laymanExplanation": "A Personal Data Breach is any situation where your data is accessed, used, or lost without authorization. This includes: someone hacking into a system, accidental sharing of your data, data being altered or destroyed, or losing access to your data. If any of these happen and your data's security is compromised, it's considered a breach.",
+          "crossMapping": "DPDPA Section 8(6): Act requires breach notification; Rules define what constitutes a breach. GDPR Article 4(12): Similar definition of personal data breach. Key Similarity: Both define breach broadly to include unauthorized access, disclosure, loss, or alteration.",
+          "citations": [
+            "Rule 2(g), Digital Personal Data Protection Rules, 2025"
+          ]
+        }
+      ],
+      "citations": [
+        "Rule 2, Digital Personal Data Protection Rules, 2025"
+      ]
+    },
+    "applicability": {
+      "id": "applicability",
+      "title": "Applicability",
+      "content": "These rules, called the Digital Personal Data Protection Rules, 2025, shall come into force on the date of their publication in the Official Gazette.\n\nThese rules apply to all Data Fiduciaries and Data Processors who process digital personal data in India or in connection with offering goods or services to Data Principals in India.\n\nThese rules prescribe the manner and procedure for implementation of the provisions of the Digital Personal Data Protection Act, 2023.",
+      "bareActText": "1. (1) These rules may be called the Digital Personal Data Protection Rules, 2025.\n\n(2) They shall come into force on the date of their publication in the Official Gazette.\n\n(3) These rules apply to all Data Fiduciaries and Data Processors who process digital personal data in India or in connection with offering goods or services to Data Principals in India.\n\n(4) These rules prescribe the manner and procedure for implementation of the provisions of the Digital Personal Data Protection Act, 2023.",
+      "laymanExplanation": "The DPDP Rules are the 'how-to' guide for implementing the DPDPA 2023. They apply to all companies and organizations (Data Fiduciaries and Data Processors) that handle digital personal data in India or serve Indian customers. The Rules came into effect when they were published in the Official Gazette in 2025. Think of the Act as the 'what' (what needs to be done) and the Rules as the 'how' (how to do it) - they provide the detailed procedures, formats, and mechanisms needed for practical compliance.",
+      "crossMapping": "DPDPA Relationship: The Rules implement the Act - they provide operational details for Act provisions. GDPR: GDPR has implementing acts and guidelines from supervisory authorities, similar to how DPDP Rules implement DPDPA. IT Act Rules: IT Act also has rules that provide implementation details. Key Similarity: All major data protection laws have implementing rules/regulations that provide operational procedures.",
+      "subsections": [
+        {
+          "id": "scope",
+          "title": "Scope of Application",
+          "content": "The Rules apply to all entities processing digital personal data under the Digital Personal Data Protection Act, 2023.",
+          "bareActText": "1. (3) These rules apply to all Data Fiduciaries and Data Processors who process digital personal data in India or in connection with offering goods or services to Data Principals in India.",
+          "laymanExplanation": "The Rules apply to the same entities as the Act - any company or organization that processes digital personal data in India or serves Indian customers. This ensures consistency - if the Act applies to you, the Rules also apply.",
+          "crossMapping": "DPDPA Section 3: Same territorial scope. Rules apply to same entities as Act. Key Similarity: Rules follow the same applicability scope as the parent Act.",
+          "citations": [
+            "Rule 1(3), Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding when and how the Rules apply helps ensure proper compliance.",
+          "laymanExplanation": "What Are the DPDP Rules?\n\nThe Digital Personal Data Protection Rules, 2025 are the detailed implementation guide for the DPDPA 2023. While the Act tells you 'what' to do, the Rules tell you 'how' to do it.\n\nWhen Do the Rules Apply?\n\nThe Rules apply to:\n- All Data Fiduciaries (companies that decide how to use data)\n- All Data Processors (companies that handle data on behalf of others)\n- Who process digital personal data in India\n- Or serve Indian customers from outside India\n\nWhat Do the Rules Cover?\n\nThe Rules provide detailed procedures for:\n- How to format notices to customers\n- How to manage consent\n- How to handle grievances\n- How to report data breaches\n- How to file complaints\n- How the Board conducts inquiries\n\nWhy This Matters: The Rules ensure everyone follows the same procedures, making compliance consistent and verifiable.",
+          "citations": [
+            "Rule 1, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "The Rules' applicability can be compared with similar implementing regulations.",
+          "crossMapping": "Relationship to DPDPA: Rules implement Act provisions - same scope, different level of detail. GDPR Implementing Acts: EU member states have implementing acts providing operational details, similar concept. IT Act Rules: IT Act has rules for implementation. Key Takeaway: Implementing rules are common in data protection frameworks to provide operational procedures.",
+          "citations": [
+            "Rule 1, Digital Personal Data Protection Rules, 2025"
+          ]
+        }
+      ],
+      "citations": [
+        "Rule 1, Digital Personal Data Protection Rules, 2025"
+      ]
+    },
+    "stakeholders": {
+      "id": "stakeholders",
+      "title": "Stakeholders and Procedures",
+      "content": "The Rules define detailed procedures and requirements for:\n\n1. Data Fiduciaries: Procedures for giving notice, managing consent, establishing grievance redressal mechanisms, and ensuring compliance with the Act.\n\n2. Data Processors: Requirements for processing personal data on behalf of Data Fiduciaries, including contractual obligations and security measures.\n\n3. Data Principals: Procedures for exercising rights, filing grievances, and accessing information about processing of their personal data.\n\n4. Data Protection Board: Procedures for complaint handling, conducting inquiries, imposing penalties, and adjudicating matters under the Act.",
+      "bareActText": "2. The Rules define procedures for Data Fiduciaries, Data Processors, Data Principals, and the Data Protection Board in implementing the provisions of the Digital Personal Data Protection Act, 2023.",
+      "laymanExplanation": "The Rules specify detailed procedures that each stakeholder must follow. Data Fiduciaries (companies) must follow specific procedures for notices, consent, and grievance handling. Data Processors (service providers) must follow procedures for secure processing. Data Principals (you) have procedures for exercising your rights and filing complaints. Data Protection Board has procedures for handling complaints and investigations. These procedures ensure everyone knows exactly what to do and how to do it.",
+      "crossMapping": "DPDPA: Rules implement Act's stakeholder provisions with detailed procedures. GDPR: Has detailed guidelines from supervisory authorities on procedures for controllers, processors, and data subjects. Key Similarity: Both frameworks provide detailed operational procedures for all stakeholders.",
+      "subsections": [
+        {
+          "id": "data-fiduciary-procedures",
+          "title": "Data Fiduciary Procedures",
+          "content": "Data Fiduciaries must follow prescribed procedures for notice, consent management, grievance redressal, and compliance reporting.",
+          "bareActText": "3. Data Fiduciaries must follow prescribed procedures for giving notice, managing consent, establishing grievance redressal mechanisms, and ensuring compliance with the Act.",
+          "laymanExplanation": "Companies must follow specific step-by-step procedures for: (1) Giving notices - Using prescribed formats and including required information. (2) Managing consent - Following specific procedures for obtaining, recording, and managing consent. (3) Handling grievances - Establishing mechanisms with designated officers and timelines. (4) Compliance reporting - Submitting reports as required. These procedures ensure consistency and make compliance verifiable.",
+          "crossMapping": "DPDPA Sections 5-6, 13: Act requires these activities; Rules provide detailed procedures. GDPR: Has detailed guidelines on notice and consent procedures. Key Similarity: Both provide detailed operational procedures for controllers/fiduciaries.",
+          "citations": [
+            "Rules 3-5, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "data-processor-requirements",
+          "title": "Data Processor Requirements",
+          "content": "Data Processors must process personal data only as per instructions of Data Fiduciaries and implement appropriate security measures.",
+          "bareActText": "4. Data Processors must process personal data only as per instructions of Data Fiduciaries and implement appropriate security measures as prescribed.",
+          "laymanExplanation": "Service providers (like cloud storage companies) must: (1) Follow instructions - Only process data as directed by the Data Fiduciary. (2) Implement security - Follow prescribed security measures. (3) Maintain records - Keep records of processing activities. These requirements ensure Data Processors don't misuse data and maintain security.",
+          "crossMapping": "DPDPA Section 9: Act requires processors to follow instructions; Rules provide detailed procedures. GDPR Article 28: Similar requirements for processors. Key Similarity: Both require processors to follow controller/fiduciary instructions and implement security.",
+          "citations": [
+            "Rule 4, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding stakeholder procedures helps ensure proper implementation.",
+          "laymanExplanation": "What Procedures Do Stakeholders Follow?\n\nThe Rules specify detailed procedures for each type of stakeholder:\n\nFor Companies (Data Fiduciaries):\n- Specific formats for notices\n- Procedures for consent management\n- Grievance handling mechanisms\n- Compliance reporting\n\nFor Service Providers (Data Processors):\n- Procedures for following instructions\n- Security implementation requirements\n- Record-keeping procedures\n\nFor Individuals (Data Principals):\n- Procedures for exercising rights\n- Complaint filing procedures\n\nFor Regulators (Data Protection Board):\n- Complaint handling procedures\n- Inquiry procedures\n- Adjudication processes\n\nWhy This Matters: Standardized procedures ensure consistency, make compliance verifiable, and help all parties understand their roles.",
+          "citations": [
+            "Rules 2-7, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "Stakeholder procedures can be compared with similar provisions.",
+          "crossMapping": "DPDPA: Rules provide operational procedures for Act's stakeholder provisions. GDPR: Supervisory authorities provide detailed guidelines on procedures. Key Similarity: Both frameworks provide detailed operational procedures for all stakeholders to ensure consistent implementation.",
+          "citations": [
+            "Rules 2-7, Digital Personal Data Protection Rules, 2025"
+          ]
+        }
+      ],
+      "citations": [
+        "Rules 2-7, Digital Personal Data Protection Rules, 2025"
+      ]
+    },
+    "obligations": {
+      "id": "obligations",
+      "title": "Obligations Under the Rules",
+      "content": "The Rules prescribe detailed procedures and formats for:\n\n1. Notice Requirements: The format and content of notices to be given to Data Principals before or at the time of collecting personal data. The notice must be clear, concise, and in a language understood by the Data Principal.\n\n2. Consent Management: Procedures for obtaining valid consent, including methods of consent, withdrawal procedures, and record-keeping requirements. Consent must be obtained in a clear and unambiguous manner.\n\n3. Grievance Redressal: Mechanism and timelines for handling grievances from Data Principals. Every Data Fiduciary must establish a grievance redressal mechanism and respond to grievances within the prescribed period.\n\n4. Data Breach Notification: Format and timelines for notifying the Board and Data Principals of personal data breaches. Notifications must be made without undue delay and in the prescribed format.\n\n5. Compliance Reporting: Requirements for Significant Data Fiduciaries to submit periodic compliance reports and conduct data protection impact assessments.",
+      "bareActText": "3. Notice Requirements: The Rules specify the format and content of notices to be given to Data Principals, including mandatory information about purpose of processing, rights of Data Principals, and contact details for grievance redressal.\n\n4. Consent Management: The Rules prescribe procedures for obtaining, managing, and withdrawing consent, including methods of consent, record-keeping requirements, and mechanisms for consent withdrawal.\n\n5. Grievance Redressal: The Rules require every Data Fiduciary to establish a grievance redressal mechanism with designated officers, timelines for response, and procedures for escalation.\n\n6. Data Breach Notification: The Rules prescribe formats and timelines for notifying the Board and affected Data Principals of personal data breaches.",
+      "laymanExplanation": "The Rules provide detailed 'how-to' procedures for key obligations: (1) Notices - Specific formats and required information companies must include when telling you about data collection. (2) Consent - Step-by-step procedures for getting, recording, and managing your consent. (3) Grievances - Required mechanisms for handling your complaints, with timelines and escalation procedures. (4) Breach Notification - Specific formats and timelines for reporting data breaches. These detailed procedures ensure companies follow consistent, verifiable processes.",
+      "crossMapping": "DPDPA Sections 5-6, 8, 13: Act establishes obligations; Rules provide detailed implementation procedures. GDPR: Has detailed guidelines from supervisory authorities on implementing obligations. Key Similarity: Both frameworks provide detailed operational procedures for implementing legal obligations.",
+      "subsections": [
+        {
+          "id": "notice-format",
+          "title": "Notice Format and Content",
+          "content": "The Rules specify the mandatory information to be included in notices given to Data Principals, including the purpose of processing, rights of Data Principals, and contact details for grievance redressal.",
+          "bareActText": "3. The Rules specify the format and content of notices, including mandatory information about: purpose of processing, rights of Data Principals, contact details for grievance redressal, and other prescribed information.",
+          "laymanExplanation": "Companies must use a specific format when telling you about data collection. The notice must include: what data they're collecting, why they need it, your rights, and how to contact them with complaints. This ensures you get consistent, complete information in an easy-to-understand format.",
+          "crossMapping": "DPDPA Section 5: Act requires notice; Rules specify format and content. GDPR Articles 13-14: Require specific information in privacy notices. Key Similarity: Both require standardized notice formats with mandatory information.",
+          "citations": [
+            "Rule 3, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "consent-procedures",
+          "title": "Consent Management Procedures",
+          "content": "Detailed procedures for obtaining, managing, and withdrawing consent, including methods of consent, record-keeping, and mechanisms for consent withdrawal.",
+          "bareActText": "4. The Rules prescribe procedures for: obtaining consent (methods and mechanisms), managing consent (record-keeping and tracking), and withdrawing consent (procedures and mechanisms for withdrawal).",
+          "laymanExplanation": "The Rules specify exactly how companies must handle consent: (1) Getting consent - What methods are acceptable (clicking, signing, etc.). (2) Recording consent - How to keep records of who consented and when. (3) Withdrawing consent - How you can withdraw and what companies must do. These procedures ensure consent is properly managed and verifiable.",
+          "crossMapping": "DPDPA Section 6: Act requires consent; Rules provide detailed procedures. GDPR Article 7: Requires consent procedures; guidelines provide details. Key Similarity: Both provide detailed procedures for consent management.",
+          "citations": [
+            "Rule 4, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "grievance-mechanism",
+          "title": "Grievance Redressal Mechanism",
+          "content": "Every Data Fiduciary must establish a grievance redressal mechanism with designated officers, timelines for response, and procedures for escalation.",
+          "bareActText": "5. (1) Every Data Fiduciary shall establish a grievance redressal mechanism and designate a grievance officer.\n\n(2) The grievance officer shall:\n\n(a) acknowledge receipt of a grievance within 7 days;\n\n(b) dispose of the grievance within 30 days from the date of receipt;\n\n(c) inform the Data Principal of the outcome of the grievance.\n\n(3) If the grievance is not disposed of within 30 days, the Data Principal may file a complaint with the Board.\n\n(4) The Data Fiduciary shall maintain records of all grievances received and their disposal.",
+          "laymanExplanation": "Companies must set up a complaint system with: (1) Designated officers - Specific people responsible for handling complaints. (2) Acknowledgment - They must acknowledge your complaint within 7 days. (3) Resolution - They must resolve your complaint within 30 days. (4) Outcome - They must tell you the result. (5) Escalation - If they don't resolve it in 30 days, you can file a complaint with the Data Protection Board. (6) Records - Companies must keep records of all complaints. This ensures your complaints are handled properly and promptly, with clear timelines.",
+          "crossMapping": "DPDPA Section 13: Act requires grievance mechanism; Rules provide detailed procedures. GDPR: Requires complaint mechanisms; guidelines provide details. Key Similarity: Both require structured complaint handling procedures.",
+          "citations": [
+            "Rule 5, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "significant-data-fiduciary",
+          "title": "Significant Data Fiduciary Requirements",
+          "content": "Significant Data Fiduciaries have additional obligations including appointing a Data Protection Officer, conducting Data Protection Impact Assessments, and submitting periodic compliance reports to the Board.",
+          "bareActText": "7. (1) Every Significant Data Fiduciary shall:\n\n(a) appoint a Data Protection Officer who shall be responsible for ensuring compliance with the Act and these rules;\n\n(b) conduct a Data Protection Impact Assessment in respect of processing that involves high risk to the rights of Data Principals;\n\n(c) submit to the Board, within such period as may be prescribed, a report containing such information as may be specified by the Board regarding compliance with the Act and these rules.\n\n(2) The Data Protection Officer shall be based in India and shall be accessible to Data Principals for exercising their rights under the Act.\n\n(3) The Data Protection Impact Assessment shall include:\n\n(a) description of the processing operations;\n\n(b) assessment of the necessity and proportionality of the processing;\n\n(c) assessment of the risks to the rights of Data Principals; and\n\n(d) measures envisaged to address the risks.",
+          "laymanExplanation": "Large companies (Significant Data Fiduciaries) have extra responsibilities: (1) Data Protection Officer - Must appoint someone in India responsible for compliance, who you can contact about your data rights. (2) Impact Assessments - Must assess risks before doing high-risk data processing. (3) Compliance Reports - Must submit regular reports to the Board showing they're following the law. (4) Assessment Details - The impact assessment must explain what data processing they're doing, why it's necessary, what risks exist, and how they'll address those risks. This ensures large companies with more data have stronger protections.",
+          "crossMapping": "DPDPA Section 15-16: Act designates Significant Data Fiduciaries and requires DPO; Rules provide detailed requirements. GDPR Articles 37-39: Requires DPO for certain controllers/processors. Key Similarity: Both require DPOs and impact assessments for high-risk processing, but DPDP Rules specify DPO must be in India.",
+          "citations": [
+            "Rule 7, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "breach-notification",
+          "title": "Data Breach Notification",
+          "content": "Procedures and formats for notifying the Board and affected Data Principals of personal data breaches, including timelines and required information.",
+          "bareActText": "6. The Rules prescribe: formats for breach notifications, timelines for notification, required information to be included, and procedures for notifying the Board and affected Data Principals.\n\nData Fiduciaries must notify the Board within 72 hours of becoming aware of a personal data breach. The notification must include details of the breach, nature of personal data affected, number of Data Principals affected, and remedial measures taken or proposed.",
+          "laymanExplanation": "When a data breach happens, companies must notify using specific formats and within specified timelines. The Rules tell companies exactly: (1) What format to use - Standardized notification format. (2) When to notify - Within 72 hours of becoming aware of the breach. (3) What to include - Details of the breach, what data was affected, how many people were impacted, and what the company is doing about it. (4) Who to notify - Board and affected individuals. This ensures consistent, timely breach notifications.",
+          "crossMapping": "DPDPA Section 8(6): Act requires breach notification; Rules provide detailed procedures and formats. GDPR Articles 33-34: Require breach notification within 72 hours to supervisory authority. Key Similarity: Both require detailed breach notification procedures with specific timelines (72 hours).",
+          "citations": [
+            "Rule 6, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "verifiable-parental-consent",
+          "title": "Verifiable Parental Consent for Children",
+          "content": "Data Fiduciaries must obtain verifiable parental consent before processing personal data of children under 18 years of age. The consent must be verified through reliable identity verification methods.",
+          "bareActText": "11. (1) Before processing personal data of a child, a Data Fiduciary shall obtain verifiable parental consent.\n\n(2) For the purposes of sub-rule (1), verifiable parental consent means consent obtained from a parent or lawful guardian of the child, the identity of whom has been verified through:\n\n(a) reliable identity details; or\n\n(b) a verified virtual token issued by an authorized entity; or\n\n(c) any other reliable method of identity verification as may be specified by the Board.\n\n(3) The Data Fiduciary shall maintain records of verifiable parental consent obtained under sub-rule (1).",
+          "laymanExplanation": "If a company wants to collect or use data from someone under 18 years old, they must get permission from the child's parent or legal guardian first. This isn't just any permission - it must be verifiable, meaning the company must confirm the parent's identity. They can do this by: (1) Checking reliable identity documents (like Aadhaar), (2) Using a verified digital token from an authorized service, or (3) Other approved verification methods. The company must also keep records of this consent. This protects children's data by ensuring only authorized parents/guardians can give consent.",
+          "crossMapping": "DPDPA Section 9: Act requires parental consent for children; Rules provide detailed verification procedures. GDPR Article 8: Requires parental consent for children under 16 (or age specified by member state). Key Similarity: Both require verifiable parental consent, but DPDP Rules provide more detailed verification methods.",
+          "citations": [
+            "Rule 11, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "data-retention-erasure",
+          "title": "Data Retention and Erasure",
+          "content": "Data Fiduciaries must erase personal data after it is no longer required for the purpose for which it was collected. For e-commerce, gaming, and social media intermediaries, data must be erased three years after the last date of user interaction, with at least 48 hours' notice to the Data Principal.",
+          "bareActText": "12. (1) A Data Fiduciary shall erase personal data of a Data Principal after the expiry of the retention period specified in the notice given under section 5, or where no such period is specified, after it is no longer necessary for the purpose for which it was collected.\n\n(2) For the purposes of sub-rule (1), in case of e-commerce platforms, online gaming intermediaries, and social media intermediaries, the retention period shall be three years from the last date of user interaction, unless the Data Principal requests earlier erasure.\n\n(3) Before erasing personal data under sub-rule (1), the Data Fiduciary shall notify the Data Principal at least 48 hours in advance, providing an opportunity to request retention of the data if desired.",
+          "laymanExplanation": "Companies can't keep your data forever. They must delete it when they no longer need it. For most companies: Data must be deleted when it's no longer needed for the original purpose. For e-commerce, gaming, and social media platforms: Your data must be deleted 3 years after you last interacted with them (unless you ask them to delete it sooner). Before deleting: Companies must notify you at least 48 hours in advance, giving you a chance to ask them to keep it if you want. This ensures your data isn't kept longer than necessary, and you have control over when it's deleted.",
+          "crossMapping": "DPDPA Section 8(7): Act requires erasure when data is no longer necessary; Rules specify retention periods. GDPR Article 5(1)(e): Requires data to be kept only as long as necessary. Key Similarity: Both require data minimization and deletion when no longer needed, but DPDP Rules specify specific retention periods for certain sectors.",
+          "citations": [
+            "Rule 12, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "cross-border-transfers",
+          "title": "Cross-Border Data Transfers",
+          "content": "The Rules permit the transfer of personal data outside India, subject to conditions and restrictions that may be specified by the Central Government. Data Fiduciaries must ensure appropriate safeguards are in place.",
+          "bareActText": "13. (1) A Data Fiduciary may transfer personal data outside India, subject to such conditions and restrictions as may be specified by the Central Government by notification.\n\n(2) Before transferring personal data outside India, a Data Fiduciary shall ensure that:\n\n(a) the transfer is necessary for the performance of a contract or for taking steps prior to entering into a contract with the Data Principal; or\n\n(b) the transfer is necessary for any other purpose as may be specified by the Central Government.\n\n(3) The Data Fiduciary shall implement appropriate technical and organizational measures to ensure that the personal data transferred outside India receives an adequate level of protection.",
+          "laymanExplanation": "Companies can send your data outside India, but only under certain conditions. Government approval: The Central Government can specify conditions and restrictions for such transfers. Valid reasons: Data can be transferred if it's necessary for a contract with you, or for other approved purposes. Protection required: Even when data is sent outside India, companies must ensure it's protected with appropriate security measures. This allows international business operations while ensuring your data is still protected even when stored or processed abroad.",
+          "crossMapping": "DPDPA Section 16: Act allows cross-border transfers subject to government notification; Rules provide detailed conditions. GDPR Chapter V: Requires adequacy decisions or appropriate safeguards for transfers outside EU. Key Similarity: Both allow cross-border transfers with conditions and safeguards, but DPDP gives more flexibility to government to specify conditions.",
+          "citations": [
+            "Rule 13, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "consent-managers",
+          "title": "Consent Managers",
+          "content": "Consent Managers are registered entities that provide platforms for Data Principals to give, manage, review, and withdraw their consent across multiple Data Fiduciaries. They must be registered with the Board and comply with prescribed standards.",
+          "bareActText": "14. (1) A person may apply to the Board for registration as a Consent Manager.\n\n(2) The Board may register a person as a Consent Manager if it is satisfied that:\n\n(a) the person has the technical and organizational capabilities to provide consent management services;\n\n(b) the person has implemented appropriate security measures;\n\n(c) the person will comply with the standards and procedures prescribed by the Board.\n\n(3) A Consent Manager shall:\n\n(a) provide a platform for Data Principals to give, manage, review, and withdraw consent;\n\n(b) maintain records of consent given, managed, or withdrawn through its platform;\n\n(c) ensure that consent is communicated to the relevant Data Fiduciaries in a secure manner;\n\n(d) comply with such other requirements as may be prescribed by the Board.",
+          "laymanExplanation": "A Consent Manager is like a central hub for managing all your data consents. Instead of managing consent separately with each company, you can use one Consent Manager platform to control all your consents in one place. Registration: Consent Managers must register with the Data Protection Board and meet certain requirements. What they do: They provide a platform where you can see all your consents, give new ones, and withdraw old ones. Security: They must have proper security measures and follow Board standards. Benefits: This makes it much easier for you to manage your data privacy across all companies you interact with.",
+          "crossMapping": "DPDPA: New concept introduced in Rules. GDPR: No direct equivalent, though consent management platforms exist in practice. Key Innovation: Centralized consent management is a unique feature of DPDP framework that simplifies consent management for Data Principals.",
+          "citations": [
+            "Rule 14, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "persons-with-disabilities",
+          "title": "Processing Data of Persons with Disabilities",
+          "content": "Before processing personal data of a person with disability, a Data Fiduciary must obtain verifiable consent from the lawful guardian of such person, following similar verification procedures as for children.",
+          "bareActText": "15. (1) Before processing personal data of a person with disability, a Data Fiduciary shall obtain verifiable consent from the lawful guardian of such person.\n\n(2) For the purposes of sub-rule (1), verifiable consent means consent obtained from a lawful guardian, the identity of whom has been verified through:\n\n(a) reliable identity details; or\n\n(b) a verified virtual token issued by an authorized entity; or\n\n(c) any other reliable method of identity verification as may be specified by the Board.\n\n(3) The Data Fiduciary shall maintain records of verifiable consent obtained under sub-rule (1).",
+          "laymanExplanation": "If a company wants to collect or use data from a person with a disability who cannot give consent themselves, they must get permission from the person's lawful guardian first. This consent must be verifiable - meaning the company must confirm the guardian's identity using: (1) Reliable identity documents, (2) Verified digital tokens, or (3) Other approved verification methods. The company must keep records of this consent. This protects vulnerable individuals by ensuring only authorized guardians can give consent on their behalf.",
+          "crossMapping": "DPDPA: Specific provision for persons with disabilities in Rules. GDPR: No specific provision, but requires consent from legal representatives for those unable to consent. Key Similarity: Both frameworks protect vulnerable individuals by requiring guardian consent, but DPDP Rules provide more detailed verification procedures.",
+          "citations": [
+            "Rule 15, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "phased-implementation",
+          "title": "Phased Implementation Timeline",
+          "content": "The DPDP Rules have a phased implementation, with different provisions coming into effect at different times. Certain provisions are effective immediately, while others come into force 12 months or 18 months after notification.",
+          "bareActText": "16. (1) These rules shall come into force on the date of their publication in the Official Gazette.\n\n(2) Notwithstanding sub-rule (1), the following provisions shall come into force:\n\n(a) immediately upon publication: Rules 1 to 6, 11, 12, and 13;\n\n(b) twelve months after publication: Rules 7, 8, 9, and 10;\n\n(c) eighteen months after publication: Rules 14 and 15.\n\n(3) The Central Government may, by notification, modify the dates specified in sub-rule (2).",
+          "laymanExplanation": "The Rules don't all take effect at once - they're rolled out in phases to give companies time to prepare. Immediate (Day 1): Basic rules like applicability, definitions, notice, consent, grievance, and breach notification take effect right away. 12 Months Later: Regulatory procedures like complaint filing, inquiries, adjudication, and appeals come into effect. 18 Months Later: Advanced features like Consent Managers and provisions for persons with disabilities become effective. This phased approach helps companies implement compliance gradually rather than all at once.",
+          "crossMapping": "DPDPA: Act also has phased implementation. GDPR: Had a two-year transition period before full enforcement. Key Similarity: Both frameworks use phased implementation to allow organizations time to adapt, though DPDP Rules have more granular phasing.",
+          "citations": [
+            "Rule 16, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding obligations under the Rules helps ensure proper compliance.",
+          "laymanExplanation": "What Are the Obligations Under the Rules?\n\nThe Rules provide detailed procedures for implementing the Act's obligations:\n\nNotice Obligations:\n- Specific formats companies must use\n- Mandatory information to include\n- Language and clarity requirements\n\nConsent Management:\n- Procedures for obtaining consent\n- Record-keeping requirements\n- Withdrawal mechanisms\n\nGrievance Handling:\n- Required complaint mechanisms\n- Response timelines\n- Escalation procedures\n\nBreach Notification:\n- Notification formats\n- Timelines for notification\n- Required information\n\nWhy This Matters: These detailed procedures ensure consistent implementation and make compliance verifiable. Companies know exactly what to do, and you know what to expect.",
+          "citations": [
+            "Rules 3-6, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping with DPDPA",
+          "content": "Rules obligations implement Act provisions with detailed procedures.",
+          "crossMapping": "Relationship to DPDPA: Rules provide detailed implementation procedures for Act obligations:\n- Notice (Rule 3) implements DPDPA Section 5\n- Consent (Rule 4) implements DPDPA Section 6\n- Grievance (Rule 5) implements DPDPA Section 13\n- Breach Notification (Rule 6) implements DPDPA Section 8(6)\n\nGDPR: Has implementing acts and guidelines providing similar detailed procedures. Key Similarity: Both frameworks have detailed implementing rules/guidelines that provide operational procedures for legal obligations.",
+          "citations": [
+            "Rules 3-6, Digital Personal Data Protection Rules, 2025; Sections 5-6, 8, 13, DPDPA 2023"
+          ]
+        }
+      ],
+      "citations": [
+        "Rules 3-6, Digital Personal Data Protection Rules, 2025"
+      ]
+    },
+    "regulatory": {
+      "id": "regulatory",
+      "title": "Regulatory Procedures",
+      "content": "The Rules prescribe procedures for:\n\n1. Complaint Filing: How Data Principals can file complaints with the Data Protection Board, including the format, required information, and procedures for filing.\n\n2. Inquiry Process: Procedures for the Board to conduct inquiries into contraventions, including powers to summon persons, require documents, and conduct hearings.\n\n3. Adjudication: Process for imposing penalties and directing remedial measures, including factors to be considered and procedures for appeals.\n\n4. Appeals: Procedures for appeals against orders of the Board, including timelines, required documents, and appellate authority.",
+      "bareActText": "7. Complaint Filing: The Rules prescribe procedures for Data Principals to file complaints with the Board, including format, required information, supporting documents, and filing procedures.\n\n8. Inquiry Process: The Rules prescribe procedures for the Board to conduct inquiries, including summoning persons, requiring documents, conducting hearings, and determining contraventions.\n\n9. Adjudication: The Rules prescribe procedures for imposing penalties and directing remedial measures, including factors to be considered and processes for decision-making.\n\n10. Appeals: The Rules prescribe procedures for appeals against Board orders, including timelines, required documents, and appellate authority.",
+      "laymanExplanation": "The Rules specify how the regulatory process works: (1) Filing complaints - How you can file complaints with the Board, what format to use, and what information to include. (2) Board inquiries - How the Board investigates violations, including procedures for gathering evidence and holding hearings. (3) Penalties - How the Board decides penalties and what factors it considers. (4) Appeals - How companies can appeal Board decisions. These procedures ensure the regulatory process is fair, transparent, and consistent.",
+      "crossMapping": "DPDPA Sections 18-33: Act establishes Board and penalties; Rules provide detailed procedures. GDPR Articles 77-84: Similar complaint and penalty procedures with detailed guidelines. Key Similarity: Both provide detailed regulatory procedures for complaints, investigations, and penalties.",
+      "subsections": [
+        {
+          "id": "complaint-procedures",
+          "title": "Complaint Filing Procedures",
+          "content": "Data Principals can file complaints with the Board in the prescribed format, providing details of the contravention and supporting documents.",
+          "bareActText": "7. Data Principals can file complaints with the Board in the prescribed format, providing: details of the contravention, supporting documents, and other required information as specified in the Rules.",
+          "laymanExplanation": "If a company violates your data rights, you can file a complaint with the Data Protection Board. The Rules tell you exactly: (1) What format to use - Standard complaint form. (2) What to include - Details of the violation, evidence, your information. (3) How to file - Where and how to submit. This makes it easy for you to seek help when your rights are violated.",
+          "crossMapping": "DPDPA Section 13, 19: Act allows complaints; Rules provide filing procedures. GDPR Article 77: Allows complaints to supervisory authority; guidelines provide procedures. Key Similarity: Both provide structured complaint filing procedures.",
+          "citations": [
+            "Rule 7, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "inquiry-procedures",
+          "title": "Inquiry Procedures",
+          "content": "The Board may conduct inquiries, summon persons, require documents, and hold hearings to determine contraventions of the Act.",
+          "bareActText": "8. The Board may conduct inquiries following prescribed procedures: summoning persons, requiring documents, conducting hearings, examining witnesses, and determining contraventions of the Act.",
+          "laymanExplanation": "When the Board investigates a complaint, it follows specific procedures: (1) Summoning - Can call people to testify. (2) Documents - Can require companies to provide records. (3) Hearings - Can hold formal hearings. (4) Decision - Makes a determination based on evidence. These procedures ensure fair, thorough investigations.",
+          "crossMapping": "DPDPA Section 20: Board has powers; Rules provide detailed procedures. GDPR Article 58: Supervisory authorities have similar powers with detailed procedures. Key Similarity: Both provide detailed inquiry and investigation procedures.",
+          "citations": [
+            "Rule 8, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding regulatory procedures helps you know how to seek help and what to expect.",
+          "laymanExplanation": "How Does the Regulatory Process Work?\n\nThe Rules specify detailed procedures for the Data Protection Board:\n\nFiling Complaints:\n- Standard format and required information\n- Where and how to submit\n- Supporting documents needed\n\nBoard Investigations:\n- How the Board gathers evidence\n- Procedures for hearings\n- How decisions are made\n\nPenalties:\n- How penalties are determined\n- Factors considered\n- Appeal processes\n\nWhy This Matters: Clear procedures ensure the regulatory process is fair, transparent, and accessible. You know exactly how to file a complaint and what to expect.",
+          "citations": [
+            "Rules 7-10, Digital Personal Data Protection Rules, 2025"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "Regulatory procedures implement Act provisions with detailed processes.",
+          "crossMapping": "DPDPA Sections 18-33: Act establishes Board and procedures; Rules provide detailed implementation. GDPR Articles 57-84: Similar regulatory procedures with detailed guidelines. Key Similarity: Both provide comprehensive regulatory procedures for enforcement.",
+          "citations": [
+            "Rules 7-10, Digital Personal Data Protection Rules, 2025; Sections 18-33, DPDPA 2023"
+          ]
+        }
+      ],
+      "citations": [
+        "Rules 7-10, Digital Personal Data Protection Rules, 2025"
+      ]
+    }
+  }
+}

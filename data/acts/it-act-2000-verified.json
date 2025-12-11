@@ -1,0 +1,127 @@
+{
+  "actId": "it_act_2000",
+  "sections": {
+    "applicability": {
+      "id": "applicability",
+      "title": "Applicability",
+      "content": "This Act may be called the Information Technology Act, 2000.\n\nIt extends to the whole of India and, save as otherwise provided in this Act, it applies also to any offence or contravention committed outside India by any person.\n\nIt shall come into force on such date as the Central Government may, by notification, appoint and different dates may be appointed for different provisions of this Act.",
+      "subsections": [
+        {
+          "id": "territorial-scope",
+          "title": "Territorial Scope",
+          "content": "The Act extends to the whole of India and also applies to offences or contraventions committed outside India by any person, if the act or conduct constituting the offence involves a computer, computer system or computer network located in India.",
+          "citations": [
+            "Section 1(2)"
+          ]
+        }
+      ],
+      "citations": [
+        "Section 1, Information Technology Act, 2000"
+      ]
+    },
+    "stakeholders": {
+      "id": "stakeholders",
+      "title": "Stakeholders",
+      "content": "Key stakeholders under the IT Act, 2000:\n\nSubscriber means a person in whose name the Digital Signature Certificate is issued.\n\nCertifying Authority means a person who has been granted a licence to issue Digital Signature Certificates under section 24.\n\nController means the Controller of Certifying Authorities appointed under sub-section (1) of section 17.\n\nIntermediary with respect to any particular electronic records, means any person who on behalf of another person receives, stores or transmits that record or provides any service with respect to that record and includes telecom service providers, network service providers, internet service providers, web-hosting service providers, search engines, online payment sites, online-auction sites, online-market places and cyber cafes.\n\nOriginator means a person who sends, generates, stores or transmits any electronic message or causes any electronic message to be sent, generated, stored or transmitted to any other person but does not include an intermediary.",
+      "subsections": [
+        {
+          "id": "certifying-authority",
+          "title": "Certifying Authority",
+          "content": "A person licensed to issue Digital Signature Certificates under the Act, subject to regulations and standards prescribed by the Controller.",
+          "citations": [
+            "Section 24"
+          ]
+        },
+        {
+          "id": "intermediary",
+          "title": "Intermediary",
+          "content": "Any person who on behalf of another person receives, stores or transmits electronic records or provides any service with respect to such records.",
+          "citations": [
+            "Section 2(1)(w)"
+          ]
+        }
+      ],
+      "citations": [
+        "Section 2, Information Technology Act, 2000"
+      ]
+    },
+    "obligations": {
+      "id": "obligations",
+      "title": "Key Obligations",
+      "content": "The Act imposes various obligations:\n\nDigital Signature Certificates (Sections 35-42): Requirements for issuance, suspension, and revocation of Digital Signature Certificates by Certifying Authorities.\n\nIntermediary Liability (Section 79): Intermediaries shall not be liable for any third party information, data, or communication link made available or hosted by them, if they observe due diligence and follow guidelines prescribed by the Central Government.\n\nData Protection (Section 43A): Where a body corporate, possessing, dealing with or handling any sensitive personal data or information in a computer resource which it owns, controls or operates, is negligent in implementing and maintaining reasonable security practices and procedures and thereby causes wrongful loss or wrongful gain to any person, such body corporate shall be liable to pay damages by way of compensation.\n\nElectronic Records (Sections 4-10): Legal recognition of electronic records and digital signatures, and requirements for their validity.\n\nCertifying Authority Obligations (Sections 18-30): Requirements for Certifying Authorities including security procedures and practices, issuance of certificates, and maintenance of records.",
+      "subsections": [
+        {
+          "id": "intermediary-due-diligence",
+          "title": "Intermediary Due Diligence",
+          "content": "An intermediary shall not be liable for any third party information, data, or communication link made available or hosted by him if:\n(a) the intermediary does not initiate the transmission;\n(b) the intermediary does not select the receiver of the transmission;\n(c) the intermediary does not select or modify the information contained in the transmission;\n(d) the intermediary observes due diligence and follows guidelines prescribed by the Central Government.",
+          "citations": [
+            "Section 79"
+          ]
+        },
+        {
+          "id": "data-protection-obligations",
+          "title": "Data Protection Obligations",
+          "content": "Body corporates possessing, dealing with, or handling any sensitive personal data or information must implement reasonable security practices and procedures to protect such information. Failure to do so resulting in wrongful loss or gain makes the body corporate liable to pay damages.",
+          "citations": [
+            "Section 43A"
+          ]
+        },
+        {
+          "id": "digital-signature-requirements",
+          "title": "Digital Signature Requirements",
+          "content": "Digital Signature Certificates must be issued by licensed Certifying Authorities in accordance with the Act and rules made thereunder.",
+          "citations": [
+            "Sections 35-42"
+          ]
+        }
+      ],
+      "citations": [
+        "Sections 4-10, 18-30, 35-42, 43A, 79, Information Technology Act, 2000"
+      ]
+    },
+    "penalties": {
+      "id": "penalties",
+      "title": "Penalties and Offences",
+      "content": "The Act prescribes penalties for various offences:\n\nUnauthorized Access (Section 43): Penalty for damage to computer, computer system, etc. - compensation not exceeding one crore rupees.\n\nData Theft (Section 66): Punishment for dishonestly or fraudulently doing any act referred to in section 43 - imprisonment for a term which may extend to three years or with fine which may extend to five lakh rupees or with both.\n\nIdentity Theft (Section 66C): Punishment for identity theft - imprisonment for a term which may extend to three years and shall also be liable to fine which may extend to one lakh rupees.\n\nCyber Terrorism (Section 66F): Punishment for cyber terrorism - imprisonment for life.\n\nPublishing Obscene Material (Section 67): Punishment for publishing or transmitting obscene material in electronic form - imprisonment for a term which may extend to three years and with fine which may extend to five lakh rupees.\n\nBreach of Confidentiality (Section 72): Punishment for breach of confidentiality and privacy - imprisonment for a term which may extend to two years, or with fine which may extend to one lakh rupees, or with both.",
+      "subsections": [
+        {
+          "id": "penalty-amounts",
+          "title": "Penalty Amounts",
+          "content": "Penalties range from compensation up to one crore rupees for unauthorized access, to imprisonment for life for cyber terrorism. Fines range from one lakh to five lakh rupees depending on the offence.",
+          "citations": [
+            "Sections 43, 66-67, 72"
+          ]
+        }
+      ],
+      "citations": [
+        "Sections 43, 66-67, 66C, 66F, 72, Information Technology Act, 2000"
+      ]
+    },
+    "regulatory": {
+      "id": "regulatory",
+      "title": "Regulatory Framework",
+      "content": "The Act establishes:\n\nController of Certifying Authorities (Section 17): Appointed by the Central Government to supervise the activities of Certifying Authorities, grant licences, and ensure compliance with the Act.\n\nCyber Appellate Tribunal (Sections 48-64): Established to hear appeals against orders of the Controller or Adjudicating Officer. The Tribunal has the same powers as are vested in a civil court.\n\nAdjudicating Officers (Sections 46-47): Appointed by the Central Government to adjudicate matters relating to contraventions under the Act and determine compensation.\n\nCertifying Authorities (Sections 18-30): Licensed entities authorized to issue Digital Signature Certificates, subject to regulations and standards prescribed by the Controller.",
+      "subsections": [
+        {
+          "id": "controller-functions",
+          "title": "Functions of Controller",
+          "content": "The Controller supervises Certifying Authorities, grants licences, prescribes standards, and ensures compliance with the Act.",
+          "citations": [
+            "Section 18"
+          ]
+        },
+        {
+          "id": "adjudicating-officers",
+          "title": "Adjudicating Officers",
+          "content": "Adjudicating Officers are appointed to adjudicate contraventions, determine compensation, and pass orders for payment of compensation.",
+          "citations": [
+            "Sections 46-47"
+          ]
+        }
+      ],
+      "citations": [
+        "Sections 17-30, 46-64, Information Technology Act, 2000"
+      ]
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "actId": "dpdpa",
+  "sections": {
+    "applicability": {
+      "id": "applicability",
+      "title": "Applicability",
+      "content": "This Act applies to the processing of digital personal data within the territory of India where:\n\n(i) such personal data is collected in digital form; or\n(ii) such personal data, collected in non-digital form, is digitised subsequently.\n\nThis Act also applies to the processing of digital personal data outside the territory of India, if such processing is in connection with any activity related to offering of goods or services to Data Principals within the territory of India.\n\nThis Act does not apply to:\n- Personal data processed by an individual for any personal or domestic purpose\n- Personal data that is made or caused to be made publicly available by the Data Principal to whom such personal data relates, or by any other person who is under an obligation under any law to make such personal data publicly available",
+      "subsections": [
+        {
+          "id": "territorial-scope",
+          "title": "Territorial Scope",
+          "content": "The Act applies to processing of digital personal data within India, and also to processing outside India if connected to offering goods or services to Data Principals in India.",
+          "citations": [
+            "Section 3(1)"
+          ]
+        },
+        {
+          "id": "exclusions",
+          "title": "Exclusions",
+          "content": "The Act does not apply to personal data processed for purely personal or domestic purposes, or to personal data that has been made publicly available.",
+          "citations": [
+            "Section 3(2)"
+          ]
+        }
+      ],
+      "citations": [
+        "Section 3, Digital Personal Data Protection Act, 2023"
+      ]
+    },
+    "stakeholders": {
+      "id": "stakeholders",
+      "title": "Stakeholders and Definitions",
+      "content": "Key definitions under the Act:\n\nData Principal means the individual to whom the personal data relates and where such individual is a child, includes the parents or lawful guardian of such a child.\n\nData Fiduciary means any person who alone or in conjunction with other persons determines the purpose and means of processing of personal data.\n\nData Processor means any person who processes personal data on behalf of a Data Fiduciary.\n\nPersonal Data means any data about an individual who is identifiable by or in relation to such data.\n\nDigital Personal Data means personal data in digital form.\n\nProcessing in relation to personal data, means an automated operation or set of operations performed on digital personal data, and includes operations such as collection, recording, organisation, structuring, storage, adaptation, retrieval, use, alignment or combination, indexing, disclosure by transmission, dissemination or otherwise making available, restriction, erasure or destruction.",
+      "subsections": [
+        {
+          "id": "data-principal",
+          "title": "Data Principal",
+          "content": "The individual whose personal data is being processed. For children (persons below 18 years), the Data Principal includes their parents or lawful guardians.",
+          "citations": [
+            "Section 2(7)"
+          ]
+        },
+        {
+          "id": "data-fiduciary",
+          "title": "Data Fiduciary",
+          "content": "Any person who determines the purpose and means of processing personal data. This includes entities that collect, store, or use personal data.",
+          "citations": [
+            "Section 2(8)"
+          ]
+        },
+        {
+          "id": "data-processor",
+          "title": "Data Processor",
+          "content": "Any person who processes personal data on behalf of a Data Fiduciary, acting under the instructions of the Data Fiduciary.",
+          "citations": [
+            "Section 2(9)"
+          ]
+        }
+      ],
+      "citations": [
+        "Section 2, Digital Personal Data Protection Act, 2023"
+      ]
+    },
+    "obligations": {
+      "id": "obligations",
+      "title": "Obligations of Data Fiduciary",
+      "content": "Every Data Fiduciary shall be responsible for complying with the provisions of this Act in respect of any processing undertaken by it or on its behalf by a Data Processor.\n\nA Data Fiduciary may process the personal data of a Data Principal only in accordance with the provisions of this Act and the rules made thereunder, for a lawful purpose, and—\n(a) for which the Data Principal has given her consent; or\n(b) for certain legitimate uses.\n\nEvery Data Fiduciary shall, before processing the personal data of a Data Principal, give to the Data Principal a notice informing her, in clear and plain language, about the personal data to be collected and the purpose for which the personal data is to be processed.\n\nEvery Data Fiduciary and Data Processor shall implement appropriate technical and organisational measures to ensure effective implementation of the provisions of this Act.\n\nIn case of a personal data breach, the Data Fiduciary shall notify the Board and each affected Data Principal, of such breach in such form and manner as may be prescribed.",
+      "subsections": [
+        {
+          "id": "lawful-processing",
+          "title": "Lawful Purpose for Processing",
+          "content": "A Data Fiduciary may process personal data only for a lawful purpose for which the Data Principal has given consent, or for certain legitimate uses as specified in the Act.",
+          "citations": [
+            "Section 4"
+          ]
+        },
+        {
+          "id": "notice-requirements",
+          "title": "Notice Requirements",
+          "content": "Every Data Fiduciary shall give to the Data Principal a notice informing about the personal data to be collected and the purpose for which it is to be processed.",
+          "citations": [
+            "Section 5"
+          ]
+        },
+        {
+          "id": "consent-management",
+          "title": "Consent Management",
+          "content": "Consent given by the Data Principal shall be free, specific, informed, unconditional, and unambiguous. The Data Principal shall have the right to withdraw consent at any time.",
+          "citations": [
+            "Section 6"
+          ]
+        },
+        {
+          "id": "security-safeguards",
+          "title": "Security Safeguards",
+          "content": "Every Data Fiduciary and Data Processor shall implement appropriate technical and organisational measures to ensure effective implementation of the provisions of this Act.",
+          "citations": [
+            "Section 8(5)"
+          ]
+        }
+      ],
+      "citations": [
+        "Sections 4-9, Digital Personal Data Protection Act, 2023"
+      ]
+    },
+    "rights": {
+      "id": "rights",
+      "title": "Rights of Data Principal",
+      "content": "A Data Principal shall have the right to obtain from the Data Fiduciary a summary of personal data being processed and the processing activities undertaken with respect to such personal data.\n\nA Data Principal shall have the right to correction of inaccurate or misleading personal data, completion of incomplete personal data, updating of personal data, and erasure of personal data that is no longer necessary for the purpose for which it was processed.\n\nA Data Principal shall have the right to register a grievance with the Data Fiduciary in such manner and within such period as may be prescribed.\n\nA Data Principal may, by way of a legal instrument, nominate any other individual who shall, in the event of death or incapacity of the Data Principal, exercise the rights of the Data Principal under this Act.",
+      "subsections": [
+        {
+          "id": "access-right",
+          "title": "Right to Access Information",
+          "content": "A Data Principal has the right to obtain from the Data Fiduciary a summary of personal data being processed and the processing activities undertaken.",
+          "citations": [
+            "Section 11"
+          ]
+        },
+        {
+          "id": "correction-right",
+          "title": "Right to Correction and Erasure",
+          "content": "A Data Principal has the right to correction of inaccurate or misleading personal data, completion of incomplete personal data, updating of personal data, and erasure of personal data.",
+          "citations": [
+            "Section 12"
+          ]
+        },
+        {
+          "id": "grievance-right",
+          "title": "Right to Grievance Redressal",
+          "content": "A Data Principal has the right to register a grievance with the Data Fiduciary. The Data Fiduciary shall respond to such grievance within the prescribed period.",
+          "citations": [
+            "Section 13"
+          ]
+        },
+        {
+          "id": "nomination-right",
+          "title": "Right to Nominate",
+          "content": "A Data Principal may nominate any other individual who shall, in the event of death or incapacity, exercise the rights of the Data Principal.",
+          "citations": [
+            "Section 14"
+          ]
+        }
+      ],
+      "citations": [
+        "Sections 10-14, Digital Personal Data Protection Act, 2023"
+      ]
+    },
+    "dataBreach": {
+      "id": "dataBreach",
+      "title": "Personal Data Breach",
+      "content": "A personal data breach means any unauthorised processing of personal data or accidental disclosure, acquisition, sharing, use, alteration, destruction of or loss of access to personal data, that compromises the confidentiality, integrity or availability of personal data.",
+      "subsections": [
+        {
+          "id": "prevention-obligations",
+          "title": "Obligation to Prevent Data Breach",
+          "content": "Every Data Fiduciary and Data Processor shall implement appropriate technical and organisational measures to ensure effective implementation of the provisions of this Act, including measures to ensure that personal data is processed in accordance with the provisions of this Act.",
+          "citations": [
+            "Section 8(5)"
+          ]
+        },
+        {
+          "id": "notification-obligations",
+          "title": "Obligations in Case of Personal Data Breach",
+          "content": "In case of a personal data breach, the Data Fiduciary shall notify the Board and each affected Data Principal, of such breach in such form and manner as may be prescribed. The Data Fiduciary shall clearly and concisely inform the Data Principal about the nature of the personal data breach, the consequences of the breach, and the measures being taken or proposed to be taken by the Data Fiduciary to address the breach.",
+          "citations": [
+            "Section 8(6)"
+          ]
+        }
+      ],
+      "citations": [
+        "Section 8, Digital Personal Data Protection Act, 2023"
+      ]
+    },
+    "exemptions": {
+      "id": "exemptions",
+      "title": "Exemptions",
+      "content": "The provisions of this Act shall not apply in respect of the processing of personal data:\n\n(a) necessary for enforcing any legal right or claim;\n(b) necessary for the performance of any judicial or quasi-judicial function;\n(c) for processing personal data of a Data Principal by any court or tribunal in India;\n(d) necessary for prevention, detection, investigation or prosecution of any offence or contravention of any law;\n(e) necessary for research, archiving or statistical purposes if the personal data is not used to take any decision specific to a Data Principal;\n(f) necessary for startup or any class of startup so notified by the Central Government.\n\nThe Central Government may, by notification, exempt any instrumentality of the State from the application of the provisions of this Act in the interest of sovereignty and integrity of India, security of the State, friendly relations with foreign States, maintenance of public order, or preventing incitement to any cognizable offence.",
+      "subsections": [
+        {
+          "id": "general-exemptions",
+          "title": "General Exemptions",
+          "content": "The Act provides exemptions for processing necessary for legal rights, judicial functions, prevention of offences, research purposes, and for startups as notified.",
+          "citations": [
+            "Section 17(1)"
+          ]
+        },
+        {
+          "id": "state-exemptions",
+          "title": "State Security Exemptions",
+          "content": "The Central Government may exempt any instrumentality of the State from application of the Act in the interest of sovereignty, security, public order, etc.",
+          "citations": [
+            "Section 17(2)"
+          ]
+        }
+      ],
+      "citations": [
+        "Section 17, Digital Personal Data Protection Act, 2023"
+      ]
+    },
+    "regulatory": {
+      "id": "regulatory",
+      "title": "Data Protection Board of India",
+      "content": "The Central Government shall, by notification, establish a Data Protection Board of India to exercise the powers conferred on, and to perform the functions assigned to it under this Act.\n\nThe Board shall:\n(a) monitor compliance with the provisions of this Act;\n(b) direct the Data Fiduciary or Data Processor to adopt such measures as may be specified;\n(c) inquire into data breaches and impose penalties;\n(d) hear complaints from Data Principals;\n(e) direct remedial measures or mitigation of data breaches.\n\nThe Board shall have the same powers as are vested in a civil court under the Code of Civil Procedure, 1908, while trying a suit, in respect of summoning and enforcing attendance of persons, requiring discovery and production of documents, and issuing commissions for examination of witnesses.",
+      "subsections": [
+        {
+          "id": "board-establishment",
+          "title": "Establishment of Data Protection Board",
+          "content": "The Central Government shall establish a Data Protection Board of India to exercise powers and perform functions under this Act.",
+          "citations": [
+            "Section 18"
+          ]
+        },
+        {
+          "id": "board-functions",
+          "title": "Functions of the Board",
+          "content": "The Board shall monitor compliance, direct remedial measures, inquire into breaches, impose penalties, and hear complaints from Data Principals.",
+          "citations": [
+            "Section 19"
+          ]
+        },
+        {
+          "id": "board-powers",
+          "title": "Powers of the Board",
+          "content": "The Board has powers similar to a civil court for summoning persons, requiring documents, and issuing commissions.",
+          "citations": [
+            "Section 20"
+          ]
+        }
+      ],
+      "citations": [
+        "Sections 18-28, Digital Personal Data Protection Act, 2023"
+      ]
+    },
+    "penalties": {
+      "id": "penalties",
+      "title": "Penalties and Adjudication",
+      "content": "If the Board determines, after conducting an inquiry, that a person has failed to comply with the provisions of this Act or the rules made thereunder, it may, after giving such person a reasonable opportunity of being heard, impose such penalty as it thinks fit.\n\nPenalties may be imposed for:\n- Failure to fulfill obligations in relation to children or Significant Data Fiduciary: up to two hundred crore rupees\n- Failure to notify the Board and Data Principals of a data breach: up to two hundred crore rupees\n- Non-compliance with directions issued by the Board: up to two hundred crore rupees\n- Other contraventions: up to ten thousand rupees for each instance\n\nThe Board shall have regard to the nature, gravity and duration of the breach, the type and nature of personal data affected, repetitive nature of the breach, and whether the breach was intentional or negligent, while determining the penalty.",
+      "subsections": [
+        {
+          "id": "penalty-structure",
+          "title": "Penalty Structure",
+          "content": "Penalties range from ten thousand rupees for minor contraventions to two hundred crore rupees for serious breaches, particularly those involving children or Significant Data Fiduciaries.",
+          "citations": [
+            "Section 33"
+          ]
+        },
+        {
+          "id": "adjudication-process",
+          "title": "Adjudication Process",
+          "content": "The Board may, after giving the person concerned a reasonable opportunity of being heard, impose such penalty as it thinks fit. The Board may also direct the person to take such measures as it may specify to remedy the contravention.",
+          "citations": [
+            "Section 33"
+          ]
+        }
+      ],
+      "citations": [
+        "Section 33, Digital Personal Data Protection Act, 2023"
+      ]
+    }
+  }
+}

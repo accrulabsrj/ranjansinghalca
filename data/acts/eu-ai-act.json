@@ -1,0 +1,898 @@
+{
+  "actId": "eu_ai_act",
+  "overview": {
+    "id": "overview",
+    "title": "Overview - EU Artificial Intelligence Act",
+    "content": "The EU Artificial Intelligence Act (EU AI Act) is the world's first comprehensive legal framework for regulating artificial intelligence. Adopted in 2024, it establishes harmonized rules for AI systems placed on the market, put into service, or used in the European Union.\n\nPurpose and Background\n\nThe EU AI Act was developed to address the risks and opportunities presented by AI technologies. As AI systems become increasingly prevalent in daily life, from healthcare and education to employment and law enforcement, the need for regulation became clear. The Act aims to ensure that AI systems used in the EU are safe, transparent, traceable, non-discriminatory, and environmentally friendly, while fostering innovation and maintaining the EU's technological competitiveness.\n\nThe Act follows a risk-based approach, categorizing AI systems into four risk categories:\n- Unacceptable Risk: Prohibited AI practices\n- High Risk: Subject to strict requirements and conformity assessment\n- Limited Risk: Subject to transparency obligations\n- Minimal Risk: Subject to voluntary codes of conduct\n\nKey Features\n\n1. Risk-Based Approach: The Act's obligations vary based on the level of risk an AI system poses\n2. Prohibited Practices: Certain AI practices are completely banned due to unacceptable risk\n3. High-Risk Requirements: High-risk AI systems must meet strict requirements before market entry\n4. General-Purpose AI: Special rules for general-purpose AI models and systems with systemic risks\n5. Transparency: Users must be informed when interacting with AI systems\n6. Governance: European AI Board and national supervisory authorities ensure consistent enforcement\n7. Penalties: Significant fines (up to €35 million or 7% of turnover) for non-compliance\n\nHistorical Context\n\nThe EU AI Act is part of the EU's broader digital strategy, which includes the GDPR, Digital Services Act, and Digital Markets Act. It represents the EU's commitment to being a global leader in trustworthy AI regulation. The Act was proposed in 2021, underwent extensive negotiations, and was finally adopted in 2024, with provisions coming into effect gradually through 2025-2027.\n\nRelationship to Other Laws\n\nThe EU AI Act works alongside:\n- GDPR: For personal data processing aspects of AI systems\n- Product Safety Legislation: For AI systems that are products or components of products\n- Sectoral Legislation: For AI systems in specific sectors (e.g., medical devices, vehicles)\n\nSignificance\n\nThe EU AI Act is significant because:\n- It's the first comprehensive AI regulation globally\n- It sets a precedent for other jurisdictions\n- It affects all AI providers and deployers operating in the EU\n- It establishes a new compliance framework for AI development and deployment\n- It balances innovation with safety and fundamental rights protection\n\nFor organizations developing or deploying AI systems in the EU, understanding and complying with the Act is essential. The risk-based approach means different obligations apply depending on the AI system's risk category, making risk assessment a critical first step.",
+    "citations": [
+      "Regulation (EU) 2024/... on Artificial Intelligence"
+    ]
+  },
+  "definitions": {
+    "id": "definitions",
+    "title": "Definitions",
+    "content": "Key definitions from Article 3 of the EU AI Act.",
+    "bareActText": "Article 3 - Definitions\n\nFor the purposes of this Regulation:\n\n(1) 'artificial intelligence system' (AI system) means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments;\n\n(2) 'provider' means a natural or legal person, public authority, agency or other body that develops an AI system or that has an AI system developed and places it on the market or puts it into service under its own name or trademark, whether for payment or free of charge;\n\n(3) 'deployer' means a natural or legal person, public authority, agency or other body using an AI system under its authority, except where the AI system is used in the course of a personal non-professional activity;\n\n(4) 'authorised representative' means any natural or legal person established in the Union who has received a written mandate from a provider to perform the obligations and procedures laid down in this Regulation on the provider's behalf;\n\n(5) 'importer' means any natural or legal person established in the Union that places on the market an AI system that bears the name or trademark of a natural or legal person established outside the Union;\n\n(6) 'distributor' means any natural or legal person in the supply chain, other than the provider or the importer, that makes an AI system available on the Union market;\n\n(7) 'user' means any natural or legal person using an AI system under its authority, except where the AI system is used in the course of a personal non-professional activity;\n\n(8) 'affected person' means any natural person who is affected by an AI system in the context of its use, in particular as a result of being subject to a decision taken by or with the assistance of the AI system;\n\n(9) 'high-risk AI system' means an AI system that is referred to in Annex III or that is a product covered by Union harmonisation legislation listed in Annex II, or is a product covered by Union harmonisation legislation listed in Annex I, provided that the product in question is subject to requirements regarding fundamental rights protection and the AI system is intended to be used as a safety component of the product or is itself a product covered by that legislation;\n\n(10) 'general-purpose AI model' means an AI model, including where such a model is trained with a large amount of data using self-supervision at scale, that displays significant generality and is capable of competently performing a wide range of distinct tasks regardless of the way the model is placed on the market and that can be integrated into a variety of downstream systems or applications;",
+    "laymanExplanation": "The EU AI Act defines key terms that determine who is responsible for what. AI System is any automated system that makes decisions or predictions (like recommendation algorithms, chatbots, or autonomous vehicles). Provider is the company that develops or markets the AI system. Deployer is the company or organization that actually uses the AI system (like a bank using AI for loan decisions). High-Risk AI System is an AI system used in critical areas like healthcare, employment, or law enforcement that must meet strict requirements. General-Purpose AI Model is a versatile AI model (like ChatGPT) that can be used for many different tasks. Understanding these definitions is crucial because your obligations under the Act depend on which role you play.",
+    "crossMapping": "GDPR Comparison: GDPR has 'controller' and 'processor' roles; EU AI Act has 'provider' and 'deployer' - similar concepts but for AI systems rather than data processing. US AI Executive Order: Uses different terminology (developers, deployers) but similar concepts. Key Similarity: Both frameworks define roles and responsibilities for different actors in the ecosystem.",
+    "subsections": [
+      {
+        "id": "ai-system",
+        "title": "Artificial Intelligence System",
+        "content": "A machine-based system that operates with varying levels of autonomy and may exhibit adaptiveness, generating outputs such as predictions, content, recommendations, or decisions.",
+        "bareActText": "(1) 'artificial intelligence system' (AI system) means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments;",
+        "laymanExplanation": "An AI system is any computer system that can make decisions, predictions, or generate content on its own. This includes everything from chatbots and recommendation algorithms to self-driving cars and medical diagnosis systems. The key is that it operates with some level of autonomy (can work without constant human control) and can adapt (learn and change over time).",
+        "crossMapping": "OECD AI Definition: Similar broad definition focusing on autonomy and adaptiveness. ISO/IEC 22989: International standard uses similar definition. Key Similarity: Most AI definitions focus on autonomy and decision-making capability.",
+        "citations": [
+          "Article 3(1), EU AI Act"
+        ]
+      },
+      {
+        "id": "provider",
+        "title": "Provider",
+        "content": "The entity that develops an AI system or has it developed and places it on the market or puts it into service.",
+        "bareActText": "(2) 'provider' means a natural or legal person, public authority, agency or other body that develops an AI system or that has an AI system developed and places it on the market or puts it into service under its own name or trademark, whether for payment or free of charge;",
+        "laymanExplanation": "A Provider is the company or organization that creates or markets an AI system. This could be a tech company that develops AI software, a manufacturer that builds AI-powered devices, or any entity that puts an AI system on the market. Even if you hire someone else to develop it, if you market it under your name, you're the Provider and have primary responsibility for compliance.",
+        "crossMapping": "GDPR 'Controller': Similar concept - the entity that determines purposes and means. Product Safety Legislation 'Manufacturer': Similar role and responsibilities. Key Similarity: Provider has primary responsibility for compliance, similar to controller/manufacturer in other frameworks.",
+        "citations": [
+          "Article 3(2), EU AI Act"
+        ]
+      },
+      {
+        "id": "deployer",
+        "title": "Deployer",
+        "content": "The entity using an AI system under its authority, excluding personal non-professional use.",
+        "bareActText": "(3) 'deployer' means a natural or legal person, public authority, agency or other body using an AI system under its authority, except where the AI system is used in the course of a personal non-professional activity;",
+        "laymanExplanation": "A Deployer is the company or organization that actually uses an AI system. For example, if a bank uses an AI system to evaluate loan applications, the bank is the Deployer. Deployers have obligations to use AI systems properly, monitor their performance, and ensure human oversight. Personal use (like using ChatGPT for personal tasks) doesn't count as deployment.",
+        "crossMapping": "GDPR 'Controller': Similar concept when controller uses AI for processing. Key Similarity: Deployer has obligations to use AI responsibly, similar to controller obligations in GDPR.",
+        "citations": [
+          "Article 3(3), EU AI Act"
+        ]
+      },
+      {
+        "id": "high-risk-ai",
+        "title": "High-Risk AI System",
+        "content": "AI systems used in critical areas that must meet strict requirements before market entry.",
+        "bareActText": "(9) 'high-risk AI system' means an AI system that is referred to in Annex III or that is a product covered by Union harmonisation legislation listed in Annex II, or is a product covered by Union harmonisation legislation listed in Annex I, provided that the product in question is subject to requirements regarding fundamental rights protection and the AI system is intended to be used as a safety component of the product or is itself a product covered by that legislation;",
+        "laymanExplanation": "High-Risk AI Systems are AI systems used in critical areas like healthcare (medical diagnosis), employment (hiring decisions), law enforcement (predictive policing), or credit scoring. These systems can significantly impact people's lives, so they must meet strict requirements including risk management, data quality, human oversight, and conformity assessment before they can be used.",
+        "crossMapping": "Medical Device Regulation: Similar concept of high-risk devices requiring strict controls. Key Similarity: High-risk classification triggers additional compliance requirements.",
+        "citations": [
+          "Article 3(9), EU AI Act"
+        ]
+      },
+      {
+        "id": "general-purpose-ai",
+        "title": "General-Purpose AI Model",
+        "content": "Versatile AI models that can perform a wide range of tasks and be integrated into various applications.",
+        "bareActText": "(10) 'general-purpose AI model' means an AI model, including where such a model is trained with a large amount of data using self-supervision at scale, that displays significant generality and is capable of competently performing a wide range of distinct tasks regardless of the way the model is placed on the market and that can be integrated into a variety of downstream systems or applications;",
+        "laymanExplanation": "General-Purpose AI Models are versatile AI systems (like ChatGPT, Claude, or other foundation models) that can be used for many different tasks - from writing to coding to analysis. Because they're so versatile and widely used, they have special rules, especially if they pose systemic risks (could cause widespread harm).",
+        "crossMapping": "US AI Executive Order: Also addresses foundation models and general-purpose AI. Key Similarity: Recognition that general-purpose AI requires special regulatory attention.",
+        "citations": [
+          "Article 3(10), EU AI Act"
+        ]
+      },
+      {
+        "id": "ai-model",
+        "title": "AI Model",
+        "content": "A component of an AI system that implements an AI approach, including the mathematical model defining the algorithm and its parameters.",
+        "bareActText": "(11) 'AI model' means a component of an AI system that implements an AI approach, including the mathematical model defining the algorithm and its parameters;",
+        "laymanExplanation": "An AI Model is the core component of an AI system - it's the mathematical algorithm that makes decisions or predictions. Think of it as the 'brain' of the AI system. The model learns from data and then uses that learning to make predictions or decisions.",
+        "crossMapping": "Machine Learning Terminology: Standard definition of AI model in ML literature. Key Similarity: Consistent with technical understanding of AI models.",
+        "citations": [
+          "Article 3(11), EU AI Act"
+        ]
+      },
+      {
+        "id": "systemic-risk",
+        "title": "Systemic Risk",
+        "content": "A risk that is specific to the high-impact capabilities of general-purpose AI models, having a significant impact on the Union market due to their reach, or due to actual or reasonably foreseeable negative effects on public health, safety, public security, fundamental rights, or society as a whole.",
+        "bareActText": "(12) 'systemic risk' means a risk that is specific to the high-impact capabilities of general-purpose AI models, having a significant impact on the Union market due to their reach, or due to actual or reasonably foreseeable negative effects on public health, safety, public security, fundamental rights, or society as a whole;",
+        "laymanExplanation": "Systemic Risk is when an AI model could cause widespread harm across the EU. This could be because it's used by many people (like a popular chatbot), or because it could cause serious problems for public health, safety, security, or fundamental rights. Models with systemic risk need extra oversight.",
+        "crossMapping": "Financial Regulation: Similar concept of systemic risk in financial markets. Key Similarity: Recognition that certain systems can cause widespread harm requiring special oversight.",
+        "citations": [
+          "Article 3(12), EU AI Act"
+        ]
+      },
+      {
+        "id": "conformity-assessment",
+        "title": "Conformity Assessment",
+        "content": "The process demonstrating whether the requirements of this Regulation relating to a high-risk AI system have been fulfilled.",
+        "bareActText": "(13) 'conformity assessment' means the process demonstrating whether the requirements of this Regulation relating to a high-risk AI system have been fulfilled;",
+        "laymanExplanation": "Conformity Assessment is the process of checking whether a high-risk AI system meets all the Act's requirements. It's like a safety inspection - before a high-risk AI system can be used, it must be certified that it meets all the requirements. This can be done by the provider (self-assessment) or by an independent body (third-party assessment).",
+        "crossMapping": "Product Safety Legislation: Similar conformity assessment requirements for high-risk products. Medical Device Regulation: Similar certification process. Key Similarity: All require certification before high-risk products can be used.",
+        "citations": [
+          "Article 3(13), EU AI Act"
+        ]
+      },
+      {
+        "id": "notified-body",
+        "title": "Notified Body",
+        "content": "A conformity assessment body designated in accordance with this Regulation.",
+        "bareActText": "(14) 'notified body' means a conformity assessment body designated in accordance with this Regulation;",
+        "laymanExplanation": "A Notified Body is an independent organization that's authorized by EU authorities to certify that high-risk AI systems meet the Act's requirements. Think of it like a safety inspector - they check that AI systems are safe and compliant before they can be used. Not all high-risk AI systems need notified body certification - some can be self-assessed by the provider.",
+        "crossMapping": "Product Safety Legislation: Similar concept of notified bodies for product certification. Medical Device Regulation: Similar notified body system. Key Similarity: All use independent certification bodies for high-risk products.",
+        "citations": [
+          "Article 3(14), EU AI Act"
+        ]
+      },
+      {
+        "id": "post-market-monitoring",
+        "title": "Post-Market Monitoring",
+        "content": "All activities carried out by providers of high-risk AI systems to collect and review experience gained from the use of AI systems they place on the market or put into service, for the purpose of identifying any need to immediately apply any necessary corrective or preventive actions.",
+        "bareActText": "(15) 'post-market monitoring' means all activities carried out by providers of high-risk AI systems to collect and review experience gained from the use of AI systems they place on the market or put into service, for the purpose of identifying any need to immediately apply any necessary corrective or preventive actions;",
+        "laymanExplanation": "Post-Market Monitoring means that providers of high-risk AI systems must continuously monitor how their AI systems perform after they're released. They need to collect data on how the AI is working, identify any problems, and fix them quickly. Think of it like a car recall system - if problems are found after release, they must be fixed.",
+        "crossMapping": "Medical Device Regulation: Similar post-market surveillance requirements. Product Safety Legislation: Similar monitoring obligations. Key Similarity: All require ongoing monitoring of high-risk products after market entry.",
+        "citations": [
+          "Article 3(15), EU AI Act"
+        ]
+      },
+      {
+        "id": "substantial-modification",
+        "title": "Substantial Modification",
+        "content": "A change to an AI system after it has been placed on the market or put into service, which affects the compliance of the AI system with the requirements of this Regulation or results in a modification to the intended purpose for which the AI system has been assessed.",
+        "bareActText": "(16) 'substantial modification' means a change to an AI system after it has been placed on the market or put into service, which affects the compliance of the AI system with the requirements of this Regulation or results in a modification to the intended purpose for which the AI system has been assessed;",
+        "laymanExplanation": "A Substantial Modification is a significant change to an AI system after it's been released. If you make changes that affect compliance or change what the AI is supposed to do, you may need to re-assess the AI system. Minor updates (like bug fixes) don't count - only substantial changes that affect safety or compliance.",
+        "crossMapping": "Product Safety Legislation: Similar concept of substantial modifications requiring re-assessment. Key Similarity: Both recognize that significant changes may require re-certification.",
+        "citations": [
+          "Article 3(16), EU AI Act"
+        ]
+      },
+      {
+        "id": "layman-explanation",
+        "title": "Layman Explanation",
+        "content": "Understanding key definitions helps determine your role and obligations under the Act.",
+        "laymanExplanation": "Key Definitions Explained\n\nAI System: Any automated system that makes decisions, predictions, or generates content. This includes chatbots, recommendation algorithms, autonomous vehicles, medical diagnosis systems, and more.\n\nProvider: The company that develops or markets the AI system. They have primary responsibility for ensuring the AI meets requirements.\n\nDeployer: The company that uses the AI system. They must use it responsibly, monitor its performance, and ensure human oversight.\n\nHigh-Risk AI System: AI systems used in critical areas (healthcare, employment, law enforcement, etc.) that must meet strict requirements.\n\nGeneral-Purpose AI Model: Versatile AI models (like ChatGPT) that can be used for many different tasks.\n\nWhy This Matters: Your obligations under the Act depend on which role you play (Provider, Deployer, etc.) and what type of AI system you're dealing with (high-risk, general-purpose, etc.).",
+        "citations": [
+          "Article 3, EU AI Act"
+        ]
+      },
+      {
+        "id": "cross-mapping",
+        "title": "Cross-Mapping",
+        "content": "EU AI Act definitions can be compared with similar concepts in other frameworks.",
+        "crossMapping": "GDPR Comparison:\n- Provider ≈ Controller (determines purposes and means)\n- Deployer ≈ Controller (when using AI for processing)\n- Both frameworks define roles and responsibilities\n\nProduct Safety Legislation:\n- Provider ≈ Manufacturer (places product on market)\n- Similar responsibilities for product safety\n\nUS AI Executive Order:\n- Uses 'developers' and 'deployers' terminology\n- Similar concepts but different regulatory approach\n\nKey Takeaway: The EU AI Act's role-based approach is similar to GDPR's controller/processor model, but applied to AI systems rather than data processing.",
+        "citations": [
+          "Article 3, EU AI Act; GDPR; Product Safety Legislation"
+        ]
+      }
+    ],
+    "citations": [
+      "Article 3, Regulation (EU) 2024/... on Artificial Intelligence"
+    ]
+  },
+  "sections": {
+    "subject-matter": {
+      "id": "subject-matter",
+      "title": "Subject Matter and Scope",
+      "content": "This Regulation lays down harmonised rules for the placing on the market, the putting into service and the use of artificial intelligence systems ('AI systems') in the Union. It also lays down rules on general-purpose AI models, and rules on market surveillance and governance.\n\nThe Regulation applies to providers placing on the market or putting into service AI systems or placing on the market general-purpose AI models in the Union, irrespective of whether those providers are established or located within the Union or in a third country.",
+      "bareActText": "Article 1 - Subject matter and scope\n\n(1) This Regulation lays down:\n(a) harmonised rules for the placing on the market, the putting into service and the use of artificial intelligence systems ('AI systems') in the Union;\n(b) prohibitions of certain artificial intelligence practices;\n(c) specific requirements for high-risk AI systems and obligations for operators of such systems;\n(d) harmonised transparency rules for certain AI systems;\n(e) rules on market surveillance, governance and conformity.\n\n(2) This Regulation applies to:\n(a) providers placing on the market or putting into service AI systems or placing on the market general-purpose AI models in the Union, irrespective of whether those providers are established or located within the Union or in a third country;\n(b) deployers of AI systems that have their place of establishment or are located in the Union;\n(c) providers and deployers of AI systems that have their place of establishment or are located in a third country, where the output produced by the system is used in the Union;\n(d) importers and distributors of AI systems;\n(e) product manufacturers putting into service or placing on the market an AI system together with their product and under their own name or trademark;\n(f) authorised representatives of providers, which are not established in the Union;\n(g) affected persons that are located in the Union.",
+      "laymanExplanation": "The EU AI Act is a comprehensive law that regulates AI systems used in the European Union. It sets rules for: (1) Placing AI on the market - Rules for companies that sell or provide AI systems. (2) Prohibited practices - Certain dangerous AI practices are completely banned. (3) High-risk AI requirements - AI systems used in critical areas must meet strict requirements. (4) Transparency - Users must be informed when they're interacting with AI. (5) Market surveillance - Authorities monitor AI systems to ensure compliance. The Act applies broadly to anyone involved with AI systems in the EU, regardless of where they're located.",
+      "crossMapping": "GDPR Article 1: Similar structure - lays down rules for processing personal data. Product Safety Legislation: Similar approach - harmonised rules for placing products on the market. Key Similarity: All establish harmonised EU-wide rules for their respective domains.",
+      "subsections": [
+        {
+          "id": "subject-matter",
+          "title": "Subject Matter",
+          "content": "The Regulation establishes harmonised rules for AI systems in the Union.",
+          "bareActText": "Article 1(1) This Regulation lays down: (a) harmonised rules for the placing on the market, the putting into service and the use of artificial intelligence systems ('AI systems') in the Union; (b) prohibitions of certain artificial intelligence practices; (c) specific requirements for high-risk AI systems and obligations for operators of such systems; (d) harmonised transparency rules for certain AI systems; (e) rules on market surveillance, governance and conformity.",
+          "laymanExplanation": "The Act creates EU-wide rules for AI systems. It covers everything from banning dangerous AI practices to setting requirements for high-risk AI and ensuring transparency. Think of it as a comprehensive rulebook for AI in the EU.",
+          "crossMapping": "GDPR Article 1: Similar comprehensive approach to data protection. Key Similarity: Both establish comprehensive EU-wide regulatory frameworks.",
+          "citations": [
+            "Article 1(1), EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding the subject matter helps you know what the Act covers.",
+          "laymanExplanation": "What Does the Act Cover?\n\nThe EU AI Act is a comprehensive law that regulates AI systems in the European Union. It covers:\n\nHarmonised Rules: EU-wide rules that apply consistently across all member states\n\nProhibited Practices: Certain dangerous AI practices are completely banned\n\nHigh-Risk AI Requirements: AI systems used in critical areas must meet strict requirements\n\nTransparency Rules: Users must be informed when they're interacting with AI\n\nMarket Surveillance: Authorities monitor AI systems to ensure compliance\n\nWhy This Matters: The Act applies broadly to anyone involved with AI systems in the EU, regardless of where they're located. Understanding what the Act covers is the first step in compliance.",
+          "citations": [
+            "Article 1, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "The subject matter can be compared with similar regulatory frameworks.",
+          "crossMapping": "GDPR Article 1: Similar structure - lays down rules for processing personal data in the Union. Product Safety Legislation: Similar approach - harmonised rules for placing products on the market. Key Takeaway: The EU AI Act follows the same comprehensive regulatory approach as GDPR and product safety laws, establishing harmonised EU-wide rules.",
+          "citations": [
+            "Article 1, EU AI Act; GDPR; Product Safety Legislation"
+          ]
+        }
+      ],
+      "citations": [
+        "Article 1, Regulation (EU) 2024/... on Artificial Intelligence"
+      ]
+    },
+    "applicability": {
+      "id": "applicability",
+      "title": "Applicability",
+      "content": "This Regulation applies to:\n\n(a) providers placing on the market or putting into service AI systems or placing on the market general-purpose AI models in the Union, irrespective of whether those providers are established or located within the Union or in a third country;\n\n(b) deployers of AI systems that have their place of establishment or are located in the Union;\n\n(c) providers and deployers of AI systems that have their place of establishment or are located in a third country, where the output produced by the system is used in the Union;\n\n(d) importers and distributors of AI systems;\n\n(e) product manufacturers putting into service or placing on the market an AI system together with their product and under their own name or trademark;\n\n(f) authorised representatives of providers, which are not established in the Union;\n\n(g) affected persons that are located in the Union.",
+      "bareActText": "Article 2 - Scope\n\n(1) This Regulation applies to:\n(a) providers placing on the market or putting into service AI systems or placing on the market general-purpose AI models in the Union, irrespective of whether those providers are established or located within the Union or in a third country;\n(b) deployers of AI systems that have their place of establishment or are located in the Union;\n(c) providers and deployers of AI systems that have their place of establishment or are located in a third country, where the output produced by the system is used in the Union;\n(d) importers and distributors of AI systems;\n(e) product manufacturers putting into service or placing on the market an AI system together with their product and under their own name or trademark;\n(f) authorised representatives of providers, which are not established in the Union;\n(g) affected persons that are located in the Union.\n\n(3) This Regulation does not apply to AI systems developed or used exclusively for military, defence or national security purposes, regardless of the type of entity carrying out those activities.\n\n(5) This Regulation does not apply to AI systems used for the sole purpose of research, development or prototyping activities before they are placed on the market or put into service.",
+      "laymanExplanation": "The EU AI Act applies broadly to anyone involved with AI systems in the EU, regardless of where they're located. It covers: (1) Providers - Companies that develop or market AI systems, even if they're outside the EU. (2) Deployers - Companies using AI systems in the EU. (3) Importers and Distributors - Companies bringing AI systems into the EU market. (4) Affected Persons - People in the EU who are impacted by AI systems. The Act doesn't apply to: military/national security AI systems, or AI systems used only for research before they're sold. Think of it like EU product safety laws - if your AI system is used in the EU, the Act applies, even if you're based elsewhere.",
+      "crossMapping": "GDPR Article 3: Similar territorial scope - applies to processing in EU or targeting EU residents, regardless of location. Product Safety Legislation: Similar approach - applies to products placed on EU market. Key Similarity: All use territorial scope based on where products/services are used, not where provider is located. Key Difference: EU AI Act explicitly covers affected persons in the Union, which is unique.",
+      "subsections": [
+        {
+          "id": "territorial-scope",
+          "title": "Territorial Scope",
+          "content": "The Regulation applies to AI systems placed on the market, put into service, or used in the European Union, regardless of where the provider or deployer is located.",
+          "bareActText": "Article 2(1) This Regulation applies to providers, deployers, importers, distributors, and affected persons in relation to AI systems placed on the market, put into service, or used in the Union, regardless of where the provider or deployer is located.",
+          "laymanExplanation": "The Act applies if your AI system is used in the EU, even if your company is based in the US, India, or anywhere else. This is similar to GDPR - if you serve EU customers, EU laws apply. For example, if a US company's AI system is used by an EU bank, the US company must comply with the EU AI Act.",
+          "crossMapping": "GDPR Article 3: Identical territorial scope concept - applies based on where services are used, not provider location. Key Similarity: Both use territorial scope to ensure EU rules apply to all services used in the EU.",
+          "citations": [
+            "Article 2(1), EU AI Act"
+          ]
+        },
+        {
+          "id": "exclusions",
+          "title": "Exclusions",
+          "content": "This Regulation does not apply to AI systems developed or used exclusively for military, defence or national security purposes, regardless of the type of entity carrying out those activities. It also does not apply to AI systems used for the sole purpose of research, development or prototyping activities.",
+          "bareActText": "Article 2(3) This Regulation does not apply to AI systems developed or used exclusively for military, defence or national security purposes, regardless of the type of entity carrying out those activities.\n\nArticle 2(5) This Regulation does not apply to AI systems used for the sole purpose of research, development or prototyping activities before they are placed on the market or put into service.",
+          "laymanExplanation": "The Act doesn't apply to: (1) Military/National Security AI - Defense systems are exempt. (2) Research AI - AI systems used only for research before they're sold are exempt. This makes sense - you don't want to regulate research that might never become a product, and military systems have their own rules. However, once research AI becomes a product, the Act applies.",
+          "crossMapping": "GDPR Article 2(2): Excludes processing for law enforcement (covered by separate directive). Product Safety Legislation: Similar exemptions for military and research. Key Similarity: All frameworks exempt military/defense and research activities.",
+          "citations": [
+            "Article 2(3), Article 2(5), EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding when the Act applies helps determine your compliance obligations.",
+          "laymanExplanation": "When Does the EU AI Act Apply?\n\nThe Act applies broadly to anyone involved with AI systems in the EU:\n\nWho It Applies To:\n- Companies that develop or market AI systems (even if outside EU)\n- Companies that use AI systems in the EU\n- Companies that import or distribute AI systems in the EU\n- People in the EU affected by AI systems\n\nWhat It Doesn't Apply To:\n- Military or national security AI systems\n- AI systems used only for research (before they're sold)\n\nKey Point: If your AI system is used in the EU, the Act applies, regardless of where your company is located. This is similar to GDPR - if you serve EU customers, EU rules apply.\n\nWhy This Matters: Understanding applicability is the first step in compliance. If the Act applies to you, you need to understand your obligations based on the risk category of your AI system.",
+          "citations": [
+            "Article 2, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "The Act's applicability can be compared with similar territorial scope provisions.",
+          "crossMapping": "Comparison with GDPR (Article 3):\n- Both apply based on territorial scope (where services are used, not where provider is located)\n- Both cover providers/deployers outside EU if they serve EU market\n- GDPR focuses on data processing, EU AI Act focuses on AI systems\n\nComparison with Product Safety Legislation:\n- Similar approach - applies to products placed on EU market\n- Covers importers and distributors\n- Exemptions for military and research\n\nKey Takeaway: The EU AI Act follows the same territorial scope approach as GDPR and product safety laws, ensuring comprehensive coverage of AI systems used in the EU.",
+          "citations": [
+            "Article 2, EU AI Act; Article 3, GDPR"
+          ]
+        }
+      ],
+      "citations": [
+        "Article 2, Regulation (EU) 2024/... on Artificial Intelligence"
+      ]
+    },
+    "free-movement": {
+      "id": "free-movement",
+      "title": "Free Movement of AI Systems",
+      "content": "AI systems that comply with this Regulation may be placed on the market, put into service and used in the Union. Member States shall not maintain or introduce, in their national law, restrictions to the placing on the market, putting into service or use of AI systems that comply with this Regulation, unless explicitly authorised by this Regulation.",
+      "bareActText": "Article 4 - Free movement\n\n(1) AI systems that comply with this Regulation may be placed on the market, put into service and used in the Union.\n\n(2) Member States shall not maintain or introduce, in their national law, restrictions to the placing on the market, putting into service or use of AI systems that comply with this Regulation, unless explicitly authorised by this Regulation.\n\n(3) This Regulation shall not prevent Member States from maintaining or introducing laws, regulations or administrative provisions that are more favourable to the protection of fundamental rights, provided that such provisions are compatible with this Regulation.",
+      "laymanExplanation": "The Act ensures that AI systems that comply with EU rules can be freely used across all EU countries. EU countries cannot create their own additional restrictions on compliant AI systems. However, countries can have stricter rules if they better protect fundamental rights, as long as they don't conflict with the Act. This creates a single EU market for AI systems - once an AI system complies with the Act, it can be used anywhere in the EU without additional national restrictions.",
+      "crossMapping": "GDPR Article 1(3): Similar principle - harmonisation of data protection rules across EU. Product Safety Legislation: Similar free movement principle for compliant products. Key Similarity: All ensure free movement of compliant products/services within the EU single market.",
+      "subsections": [
+        {
+          "id": "free-movement-principle",
+          "title": "Free Movement Principle",
+          "content": "AI systems that comply with this Regulation may be freely placed on the market, put into service and used in the Union.",
+          "bareActText": "Article 4(1) AI systems that comply with this Regulation may be placed on the market, put into service and used in the Union.",
+          "laymanExplanation": "Once an AI system complies with the EU AI Act, it can be used anywhere in the EU without additional restrictions. This creates a single market - you don't need separate approvals for each EU country.",
+          "crossMapping": "Product Safety Legislation: Similar free movement principle. Key Similarity: Both ensure compliant products can move freely within the EU.",
+          "citations": [
+            "Article 4(1), EU AI Act"
+          ]
+        },
+        {
+          "id": "no-additional-restrictions",
+          "title": "No Additional National Restrictions",
+          "content": "Member States shall not maintain or introduce restrictions to compliant AI systems unless explicitly authorised.",
+          "bareActText": "Article 4(2) Member States shall not maintain or introduce, in their national law, restrictions to the placing on the market, putting into service or use of AI systems that comply with this Regulation, unless explicitly authorised by this Regulation.",
+          "laymanExplanation": "EU countries cannot add their own restrictions on AI systems that already comply with the Act. This prevents countries from creating barriers that would fragment the EU market. However, countries can have stricter rules if they better protect fundamental rights.",
+          "crossMapping": "GDPR: Similar principle - harmonisation prevents additional national restrictions. Key Similarity: Both ensure consistent EU-wide rules without national fragmentation.",
+          "citations": [
+            "Article 4(2), EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding free movement helps you know that compliance with the Act allows use across the entire EU.",
+          "laymanExplanation": "What Is Free Movement?\n\nThe Act ensures that AI systems that comply with EU rules can be freely used across all EU countries:\n\nSingle Market: Once your AI system complies with the Act, it can be used anywhere in the EU\n\nNo Additional Restrictions: EU countries cannot add their own restrictions on compliant AI systems\n\nStricter Rights Protection: Countries can have stricter rules if they better protect fundamental rights\n\nWhy This Matters: This creates a single EU market for AI systems. You don't need separate approvals for each EU country - compliance with the Act is sufficient for use across the entire EU.",
+          "citations": [
+            "Article 4, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "Free movement provisions can be compared with similar principles.",
+          "crossMapping": "GDPR Article 1(3): Similar principle - harmonisation of data protection rules across EU prevents additional national restrictions. Product Safety Legislation: Similar free movement principle for compliant products. Key Takeaway: The EU AI Act follows the same free movement principle as GDPR and product safety laws, ensuring a single EU market for compliant AI systems.",
+          "citations": [
+            "Article 4, EU AI Act; GDPR; Product Safety Legislation"
+          ]
+        }
+      ],
+      "citations": [
+        "Article 4, Regulation (EU) 2024/... on Artificial Intelligence"
+      ]
+    },
+    "stakeholders": {
+      "id": "stakeholders",
+      "title": "Stakeholders",
+      "content": "Key stakeholders under the EU AI Act:\n\nProvider means a natural or legal person, public authority, agency or other body that develops an AI system or that has an AI system developed and places it on the market or puts it into service under its own name or trademark, whether for payment or free of charge.\n\nDeployer means a natural or legal person, public authority, agency or other body using an AI system under its authority, except where the AI system is used in the course of a personal non-professional activity.\n\nAuthorised Representative means any natural or legal person established in the Union who has received a written mandate from a provider to perform the obligations and procedures laid down in this Regulation on the provider's behalf.\n\nImporter means any natural or legal person established in the Union that places on the market an AI system that bears the name or trademark of a natural or legal person established outside the Union.\n\nDistributor means any natural or legal person in the supply chain, other than the provider or the importer, that makes an AI system available on the Union market.",
+      "bareActText": "Article 3 - Definitions\n\n(2) 'provider' means a natural or legal person, public authority, agency or other body that develops an AI system or that has an AI system developed and places it on the market or puts it into service under its own name or trademark, whether for payment or free of charge;\n\n(3) 'deployer' means a natural or legal person, public authority, agency or other body using an AI system under its authority, except where the AI system is used in the course of a personal non-professional activity;\n\n(4) 'authorised representative' means any natural or legal person established in the Union who has received a written mandate from a provider to perform the obligations and procedures laid down in this Regulation on the provider's behalf;\n\n(5) 'importer' means any natural or legal person established in the Union that places on the market an AI system that bears the name or trademark of a natural or legal person established outside the Union;\n\n(6) 'distributor' means any natural or legal person in the supply chain, other than the provider or the importer, that makes an AI system available on the Union market;",
+      "laymanExplanation": "The EU AI Act defines different roles in the AI ecosystem, each with specific responsibilities. Provider is the company that develops or markets the AI system - they have primary responsibility for compliance. Deployer is the company that uses the AI system - they must use it responsibly and monitor its performance. Authorised Representative is someone in the EU who represents a non-EU provider. Importer brings AI systems from outside the EU into the EU market. Distributor sells or makes available AI systems in the EU. Your obligations depend on which role you play - Providers have the most responsibilities, especially for high-risk AI systems.",
+      "crossMapping": "GDPR Comparison: Provider ≈ Controller (determines purposes), Deployer ≈ Controller (when using AI). Product Safety Legislation: Provider ≈ Manufacturer, Importer/Distributor have similar roles. Key Similarity: Role-based responsibility model similar to GDPR and product safety laws.",
+      "subsections": [
+        {
+          "id": "provider",
+          "title": "Provider",
+          "content": "The entity that develops an AI system or has it developed and places it on the market or puts it into service.",
+          "bareActText": "(2) 'provider' means a natural or legal person, public authority, agency or other body that develops an AI system or that has an AI system developed and places it on the market or puts it into service under its own name or trademark, whether for payment or free of charge;",
+          "laymanExplanation": "A Provider is the company that creates or markets an AI system. Even if you hire someone else to develop it, if you market it under your name, you're the Provider and have primary responsibility for ensuring the AI meets all requirements, especially for high-risk AI systems. Think of it like a product manufacturer - you're responsible for product safety.",
+          "crossMapping": "GDPR 'Controller': Similar concept - entity that determines purposes and means. Product Safety 'Manufacturer': Identical role and responsibilities. Key Similarity: Provider has primary compliance responsibility.",
+          "citations": [
+            "Article 3(2), EU AI Act"
+          ]
+        },
+        {
+          "id": "deployer",
+          "title": "Deployer",
+          "content": "The entity using an AI system under its authority, excluding personal non-professional use.",
+          "bareActText": "(3) 'deployer' means a natural or legal person, public authority, agency or other body using an AI system under its authority, except where the AI system is used in the course of a personal non-professional activity;",
+          "laymanExplanation": "A Deployer is the company that actually uses an AI system. For example, if a bank uses an AI system to evaluate loan applications, the bank is the Deployer. Deployers must use AI systems properly, monitor their performance, ensure human oversight, and inform users when they're interacting with AI. Personal use (like using ChatGPT for personal tasks) doesn't count.",
+          "crossMapping": "GDPR 'Controller': Similar concept when controller uses AI for processing. Key Similarity: Deployer has obligations to use AI responsibly and ensure proper oversight.",
+          "citations": [
+            "Article 3(3), EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding stakeholder roles helps determine your responsibilities.",
+          "laymanExplanation": "Who Are the Stakeholders?\n\nThe EU AI Act defines different roles, each with specific responsibilities:\n\nProvider: The company that develops or markets the AI system. They have primary responsibility for compliance, especially for high-risk AI systems.\n\nDeployer: The company that uses the AI system. They must use it responsibly, monitor performance, and ensure human oversight.\n\nAuthorised Representative: Someone in the EU who represents a non-EU provider.\n\nImporter: Brings AI systems from outside the EU into the EU market.\n\nDistributor: Sells or makes available AI systems in the EU.\n\nWhy This Matters: Your obligations depend on which role you play. Providers have the most responsibilities, especially for high-risk AI systems. Understanding your role is the first step in compliance.",
+          "citations": [
+            "Article 3, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "Stakeholder roles can be compared with similar concepts in other frameworks.",
+          "crossMapping": "GDPR Comparison:\n- Provider ≈ Controller (determines purposes and means)\n- Deployer ≈ Controller (when using AI for processing)\n- Similar role-based responsibility model\n\nProduct Safety Legislation:\n- Provider ≈ Manufacturer\n- Importer/Distributor have similar roles\n- Similar supply chain responsibility model\n\nKey Takeaway: The EU AI Act's stakeholder model is similar to GDPR's controller/processor model and product safety's manufacturer/importer/distributor model, ensuring clear responsibility allocation.",
+          "citations": [
+            "Article 3, EU AI Act; GDPR; Product Safety Legislation"
+          ]
+        }
+      ],
+      "citations": [
+        "Article 3, EU AI Act"
+      ]
+    },
+    "exemptions": {
+      "id": "exemptions",
+      "title": "Exemptions and Exceptions",
+      "content": "The Regulation provides certain exemptions:\n\n1. Research and Development: AI systems developed and used exclusively for research, development or prototyping activities before they are placed on the market or put into service.\n\n2. Open Source AI: AI systems released under a free and open-source licence, subject to certain conditions.\n\n3. National Security: AI systems exclusively developed or used for military, defence or national security purposes.\n\n4. Law Enforcement: Specific exemptions for law enforcement use under certain conditions and safeguards.",
+      "bareActText": "Article 2(3) This Regulation does not apply to AI systems developed or used exclusively for military, defence or national security purposes.\n\nArticle 2(5) This Regulation does not apply to AI systems used for the sole purpose of research, development or prototyping activities before they are placed on the market or put into service.\n\nArticle 2(6) AI systems released under a free and open-source licence may be exempt from certain requirements, subject to conditions specified in the Regulation.",
+      "laymanExplanation": "The Act provides exemptions for certain types of AI systems: (1) Military/National Security - Defense systems are exempt. (2) Research AI - AI systems used only for research before they're sold are exempt. (3) Open Source AI - Some open-source AI systems may be exempt from certain requirements, though they still need to meet basic safety standards. These exemptions make sense - you don't want to over-regulate research that might never become a product, and military systems have their own rules. However, once research AI becomes a product, the Act applies.",
+      "crossMapping": "GDPR Article 2(2): Excludes processing for law enforcement (covered by separate directive). Product Safety Legislation: Similar exemptions for military and research. Key Similarity: All frameworks exempt military/defense and research activities. Key Difference: EU AI Act has specific open-source exemptions, which is unique.",
+      "subsections": [
+        {
+          "id": "research-exemption",
+          "title": "Research and Development Exemption",
+          "content": "AI systems developed and used exclusively for research, development or prototyping activities are exempt, provided they are not placed on the market or put into service.",
+          "bareActText": "Article 2(5) This Regulation does not apply to AI systems used for the sole purpose of research, development or prototyping activities before they are placed on the market or put into service.",
+          "laymanExplanation": "AI systems used only for research are exempt from the Act's requirements, as long as they're not sold or used commercially. This allows researchers to experiment without compliance burdens. However, once research AI becomes a product, the Act applies. Think of it like drug research - experimental drugs don't need full approval, but once they're sold, they do.",
+          "crossMapping": "Product Safety Legislation: Similar research exemptions. Key Similarity: Both exempt research activities before market entry.",
+          "citations": [
+            "Article 2(5), EU AI Act"
+          ]
+        },
+        {
+          "id": "open-source-exemption",
+          "title": "Open Source AI Systems",
+          "content": "AI systems released under free and open-source licences may be exempt from certain requirements, subject to conditions specified in the Regulation.",
+          "bareActText": "Article 2(6) AI systems released under a free and open-source licence may be exempt from certain requirements, subject to conditions specified in the Regulation.",
+          "laymanExplanation": "Open-source AI systems (like those released on GitHub under open licenses) may be exempt from some requirements, though they still need to meet basic safety standards. This encourages open-source innovation while maintaining safety. However, the exemption has conditions - not all open-source AI systems qualify.",
+          "crossMapping": "Product Safety Legislation: No similar open-source exemptions. Key Difference: EU AI Act's open-source exemption is unique and reflects the importance of open-source AI development.",
+          "citations": [
+            "Article 2(6), EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding exemptions helps determine when the Act applies.",
+          "laymanExplanation": "What Are the Exemptions?\n\nThe Act doesn't apply to:\n\nMilitary/National Security AI: Defense systems are exempt because they have their own rules and requirements.\n\nResearch AI: AI systems used only for research (before they're sold) are exempt. This allows researchers to experiment without compliance burdens.\n\nOpen Source AI: Some open-source AI systems may be exempt from certain requirements, though they still need to meet basic safety standards.\n\nWhy This Matters: These exemptions balance regulation with innovation and national security needs. However, once research AI becomes a product, the Act applies. Understanding exemptions helps you determine if your AI system needs to comply.",
+          "citations": [
+            "Article 2, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "Exemptions can be compared with similar provisions in other frameworks.",
+          "crossMapping": "GDPR Article 2(2): Excludes processing for law enforcement (covered by separate directive). Product Safety Legislation: Similar exemptions for military and research. Key Similarity: All frameworks exempt military/defense and research activities. Key Difference: EU AI Act has specific open-source exemptions, which is unique and reflects the importance of open-source AI development.",
+          "citations": [
+            "Article 2, EU AI Act; GDPR; Product Safety Legislation"
+          ]
+        }
+      ],
+      "citations": [
+        "Article 2, EU AI Act"
+      ]
+    },
+    "obligations": {
+      "id": "obligations",
+      "title": "Obligations Based on Risk Categories",
+      "content": "The Regulation categorizes AI systems into risk categories with corresponding obligations:\n\nProhibited AI Practices (Article 5): AI systems that are prohibited due to unacceptable risk, including:\n- AI systems using subliminal techniques to distort behaviour\n- AI systems exploiting vulnerabilities of specific groups\n- AI systems for social scoring by public authorities\n- Real-time remote biometric identification in publicly accessible spaces for law enforcement (with limited exceptions)\n\nHigh-Risk AI Systems (Articles 6-7): AI systems subject to strict requirements including:\n- Risk management system\n- Data governance and data quality\n- Technical documentation\n- Record-keeping\n- Transparency and provision of information to users\n- Human oversight\n- Accuracy, robustness and cybersecurity\n- Conformity assessment\n\nLimited Risk AI Systems (Article 50): Subject to transparency obligations, including informing users that they are interacting with an AI system.\n\nMinimal Risk AI Systems: Subject to voluntary codes of conduct.",
+      "bareActText": "Article 5 - Prohibited AI practices\n\nAI systems that use subliminal techniques to distort behaviour, exploit vulnerabilities of specific groups, enable social scoring by public authorities, or use real-time remote biometric identification in publicly accessible spaces for law enforcement (with limited exceptions) are prohibited.\n\nArticles 6-7 - High-risk AI systems\n\nHigh-risk AI systems must comply with requirements including: risk management system, data governance and data quality, technical documentation, record-keeping, transparency and provision of information to users, human oversight, accuracy, robustness and cybersecurity, and conformity assessment.\n\nArticle 50 - Transparency obligations for certain AI systems\n\nLimited risk AI systems are subject to transparency obligations, including informing users that they are interacting with an AI system.",
+      "laymanExplanation": "The Act uses a risk-based approach - the higher the risk, the more requirements you must meet. Prohibited Practices are completely banned (like AI that manipulates people or enables social scoring). High-Risk AI (used in healthcare, employment, law enforcement, etc.) must meet strict requirements before market entry, including risk management, data quality, human oversight, and conformity assessment. Limited Risk AI (like chatbots) just need to tell users they're interacting with AI. Minimal Risk AI (like spam filters) have voluntary codes. Your obligations depend on which category your AI system falls into.",
+      "crossMapping": "Medical Device Regulation: Similar risk-based approach with high-risk devices requiring strict controls. Product Safety Legislation: Similar categorization based on risk. GDPR: Also uses risk-based approach for data protection impact assessments. Key Similarity: All use risk-based regulation to balance safety with innovation.",
+      "subsections": [
+        {
+          "id": "prohibited-practices",
+          "title": "Prohibited AI Practices",
+          "content": "AI systems that use subliminal techniques, exploit vulnerabilities, enable social scoring by public authorities, or use real-time remote biometric identification in publicly accessible spaces (with limited exceptions) are prohibited.",
+          "bareActText": "Article 5 - Prohibited AI practices include: AI systems using subliminal techniques to distort behaviour, AI systems exploiting vulnerabilities of specific groups, AI systems for social scoring by public authorities, and real-time remote biometric identification in publicly accessible spaces for law enforcement (with limited exceptions).",
+          "laymanExplanation": "Some AI practices are completely banned because they're too dangerous or violate fundamental rights. These include: (1) Subliminal manipulation - AI that tricks people without them knowing. (2) Exploiting vulnerabilities - AI that targets children, disabled people, or other vulnerable groups. (3) Social scoring - Government AI systems that rate citizens' behavior. (4) Real-time facial recognition - Police using AI to identify people in public spaces (with very limited exceptions). These practices are banned because they're too risky or violate human rights.",
+          "crossMapping": "GDPR Article 9: Prohibits certain types of processing. Human Rights Law: Similar prohibitions on practices that violate fundamental rights. Key Similarity: All frameworks prohibit practices that violate fundamental rights or pose unacceptable risks.",
+          "citations": [
+            "Article 5, EU AI Act"
+          ]
+        },
+        {
+          "id": "high-risk-requirements",
+          "title": "High-Risk AI System Requirements",
+          "content": "High-risk AI systems must comply with requirements including risk management, data governance, technical documentation, record-keeping, transparency, human oversight, and accuracy/robustness measures. They must undergo conformity assessment before being placed on the market or put into service.",
+          "bareActText": "Articles 8-15 - High-risk AI systems must comply with: risk management system (Article 8), data governance and data quality (Article 10), technical documentation (Article 11), record-keeping (Article 12), transparency and provision of information to users (Article 13), human oversight (Article 14), accuracy, robustness and cybersecurity (Article 15), and conformity assessment (Articles 43-44).",
+          "laymanExplanation": "High-risk AI systems (used in healthcare, employment, law enforcement, etc.) must meet strict requirements: (1) Risk management - Identify and mitigate risks. (2) Data quality - Use good training data. (3) Documentation - Keep technical records. (4) Transparency - Tell users about the AI. (5) Human oversight - Humans must be able to intervene. (6) Accuracy - AI must work correctly and securely. (7) Conformity assessment - Must be certified before use. Think of it like medical devices - they need strict controls because they can harm people.",
+          "crossMapping": "Medical Device Regulation: Similar requirements for high-risk devices. Product Safety Legislation: Similar conformity assessment requirements. Key Similarity: All require strict controls and certification for high-risk products.",
+          "citations": [
+            "Articles 8-15, 43-44, EU AI Act"
+          ]
+        },
+        {
+          "id": "risk-management-system",
+          "title": "Risk Management System (Article 8)",
+          "content": "High-risk AI systems must have a risk management system that identifies, analyses, evaluates and addresses the risks that may emerge when the AI system is used.",
+          "bareActText": "Article 8 - Risk management system\n\n(1) A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.\n\n(2) The risk management system shall consist of a continuous iterative process run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating of the risk management measures.\n\n(3) The risk management measures shall give due consideration to the effects and possible interactions resulting from the combined application of the requirements set out in this Chapter, due to the nature of the AI system and the intended purpose and the context of use.",
+          "laymanExplanation": "High-risk AI systems must have a risk management system that continuously identifies and addresses risks. This isn't a one-time check - it's an ongoing process that runs throughout the AI system's entire lifecycle. Providers must regularly review and update their risk management measures, considering how different requirements interact and how the AI is actually being used.",
+          "crossMapping": "Medical Device Regulation: Similar risk management requirements. ISO 14971: International standard for risk management of medical devices. Key Similarity: All require continuous risk management throughout product lifecycle.",
+          "citations": [
+            "Article 8, EU AI Act"
+          ]
+        },
+        {
+          "id": "data-governance",
+          "title": "Data Governance and Data Quality (Article 10)",
+          "content": "High-risk AI systems must be trained, validated and tested on data sets that meet quality criteria, including relevance, representativeness, accuracy and completeness.",
+          "bareActText": "Article 10 - Data and data governance\n\n(1) High-risk AI systems that make use of techniques involving the training of models with data shall be developed on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 and 3.\n\n(2) Training, validation and testing data sets shall be subject to appropriate data governance and management practices. Those practices shall concern design choices and assumptions made by the provider, including but not limited to:\n(a) the relevant design choices, including as regards the methods used for data collection, data preparation, data labelling and data augmentation;\n(b) the relevant assumptions about the data, including as regards the availability, quantity and suitability of the data required for training, validation and testing;\n(c) the prior assessment of the availability, quantity and suitability of the data required for training, validation and testing;\n(d) examination in view of possible biases that are likely to affect the health and safety of persons, in particular those related to the characteristics of the persons or groups of persons on which the high-risk AI system is intended to be used;\n(e) the identification of any gaps or shortcomings in the data and how those gaps and shortcomings can be addressed.",
+          "laymanExplanation": "High-risk AI systems must be trained on high-quality data. Providers must carefully manage their data, including: (1) Data collection - How data is collected and prepared. (2) Data quality - Ensuring data is relevant, representative, accurate, and complete. (3) Bias assessment - Checking for biases that could harm people, especially vulnerable groups. (4) Gap identification - Finding and fixing data problems. Bad data leads to bad AI, so data quality is critical for high-risk systems.",
+          "crossMapping": "GDPR Article 5: Requires data accuracy and quality. Medical Device Regulation: Similar data quality requirements. Key Similarity: All recognize that data quality is fundamental to system quality.",
+          "citations": [
+            "Article 10, EU AI Act"
+          ]
+        },
+        {
+          "id": "technical-documentation",
+          "title": "Technical Documentation (Article 11)",
+          "content": "High-risk AI systems must have technical documentation that demonstrates compliance with the requirements of this Regulation.",
+          "bareActText": "Article 11 - Technical documentation\n\n(1) The technical documentation of a high-risk AI system shall be drawn up before that system is placed on the market or put into service and shall be kept up-to-date.\n\n(2) The technical documentation shall be drawn up in such a way as to demonstrate that the high-risk AI system complies with the requirements set out in this Chapter and to provide national supervisory authorities and notified bodies with all the necessary information to assess the compliance of the AI system with those requirements.",
+          "laymanExplanation": "High-risk AI systems must have detailed technical documentation that shows how the system complies with all requirements. This documentation must be created before the system is released and kept up-to-date. It must provide enough information for authorities to verify compliance. Think of it like a technical manual that proves the AI system is safe and compliant.",
+          "crossMapping": "Product Safety Legislation: Similar technical documentation requirements. Medical Device Regulation: Similar documentation obligations. Key Similarity: All require comprehensive documentation to demonstrate compliance.",
+          "citations": [
+            "Article 11, EU AI Act"
+          ]
+        },
+        {
+          "id": "record-keeping",
+          "title": "Record-Keeping (Article 12)",
+          "content": "High-risk AI systems must automatically record events while the system is operating, to enable the tracing of problems.",
+          "bareActText": "Article 12 - Record-keeping\n\n(1) High-risk AI systems shall be designed and developed with capabilities enabling the automatic recording of events ('logs') while the high-risk AI system is operating. Those logging capabilities shall conform to recognised standards or common specifications.\n\n(2) The logging capabilities shall ensure a level of traceability of the high-risk AI system's functioning throughout its lifecycle that is appropriate to the intended purpose of the system.",
+          "laymanExplanation": "High-risk AI systems must automatically log events while operating, so problems can be traced and understood. This is like a black box for AI systems - it records what happened so you can investigate issues. The logging must be appropriate for the system's purpose - more critical systems need more detailed logging.",
+          "crossMapping": "Aviation Safety: Similar black box recording requirements. Medical Device Regulation: Similar traceability requirements. Key Similarity: All require logging/traceability for high-risk systems.",
+          "citations": [
+            "Article 12, EU AI Act"
+          ]
+        },
+        {
+          "id": "transparency-users",
+          "title": "Transparency and Provision of Information to Users (Article 13)",
+          "content": "High-risk AI systems must provide users with clear and adequate information about the system's capabilities, limitations, and intended purpose.",
+          "bareActText": "Article 13 - Transparency and provision of information to users\n\n(1) High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which the AI system is in use.\n\n(2) High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to users.",
+          "laymanExplanation": "High-risk AI systems must be designed so humans can effectively oversee them. They must come with clear instructions that explain: (1) How to use the system - What it does and how to use it properly. (2) System capabilities and limitations - What it can and cannot do. (3) Intended purpose - What the system is designed for. (4) Human oversight - How humans can monitor and intervene. Users need to understand the AI system to use it safely and effectively.",
+          "crossMapping": "Product Safety Legislation: Similar user information requirements. Medical Device Regulation: Similar instructions for use. Key Similarity: All require clear user information for safe use.",
+          "citations": [
+            "Article 13, EU AI Act"
+          ]
+        },
+        {
+          "id": "human-oversight",
+          "title": "Human Oversight (Article 14)",
+          "content": "High-risk AI systems must be designed and developed in such a way that they can be effectively overseen by natural persons during the period in which the AI system is in use.",
+          "bareActText": "Article 14 - Human oversight\n\n(1) High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which the AI system is in use.\n\n(2) Human oversight shall aim to prevent or minimise the risks to health, safety or fundamental rights that may emerge when a high-risk AI system is used.\n\n(3) Human oversight shall be ensured through either or both of the following methods:\n(a) in-built human oversight tools and measures that can be used to prevent or minimise the risks to health, safety or fundamental rights;\n(b) identified natural persons who are available and competent to oversee the high-risk AI system throughout the period during which it is in use.",
+          "laymanExplanation": "High-risk AI systems must allow humans to effectively oversee and intervene. This means: (1) Built-in oversight tools - The system must have features that let humans monitor and control it. (2) Competent human oversight - There must be qualified people available to oversee the system while it's in use. (3) Risk prevention - The oversight must prevent or minimize risks to health, safety, or fundamental rights. Humans must be able to stop or correct the AI system if something goes wrong.",
+          "crossMapping": "Aviation Safety: Similar human oversight requirements for automated systems. Medical Device Regulation: Similar human oversight for medical devices. Key Similarity: All require human oversight for high-risk automated systems.",
+          "citations": [
+            "Article 14, EU AI Act"
+          ]
+        },
+        {
+          "id": "accuracy-robustness",
+          "title": "Accuracy, Robustness and Cybersecurity (Article 15)",
+          "content": "High-risk AI systems must be designed and developed to achieve an appropriate level of accuracy, robustness and cybersecurity.",
+          "bareActText": "Article 15 - Accuracy, robustness and cybersecurity\n\n(1) High-risk AI systems shall be designed and developed in such a way that they achieve, in the light of their intended purpose, an appropriate level of accuracy, robustness and cybersecurity, and perform consistently in those respects throughout their lifecycle.\n\n(2) High-risk AI systems shall be resilient to errors, faults or inconsistencies that may occur within the system or the environment in which the system operates, in particular due to their interaction with natural persons or other systems.\n\n(3) High-risk AI systems that continue to learn after being placed on the market or put into service shall be developed in such a way that possible biases are detected, corrected and prevented throughout the lifecycle of the high-risk AI system.",
+          "laymanExplanation": "High-risk AI systems must be: (1) Accurate - Work correctly and achieve their intended purpose. (2) Robust - Handle errors, faults, and unexpected situations without failing dangerously. (3) Cybersecure - Protected against cyber attacks. (4) Consistent - Perform reliably throughout their lifecycle. (5) Bias-resistant - If the system continues learning, it must detect and prevent biases. The system must work correctly even when things go wrong or the environment changes.",
+          "crossMapping": "Cybersecurity Act: Similar cybersecurity requirements. Medical Device Regulation: Similar accuracy and robustness requirements. Key Similarity: All require high standards of accuracy, robustness, and security for high-risk systems.",
+          "citations": [
+            "Article 15, EU AI Act"
+          ]
+        },
+        {
+          "id": "general-purpose-ai",
+          "title": "General-Purpose AI Models",
+          "content": "General-purpose AI models must comply with transparency obligations and, if they pose systemic risks, additional requirements including model evaluations, adversarial testing, and incident reporting.",
+          "bareActText": "Articles 51-55 - General-purpose AI models must comply with transparency obligations (Article 50) and, if they pose systemic risks, additional requirements including: model evaluations, adversarial testing, incident reporting, and other measures specified in the Regulation.",
+          "laymanExplanation": "General-purpose AI models (like ChatGPT) must: (1) Be transparent - Tell users they're interacting with AI. (2) If systemic risk - Models that could cause widespread harm must meet additional requirements like evaluations, testing, and incident reporting. This recognizes that general-purpose AI can be used in many ways, some risky, so they need special attention.",
+          "crossMapping": "US AI Executive Order: Also addresses foundation models and general-purpose AI. Key Similarity: Recognition that general-purpose AI requires special regulatory attention due to versatility and potential for widespread impact.",
+          "citations": [
+            "Articles 50-55, EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding obligations helps determine what you must do based on your AI system's risk level.",
+          "laymanExplanation": "What Are the Obligations?\n\nThe Act uses a risk-based approach - the higher the risk, the more requirements:\n\nProhibited Practices: Completely banned (manipulation, social scoring, etc.)\n\nHigh-Risk AI: Must meet strict requirements (risk management, data quality, human oversight, certification) before use\n\nLimited Risk AI: Just need to tell users they're interacting with AI\n\nMinimal Risk AI: Voluntary codes of conduct\n\nWhy This Matters: Your obligations depend on which category your AI system falls into. High-risk AI (used in healthcare, employment, etc.) has the most requirements because it can significantly impact people's lives. Understanding your AI's risk category is crucial for compliance.",
+          "citations": [
+            "Articles 5-15, 50-55, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "Obligations can be compared with similar risk-based requirements.",
+          "crossMapping": "Medical Device Regulation: Similar risk-based approach with high-risk devices requiring strict controls and certification. Product Safety Legislation: Similar categorization and requirements based on risk. GDPR: Also uses risk-based approach for data protection impact assessments. Key Takeaway: The EU AI Act's risk-based approach is consistent with other EU regulations, ensuring appropriate level of control based on risk.",
+          "citations": [
+            "Articles 5-15, 50-55, EU AI Act; Medical Device Regulation; GDPR"
+          ]
+        }
+      ],
+      "citations": [
+        "Articles 5-15, 50-55, EU AI Act"
+      ]
+    },
+    "conformity-assessment": {
+      "id": "conformity-assessment",
+      "title": "Conformity Assessment",
+      "content": "High-risk AI systems must undergo conformity assessment before being placed on the market or put into service. The conformity assessment procedure may be carried out by the provider (internal control) or by a notified body (third-party assessment), depending on the type of high-risk AI system.",
+      "bareActText": "Article 43 - Conformity assessment\n\n(1) Before placing a high-risk AI system on the market or putting it into service, providers shall ensure that it has been subject to the relevant conformity assessment procedure, where applicable, in accordance with Article 19.\n\n(2) The conformity assessment shall be carried out in accordance with the procedures set out in Annex VI.\n\n(3) The conformity assessment shall be carried out before the high-risk AI system is placed on the market or put into service.\n\n(4) The conformity assessment may be carried out by the provider (internal control) or by a notified body (third-party assessment), depending on the type of high-risk AI system.",
+      "laymanExplanation": "Before a high-risk AI system can be used, it must be certified that it meets all the Act's requirements. This is called conformity assessment. Some systems can be self-assessed by the provider (internal control), while others require certification by an independent body (notified body). Think of it like a safety inspection - the system must pass before it can be used. The assessment must be done before the system is released.",
+      "crossMapping": "Product Safety Legislation: Similar conformity assessment requirements. Medical Device Regulation: Similar certification process before market entry. Key Similarity: All require certification before high-risk products can be used.",
+      "subsections": [
+        {
+          "id": "conformity-assessment-procedures",
+          "title": "Conformity Assessment Procedures",
+          "content": "Conformity assessment procedures are set out in Annex VI and may include internal control or third-party assessment by a notified body.",
+          "bareActText": "Article 43(2) The conformity assessment shall be carried out in accordance with the procedures set out in Annex VI.\n\nArticle 19 - Conformity assessment procedures\n\n(1) The conformity assessment of high-risk AI systems shall be carried out in accordance with one of the following procedures:\n(a) the conformity assessment procedure based on internal control set out in Annex VI;\n(b) the conformity assessment procedure based on assessment of the quality management system and assessment of the technical documentation set out in Annex VII.",
+          "laymanExplanation": "There are two main types of conformity assessment: (1) Internal control - The provider assesses their own system (self-certification). (2) Third-party assessment - An independent notified body certifies the system. Which procedure applies depends on the type of high-risk AI system. The procedures are detailed in Annex VI and VII of the Act.",
+          "crossMapping": "Product Safety Legislation: Similar internal control and third-party assessment procedures. Key Similarity: Both offer self-certification and third-party certification options.",
+          "citations": [
+            "Articles 19, 43, Annex VI-VII, EU AI Act"
+          ]
+        },
+        {
+          "id": "ce-marking",
+          "title": "CE Marking",
+          "content": "High-risk AI systems that have undergone conformity assessment must bear the CE marking, indicating conformity with this Regulation.",
+          "bareActText": "Article 48 - CE marking\n\n(1) The CE marking shall be affixed visibly, legibly and indelibly to high-risk AI systems that are in conformity with this Regulation.\n\n(2) The CE marking shall be affixed before the high-risk AI system is placed on the market or put into service.\n\n(3) The CE marking shall be followed by the identification number of the notified body, where applicable.",
+          "laymanExplanation": "High-risk AI systems that pass conformity assessment must have a CE marking, which shows they comply with the Act. The CE marking must be visible and permanent, and must be added before the system is released. If a notified body certified the system, the notified body's identification number must also be shown. The CE marking is like a seal of approval - it shows the system meets EU requirements.",
+          "crossMapping": "Product Safety Legislation: Similar CE marking requirements for compliant products. Medical Device Regulation: Similar CE marking for medical devices. Key Similarity: All use CE marking to indicate EU compliance.",
+          "citations": [
+            "Article 48, EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding conformity assessment helps you know what's required before a high-risk AI system can be used.",
+          "laymanExplanation": "What Is Conformity Assessment?\n\nBefore a high-risk AI system can be used, it must be certified that it meets all the Act's requirements:\n\nTwo Types of Assessment:\n- Internal control - Provider assesses their own system (self-certification)\n- Third-party assessment - Independent notified body certifies the system\n\nCE Marking: Systems that pass must have a CE marking showing compliance\n\nWhen It's Required: Assessment must be done before the system is released\n\nWhy This Matters: Conformity assessment ensures high-risk AI systems are safe and compliant before they can be used. It's like a safety inspection - the system must pass before it can be used.",
+          "citations": [
+            "Articles 19, 43, 48, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "Conformity assessment can be compared with similar certification processes.",
+          "crossMapping": "Product Safety Legislation: Similar conformity assessment requirements with internal control and third-party assessment options. Medical Device Regulation: Similar certification process before market entry with CE marking. Key Takeaway: The EU AI Act's conformity assessment follows the same model as product safety and medical device regulations, ensuring consistent certification standards.",
+          "citations": [
+            "Articles 19, 43, 48, EU AI Act; Product Safety Legislation; Medical Device Regulation"
+          ]
+        }
+      ],
+      "citations": [
+        "Articles 19, 43-48, Annex VI-VII, EU AI Act"
+      ]
+    },
+    "post-market-monitoring": {
+      "id": "post-market-monitoring",
+      "title": "Post-Market Monitoring",
+      "content": "Providers of high-risk AI systems must establish and document a post-market monitoring system to continuously monitor the performance of their AI systems after they are placed on the market or put into service.",
+      "bareActText": "Article 72 - Post-market monitoring by providers and post-market monitoring plan for high-risk AI systems\n\n(1) Providers of high-risk AI systems shall establish and document a post-market monitoring system in a manner that is proportionate to the nature of the artificial intelligence technologies and the risks of the high-risk AI system.\n\n(2) The post-market monitoring system shall actively and systematically collect, document and analyse relevant data which may be provided by deployers or which may be acquired from other sources on the performance of high-risk AI systems throughout their lifetime, and allow the provider to evaluate the continuous compliance of AI systems with the requirements set out in Chapter III of this Title.",
+      "laymanExplanation": "After a high-risk AI system is released, providers must continuously monitor how it performs. They must: (1) Collect data - Gather information on how the system is performing. (2) Analyze performance - Review the data to identify problems. (3) Ensure compliance - Make sure the system continues to meet requirements. (4) Document everything - Keep records of monitoring activities. This is like ongoing quality control - the system must be monitored throughout its entire lifetime, not just at release.",
+      "crossMapping": "Medical Device Regulation: Similar post-market surveillance requirements. Product Safety Legislation: Similar monitoring obligations. Key Similarity: All require ongoing monitoring of high-risk products after market entry.",
+      "subsections": [
+        {
+          "id": "post-market-monitoring-plan",
+          "title": "Post-Market Monitoring Plan",
+          "content": "Providers must establish a post-market monitoring plan that is proportionate to the risks of the AI system.",
+          "bareActText": "Article 72(3) The post-market monitoring system shall be based on a post-market monitoring plan. The plan shall be part of the technical documentation referred to in Article 11.",
+          "laymanExplanation": "Providers must create a plan for how they'll monitor their AI system after release. This plan must be part of the technical documentation and must be appropriate for the system's risks. More risky systems need more comprehensive monitoring plans.",
+          "crossMapping": "Medical Device Regulation: Similar post-market surveillance plan requirements. Key Similarity: Both require documented monitoring plans.",
+          "citations": [
+            "Article 72(3), EU AI Act"
+          ]
+        },
+        {
+          "id": "incident-reporting",
+          "title": "Incident Reporting",
+          "content": "Providers must report serious incidents to the relevant authorities.",
+          "bareActText": "Article 73 - Reporting of serious incidents\n\n(1) Providers of high-risk AI systems shall report any serious incident to the relevant national supervisory authority of the Member State where the incident occurred.\n\n(2) The report shall be made immediately after the provider has established a causal relationship between the AI system and the serious incident or the reasonable likelihood of such a relationship, and in any event not later than 15 days after the provider becomes aware of the serious incident.",
+          "laymanExplanation": "If a high-risk AI system causes or could cause a serious incident (like harm to health, safety, or fundamental rights), the provider must report it to authorities immediately (within 15 days). This is like a safety recall system - serious problems must be reported quickly so authorities can take action.",
+          "crossMapping": "Medical Device Regulation: Similar serious incident reporting requirements. Product Safety Legislation: Similar incident reporting obligations. Key Similarity: All require immediate reporting of serious incidents.",
+          "citations": [
+            "Article 73, EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding post-market monitoring helps you know your ongoing obligations after releasing a high-risk AI system.",
+          "laymanExplanation": "What Is Post-Market Monitoring?\n\nAfter a high-risk AI system is released, providers must continuously monitor how it performs:\n\nMonitoring System: Actively collect and analyze data on system performance\n\nMonitoring Plan: Documented plan for how monitoring will be done\n\nIncident Reporting: Report serious incidents to authorities immediately\n\nContinuous Compliance: Ensure the system continues to meet requirements\n\nWhy This Matters: Monitoring ensures that problems are caught and fixed quickly. It's like ongoing quality control - the system must be monitored throughout its entire lifetime, not just at release.",
+          "citations": [
+            "Articles 72-73, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "Post-market monitoring can be compared with similar requirements.",
+          "crossMapping": "Medical Device Regulation: Similar post-market surveillance requirements with incident reporting. Product Safety Legislation: Similar monitoring obligations. Key Takeaway: The EU AI Act's post-market monitoring follows the same model as medical device and product safety regulations, ensuring ongoing oversight of high-risk systems.",
+          "citations": [
+            "Articles 72-73, EU AI Act; Medical Device Regulation; Product Safety Legislation"
+          ]
+        }
+      ],
+      "citations": [
+        "Articles 72-73, EU AI Act"
+      ]
+    },
+    "codes-of-conduct": {
+      "id": "codes-of-conduct",
+      "title": "Codes of Conduct",
+      "content": "Providers and deployers of AI systems that are not high-risk may voluntarily draw up and commit to codes of conduct intended to foster the voluntary application of the requirements set out in this Regulation to such AI systems.",
+      "bareActText": "Article 95 - Codes of conduct\n\n(1) Providers and deployers of AI systems that are not high-risk may voluntarily draw up and commit to codes of conduct intended to foster the voluntary application of the requirements set out in this Regulation to such AI systems.\n\n(2) Codes of conduct may be drawn up by individual providers or deployers, or by associations or organisations representing them.\n\n(3) Codes of conduct may cover one or more of the following topics:\n(a) specific categories of AI systems;\n(b) specific sectors;\n(c) specific use cases.",
+      "laymanExplanation": "For AI systems that aren't high-risk, providers and deployers can voluntarily create codes of conduct that apply the Act's requirements. These codes are voluntary but can help companies demonstrate their commitment to responsible AI. Codes can be created by individual companies or by industry associations, and can cover specific types of AI systems, sectors, or use cases. Think of it as a voluntary best practices guide.",
+      "crossMapping": "GDPR Article 40: Similar codes of conduct for data protection. Product Safety Legislation: Similar voluntary codes. Key Similarity: All allow voluntary codes to promote best practices beyond mandatory requirements.",
+      "subsections": [
+        {
+          "id": "voluntary-nature",
+          "title": "Voluntary Nature",
+          "content": "Codes of conduct are voluntary for non-high-risk AI systems.",
+          "bareActText": "Article 95(1) Providers and deployers of AI systems that are not high-risk may voluntarily draw up and commit to codes of conduct intended to foster the voluntary application of the requirements set out in this Regulation to such AI systems.",
+          "laymanExplanation": "Codes of conduct are completely voluntary for non-high-risk AI systems. Companies can choose to create and follow them to demonstrate their commitment to responsible AI, but they're not required to do so.",
+          "crossMapping": "GDPR Article 40: Similar voluntary codes of conduct. Key Similarity: Both allow voluntary codes to promote best practices.",
+          "citations": [
+            "Article 95(1), EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding codes of conduct helps you know about voluntary best practices.",
+          "laymanExplanation": "What Are Codes of Conduct?\n\nFor AI systems that aren't high-risk, companies can voluntarily create codes of conduct:\n\nVoluntary: Not required, but can demonstrate commitment to responsible AI\n\nWho Creates Them: Individual companies or industry associations\n\nWhat They Cover: Specific types of AI systems, sectors, or use cases\n\nWhy This Matters: Codes of conduct help promote best practices beyond mandatory requirements. They're a way for companies to show they're committed to responsible AI even when not legally required.",
+          "citations": [
+            "Article 95, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "Codes of conduct can be compared with similar voluntary frameworks.",
+          "crossMapping": "GDPR Article 40: Similar codes of conduct for data protection that are voluntary but can demonstrate compliance. Product Safety Legislation: Similar voluntary codes. Key Takeaway: The EU AI Act's codes of conduct follow the same voluntary model as GDPR, allowing industry to develop best practices beyond mandatory requirements.",
+          "citations": [
+            "Article 95, EU AI Act; GDPR"
+          ]
+        }
+      ],
+      "citations": [
+        "Article 95, EU AI Act"
+      ]
+    },
+    "ai-sandboxes": {
+      "id": "ai-sandboxes",
+      "title": "AI Regulatory Sandboxes",
+      "content": "Member States may establish AI regulatory sandboxes to facilitate the development, training, testing and validation of innovative AI systems under strict regulatory oversight before they are placed on the market or put into service.",
+      "bareActText": "Article 57 - AI regulatory sandboxes\n\n(1) Member States may establish AI regulatory sandboxes to facilitate the development, training, testing and validation of innovative AI systems under strict regulatory oversight before they are placed on the market or put into service.\n\n(2) The sandboxes shall be established and shall operate in accordance with the conditions and procedures set out in this Article and in accordance with national law.\n\n(3) The sandboxes shall be open to providers of AI systems, including start-ups, SMEs and other undertakings, and to research organisations.",
+      "laymanExplanation": "AI regulatory sandboxes are controlled environments where companies can develop and test innovative AI systems under regulatory supervision before releasing them. They're like test tracks for AI - companies can experiment with new AI technologies while regulators watch to ensure safety. Sandboxes are open to all providers, including startups and small companies, and help foster innovation while maintaining safety.",
+      "crossMapping": "Financial Regulation: Similar regulatory sandboxes for fintech innovation. Key Similarity: Both provide controlled environments for testing innovative technologies under regulatory oversight.",
+      "subsections": [
+        {
+          "id": "sandbox-purpose",
+          "title": "Purpose of Sandboxes",
+          "content": "Sandboxes facilitate development and testing of innovative AI systems under regulatory oversight.",
+          "bareActText": "Article 57(1) Member States may establish AI regulatory sandboxes to facilitate the development, training, testing and validation of innovative AI systems under strict regulatory oversight before they are placed on the market or put into service.",
+          "laymanExplanation": "Sandboxes allow companies to develop and test innovative AI systems in a controlled environment with regulators watching. This helps companies innovate while ensuring safety. It's like a test track where you can try new things under supervision.",
+          "crossMapping": "Financial Regulation: Similar sandboxes for fintech. Key Similarity: Both provide controlled testing environments.",
+          "citations": [
+            "Article 57(1), EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding sandboxes helps you know about opportunities for testing innovative AI.",
+          "laymanExplanation": "What Are AI Regulatory Sandboxes?\n\nAI regulatory sandboxes are controlled environments where companies can develop and test innovative AI systems:\n\nPurpose: Facilitate development and testing under regulatory oversight\n\nWho Can Use: All providers, including startups and small companies\n\nBenefits: Allows innovation while maintaining safety through regulatory supervision\n\nWhy This Matters: Sandboxes help foster innovation by allowing companies to test new AI technologies in a safe, controlled environment before releasing them. They're especially helpful for startups and small companies.",
+          "citations": [
+            "Article 57, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "AI sandboxes can be compared with similar regulatory testing environments.",
+          "crossMapping": "Financial Regulation: Similar regulatory sandboxes for fintech innovation that allow testing under regulatory oversight. Key Takeaway: The EU AI Act's sandboxes follow the same model as financial regulation sandboxes, providing controlled environments for innovation.",
+          "citations": [
+            "Article 57, EU AI Act; Financial Regulation"
+          ]
+        }
+      ],
+      "citations": [
+        "Article 57, EU AI Act"
+      ]
+    },
+    "annexes": {
+      "id": "annexes",
+      "title": "Annexes - High-Risk AI Systems",
+      "content": "The Regulation includes 13 annexes that specify detailed requirements and lists. Key annexes include: Annex I (Union harmonisation legislation), Annex II (Union harmonisation legislation for high-risk AI systems), Annex III (List of high-risk AI systems), Annex VI (Conformity assessment procedures), and Annex VII (Quality management system and assessment of technical documentation).",
+      "bareActText": "The Regulation includes 13 annexes that provide detailed specifications:\n\nAnnex I: List of Union harmonisation legislation\nAnnex II: Union harmonisation legislation for high-risk AI systems\nAnnex III: List of high-risk AI systems\nAnnex IV: Information to be submitted for the registration in the EU database\nAnnex V: Information to be submitted upon the registration of high-risk AI systems in the EU database\nAnnex VI: Conformity assessment procedure based on internal control\nAnnex VII: Conformity assessment procedure based on assessment of the quality management system and assessment of the technical documentation\nAnnex VIII: Information to be included in instructions for use\nAnnex IX: EU declaration of conformity for high-risk AI systems\nAnnex X: EU declaration of conformity for general-purpose AI models\nAnnex XI: Notified bodies\nAnnex XII: EU database\nAnnex XIII: List of Union harmonisation legislation",
+      "laymanExplanation": "The Act includes 13 annexes that provide detailed specifications. Annex III is especially important - it lists all the types of AI systems that are considered high-risk (like AI used in healthcare, employment, law enforcement, etc.). Annex VI and VII specify the conformity assessment procedures. Annex VIII details what information must be in user instructions. These annexes are critical for understanding exactly which AI systems are high-risk and what requirements apply.",
+      "crossMapping": "Product Safety Legislation: Similar use of annexes to specify detailed requirements. Medical Device Regulation: Similar annexes listing high-risk devices. Key Similarity: All use annexes to provide detailed technical specifications.",
+      "subsections": [
+        {
+          "id": "annex-iii",
+          "title": "Annex III - High-Risk AI Systems",
+          "content": "Annex III lists specific AI systems that are considered high-risk, including AI systems used in biometric identification, critical infrastructure, education, employment, essential services, law enforcement, migration, and administration of justice.",
+          "bareActText": "Annex III - High-risk AI systems referred to in Article 6(2)\n\nThis Annex lists AI systems that are considered high-risk, including:\n- AI systems intended to be used for the 'real-time' and 'post' remote biometric identification of natural persons\n- AI systems intended to be used as safety components of products covered by Union harmonisation legislation\n- AI systems intended to be used for the management and operation of critical infrastructure\n- AI systems intended to be used for educational and vocational training\n- AI systems intended to be used for employment, workers management and access to self-employment\n- AI systems intended to be used for access to and enjoyment of essential private services and public services and benefits\n- AI systems intended to be used by law enforcement authorities\n- AI systems intended to be used for migration, asylum and border control management\n- AI systems intended to be used to assist judicial authorities and democratic processes",
+          "laymanExplanation": "Annex III is the critical list that determines which AI systems are high-risk. It includes AI systems used in: (1) Biometric identification - Facial recognition and other biometric systems. (2) Critical infrastructure - Systems managing essential services. (3) Education and employment - AI used for hiring, training, or educational decisions. (4) Essential services - AI managing access to important services. (5) Law enforcement - AI used by police and security. (6) Migration and border control - AI used for immigration decisions. (7) Justice - AI used in courts and legal processes. If your AI system is on this list, it's high-risk and must meet strict requirements.",
+          "crossMapping": "Medical Device Regulation: Similar lists of high-risk devices. Key Similarity: Both use annexes to specify which products are high-risk.",
+          "citations": [
+            "Annex III, EU AI Act"
+          ]
+        },
+        {
+          "id": "annex-vi-vii",
+          "title": "Annex VI-VII - Conformity Assessment",
+          "content": "Annex VI and VII specify the detailed procedures for conformity assessment of high-risk AI systems.",
+          "bareActText": "Annex VI - Conformity assessment procedure based on internal control\n\nAnnex VII - Conformity assessment procedure based on assessment of the quality management system and assessment of the technical documentation\n\nThese annexes specify the detailed procedures that must be followed for conformity assessment, including documentation requirements, quality management system requirements, and assessment criteria.",
+          "laymanExplanation": "Annex VI and VII provide the detailed procedures for certifying high-risk AI systems. Annex VI covers self-assessment (internal control), while Annex VII covers third-party assessment by notified bodies. These annexes specify exactly what documentation is needed, what quality management systems must be in place, and how assessments must be conducted.",
+          "crossMapping": "Product Safety Legislation: Similar detailed conformity assessment procedures in annexes. Key Similarity: Both provide detailed technical procedures in annexes.",
+          "citations": [
+            "Annex VI-VII, EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding the annexes helps you know exactly which AI systems are high-risk and what procedures apply.",
+          "laymanExplanation": "What Are the Annexes?\n\nThe Act includes 13 annexes that provide detailed specifications:\n\nAnnex III: Lists all high-risk AI systems (biometric identification, employment, law enforcement, etc.)\n\nAnnex VI-VII: Specify conformity assessment procedures\n\nAnnex VIII: Details what must be in user instructions\n\nOther Annexes: Cover database registration, declarations of conformity, notified bodies, etc.\n\nWhy This Matters: The annexes are critical for understanding exactly which AI systems are high-risk and what requirements apply. Annex III is especially important - if your AI system is on that list, it's high-risk and must meet strict requirements.",
+          "citations": [
+            "Annexes I-XIII, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "The use of annexes can be compared with similar regulatory frameworks.",
+          "crossMapping": "Product Safety Legislation: Similar use of annexes to specify detailed requirements and lists of high-risk products. Medical Device Regulation: Similar annexes listing high-risk devices and specifying procedures. Key Takeaway: The EU AI Act's use of annexes follows the same model as other EU regulations, providing detailed technical specifications separate from the main text.",
+          "citations": [
+            "Annexes I-XIII, EU AI Act; Product Safety Legislation; Medical Device Regulation"
+          ]
+        }
+      ],
+      "citations": [
+        "Annexes I-XIII, Regulation (EU) 2024/... on Artificial Intelligence"
+      ]
+    },
+    "regulatory": {
+      "id": "regulatory",
+      "title": "Regulatory Framework",
+      "content": "The Regulation establishes:\n\nEuropean Artificial Intelligence Board (Articles 56-65): Composed of representatives from Member States and the Commission, to facilitate cooperation and coordination, provide guidance, and ensure consistent application of the Regulation.\n\nNational Supervisory Authorities (Article 66): Each Member State designates one or more national supervisory authorities responsible for monitoring the application and enforcement of the Regulation.\n\nNotified Bodies (Articles 31-44): Conformity assessment bodies that assess compliance of high-risk AI systems with the requirements of the Regulation.\n\nMarket Surveillance (Articles 73-78): Authorities monitor AI systems placed on the market to ensure compliance and take corrective measures when necessary.",
+      "bareActText": "Articles 56-65 - European Artificial Intelligence Board: Composed of representatives from Member States and the Commission, to facilitate cooperation and coordination, provide guidance, and ensure consistent application of the Regulation.\n\nArticle 66 - National Supervisory Authorities: Each Member State designates one or more national supervisory authorities responsible for monitoring the application and enforcement of the Regulation.\n\nArticles 31-44 - Notified Bodies: Conformity assessment bodies that assess compliance of high-risk AI systems with the requirements of the Regulation.\n\nArticles 73-78 - Market Surveillance: Authorities monitor AI systems placed on the market to ensure compliance and take corrective measures when necessary.",
+      "laymanExplanation": "The Act establishes a comprehensive regulatory framework: (1) European AI Board - Coordinates between EU countries and provides guidance. (2) National Supervisory Authorities - Each EU country has authorities that monitor and enforce the Act. (3) Notified Bodies - Independent organizations that certify high-risk AI systems meet requirements. (4) Market Surveillance - Authorities check AI systems on the market and can take action if they don't comply. This ensures consistent enforcement across the EU while allowing each country to handle local issues.",
+      "crossMapping": "GDPR Supervisory Authorities: Similar structure with national authorities and European Data Protection Board. Product Safety Legislation: Similar structure with notified bodies and market surveillance. Key Similarity: All use multi-level governance with national authorities and EU-level coordination.",
+      "subsections": [
+        {
+          "id": "ai-board",
+          "title": "European AI Board",
+          "content": "The Board facilitates cooperation between national supervisory authorities, provides guidance, and ensures consistent application of the Regulation across the Union.",
+          "bareActText": "Articles 56-65 - The European Artificial Intelligence Board is composed of representatives from Member States and the Commission. It facilitates cooperation and coordination, provides guidance, and ensures consistent application of the Regulation across the Union.",
+          "laymanExplanation": "The European AI Board coordinates AI regulation across all EU countries. It helps ensure that the Act is applied consistently everywhere, provides guidance on how to interpret the Act, and coordinates between national authorities. Think of it like a central coordinator that makes sure all EU countries apply the Act the same way.",
+          "crossMapping": "GDPR European Data Protection Board: Similar role - coordinates between national authorities and ensures consistent application. Key Similarity: Both provide EU-level coordination for consistent enforcement.",
+          "citations": [
+            "Articles 56-65, EU AI Act"
+          ]
+        },
+        {
+          "id": "supervisory-authorities",
+          "title": "National Supervisory Authorities",
+          "content": "Each Member State designates supervisory authorities responsible for monitoring application and enforcement of the Regulation within their territory.",
+          "bareActText": "Article 66 - Each Member State designates one or more national supervisory authorities responsible for monitoring the application and enforcement of the Regulation within their territory.",
+          "laymanExplanation": "Each EU country has its own authorities that monitor and enforce the Act. They investigate violations, impose penalties, and ensure companies comply. If you have a problem with an AI system, you can complain to your country's supervisory authority. They work together through the European AI Board to ensure consistent enforcement.",
+          "crossMapping": "GDPR Supervisory Authorities: Similar role - each member state has authorities that monitor and enforce GDPR. Key Similarity: Both use national authorities for local enforcement with EU-level coordination.",
+          "citations": [
+            "Article 66, EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding the regulatory framework helps you know who enforces the Act and how to seek help.",
+          "laymanExplanation": "Who Enforces the Act?\n\nThe Act establishes a multi-level regulatory framework:\n\nEuropean AI Board: Coordinates between EU countries and provides guidance\n\nNational Supervisory Authorities: Each EU country has authorities that monitor and enforce the Act\n\nNotified Bodies: Independent organizations that certify high-risk AI systems\n\nMarket Surveillance: Authorities check AI systems on the market\n\nWhy This Matters: If you have a problem with an AI system, you can complain to your country's supervisory authority. They investigate violations and can impose penalties. The framework ensures consistent enforcement across the EU while allowing local handling of issues.",
+          "citations": [
+            "Articles 31-44, 56-78, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "The regulatory framework can be compared with similar structures.",
+          "crossMapping": "GDPR Supervisory Authorities: Similar structure with national authorities and European Data Protection Board for coordination. Product Safety Legislation: Similar structure with notified bodies and market surveillance. Key Takeaway: The EU AI Act's regulatory framework follows the same multi-level governance model as GDPR and product safety laws, ensuring consistent enforcement across the EU.",
+          "citations": [
+            "Articles 31-44, 56-78, EU AI Act; GDPR; Product Safety Legislation"
+          ]
+        }
+      ],
+      "citations": [
+        "Articles 31-44, 56-78, EU AI Act"
+      ]
+    },
+    "penalties": {
+      "id": "penalties",
+      "title": "Penalties and Enforcement",
+      "content": "The Regulation prescribes administrative fines:\n\nFor Prohibited Practices (Article 99(1)): Up to €35,000,000 or, if the offender is an undertaking, up to 7% of its total worldwide annual turnover in the preceding financial year, whichever is higher.\n\nFor Non-compliance with High-Risk Requirements (Article 99(2)): Up to €15,000,000 or, if the offender is an undertaking, up to 3% of its total worldwide annual turnover in the preceding financial year, whichever is higher.\n\nFor Supply of Incorrect Information (Article 99(3)): Up to €7,500,000 or, if the offender is an undertaking, up to 1.5% of its total worldwide annual turnover in the preceding financial year, whichever is higher.\n\nFor SMEs and Startups (Article 99(4)): Lower maximum amounts may apply, taking into account the economic situation of SMEs and startups.",
+      "bareActText": "Article 99 - Administrative fines\n\n(1) For prohibited practices: Up to €35,000,000 or, if the offender is an undertaking, up to 7% of its total worldwide annual turnover in the preceding financial year, whichever is higher.\n\n(2) For non-compliance with high-risk requirements: Up to €15,000,000 or, if the offender is an undertaking, up to 3% of its total worldwide annual turnover in the preceding financial year, whichever is higher.\n\n(3) For supply of incorrect information: Up to €7,500,000 or, if the offender is an undertaking, up to 1.5% of its total worldwide annual turnover in the preceding financial year, whichever is higher.\n\n(4) For SMEs and startups: Lower maximum amounts may apply, taking into account the economic situation of SMEs and startups.\n\n(5) When determining the amount of the fine, the supervisory authority shall consider the nature, gravity and duration of the infringement, the intentional or negligent character of the infringement, and the degree of responsibility of the natural or legal person.",
+      "laymanExplanation": "The Act has serious penalties to ensure compliance. For prohibited practices (like manipulation or social scoring), fines can be up to €35 million or 7% of annual turnover (whichever is higher). For high-risk AI violations, fines can be up to €15 million or 3% of turnover. For providing false information, fines can be up to €7.5 million or 1.5% of turnover. For large companies, the turnover percentage can result in billions in fines. Small companies may get lower fines. When deciding penalties, authorities consider how serious the violation was, whether it was intentional, and how long it lasted. These penalties are designed to ensure companies take AI compliance seriously.",
+      "crossMapping": "GDPR Article 83: Similar penalty structure with fines up to €20 million or 4% of turnover. Product Safety Legislation: Similar administrative fines. Key Similarity: All use turnover-based penalties that can be very high for large companies. Key Difference: EU AI Act has higher maximum percentages (7% vs GDPR's 4%) for the most serious violations.",
+      "subsections": [
+        {
+          "id": "penalty-factors",
+          "title": "Factors for Determining Penalties",
+          "content": "When determining the amount of the fine, the supervisory authority shall consider the nature, gravity and duration of the infringement, the intentional or negligent character of the infringement, and the degree of responsibility of the natural or legal person.",
+          "bareActText": "Article 99(5) When determining the amount of the fine, the supervisory authority shall consider: the nature, gravity and duration of the infringement, the intentional or negligent character of the infringement, and the degree of responsibility of the natural or legal person.",
+          "laymanExplanation": "When deciding penalties, authorities consider: (1) How serious - Was it a minor violation or something that could harm people? (2) How long - Did it happen once or continue for months? (3) Intentional or accidental - Did the company know they were violating the Act? (4) Responsibility - Who was responsible and how much? This ensures penalties are fair and proportional to the violation.",
+          "crossMapping": "GDPR Article 83(2): Lists similar factors to consider when determining penalties. Key Similarity: Both require fair and proportional penalties based on similar factors.",
+          "citations": [
+            "Article 99(5), EU AI Act"
+          ]
+        },
+        {
+          "id": "layman-explanation",
+          "title": "Layman Explanation",
+          "content": "Understanding penalties helps you know what happens when companies violate the Act.",
+          "laymanExplanation": "What Are the Penalties?\n\nThe Act has serious penalties to ensure compliance:\n\nProhibited Practices: Up to €35 million or 7% of annual turnover (whichever is higher)\n\nHigh-Risk AI Violations: Up to €15 million or 3% of annual turnover\n\nFalse Information: Up to €7.5 million or 1.5% of annual turnover\n\nFor Large Companies: The turnover percentage can result in billions in fines\n\nFor Small Companies: Lower fines may apply\n\nHow Penalties Are Decided:\n\nAuthorities consider:\n- How serious the violation was\n- Whether it was intentional or accidental\n- How long it lasted\n- Who was responsible\n\nWhy This Matters: These penalties ensure companies take AI compliance seriously. For large companies, the turnover percentage can result in massive fines, which encourages compliance.",
+          "citations": [
+            "Article 99, EU AI Act"
+          ]
+        },
+        {
+          "id": "cross-mapping",
+          "title": "Cross-Mapping",
+          "content": "Penalty provisions can be compared with similar frameworks.",
+          "crossMapping": "GDPR Article 83: Similar penalty structure with fines up to €20 million or 4% of turnover for serious violations, and up to €10 million or 2% for other violations. Product Safety Legislation: Similar administrative fines. Key Similarity: All use turnover-based penalties that can be very high for large companies. Key Difference: EU AI Act has higher maximum percentages (7% vs GDPR's 4%) for the most serious violations, reflecting the potential harm from AI systems.",
+          "citations": [
+            "Article 99, EU AI Act; Article 83, GDPR"
+          ]
+        }
+      ],
+      "citations": [
+        "Article 99, EU AI Act"
+      ]
+    }
+  }
+}
