@@ -1,6 +1,7 @@
 'use client'
 
 import Navigation from '@/components/Navigation'
+import PhotoCarousel from '@/components/PhotoCarousel'
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      {/* Automatic Photo Carousel */}
+      <PhotoCarousel />
 
       {/* About Section */}
       <section id="about" className="py-20 px-4 bg-white">

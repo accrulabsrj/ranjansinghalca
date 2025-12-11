@@ -571,7 +571,31 @@
             });
             
             carousel.addEventListener('mouseleave', function() {
-                isPaused = false;
+                // Check if any video is playing before resuming
+                const videos = carousel.querySelectorAll('video');
+                let videoPlaying = false;
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        videoPlaying = true;
+                    }
+                });
+                if (!videoPlaying) {
+                    isPaused = false;
+                }
+            });
+            
+            // Pause carousel when video starts playing
+            const videos = carousel.querySelectorAll('video');
+            videos.forEach(video => {
+                video.addEventListener('play', function() {
+                    isPaused = true;
+                });
+                video.addEventListener('pause', function() {
+                    // Only resume if not hovering
+                    if (!carousel.matches(':hover')) {
+                        isPaused = false;
+                    }
+                });
             });
             
             // Start animation
