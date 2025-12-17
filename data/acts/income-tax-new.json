@@ -1,0 +1,58 @@
+{
+  "actId": "income_tax_new",
+  "overview": {
+    "id": "overview",
+    "title": "Overview - The Income-tax Act, 1961 (as amended by Finance Act, 2025)",
+    "content": "The Income-tax Act, 1961, as amended by the Finance Act, 2025, represents the current version of India's primary direct tax legislation. While the base Act remains the Income-tax Act, 1961, it has been extensively amended over the years, with the Finance Act, 2025 introducing the latest changes to tax rates, deductions, exemptions, and procedural requirements.\n\nPurpose and Background\n\nThe Income-tax Act, 1961 continues to be the foundation of India's direct tax system, but it is updated annually through Finance Acts. The Finance Act, 2025 brings the latest amendments reflecting current economic policies, tax reforms, and compliance requirements. These amendments typically include:\n\n- Changes in tax rates and slabs\n- New or modified deductions and exemptions\n- Updates to compliance procedures\n- Changes in TDS rates and thresholds\n- Modifications to assessment and appeal procedures\n- New provisions for emerging sectors or transactions\n- Anti-avoidance measures\n- International tax updates\n\nKey Features and Recent Amendments\n\nThe Act, as amended, incorporates:\n\n1. Updated Tax Slabs: Revised income tax rates and slabs for individuals, HUFs, and other entities as per Finance Act, 2025.\n\n2. Modified Deductions: Changes to Section 80C, 80D, and other deduction provisions.\n\n3. New Tax Regime: Provisions for the new tax regime (optional alternative to old regime with lower rates but fewer deductions).\n\n4. Updated TDS Provisions: Revised TDS rates, thresholds, and compliance requirements.\n\n5. Digital Compliance: Enhanced e-filing requirements and digital procedures.\n\n6. International Tax Updates: Amendments to transfer pricing, DTAA provisions, and cross-border taxation.\n\n7. Assessment Procedures: Updated time limits and procedures for assessment and appeals.\n\nRelationship to Base Act\n\nThis version maintains the structure and numbering of the Income-tax Act, 1961, but incorporates all amendments made through:\n\n- Finance Act, 2025 (latest)\n- Previous Finance Acts\n- Special economic legislation\n- Tax reform initiatives\n\nFor practical purposes, tax professionals and businesses must refer to the Act as amended up to the current date, as the base Act of 1961 alone is not sufficient for compliance.\n\nRegulatory Framework\n\nThe Central Board of Direct Taxes (CBDT) continues to administer the Act, with the Income Tax Department implementing the latest provisions. All compliance is now primarily digital through the e-filing portal and other online systems.\n\nSignificance for Tax Professionals\n\nFor Chartered Accountants and tax professionals, staying updated with the latest amendments is critical:\n\n- Advising clients on current tax rates and slabs\n- Planning with latest deductions and exemptions\n- Ensuring compliance with updated procedures\n- Understanding new provisions and their implications\n- Representing clients under current assessment and appeal procedures\n- Handling international tax matters with latest DTAA provisions\n\nThe Act, as amended, represents the living law that must be applied in practice, making it essential for all tax professionals to refer to the latest amended version rather than just the base Act of 1961.",
+    "bareActText": "The Income-tax Act, 1961, as amended by Finance Act, 2025 and all previous Finance Acts, continues to govern income taxation in India. The base structure remains the Income-tax Act, 1961, but with comprehensive amendments reflecting current tax policy.",
+    "citations": [
+      "The Income-tax Act, 1961 as amended by Finance Act, 2025"
+    ]
+  },
+  "definitions": {
+    "id": "definitions",
+    "title": "Definitions",
+    "content": "The definitions remain largely the same as the base Income-tax Act, 1961, though some terms may have been clarified or expanded through amendments. Key definitions include assessee, income, person, previous year, assessment year, and various other terms essential for tax computation and compliance.",
+    "subsections": [
+      {
+        "id": "new-tax-regime",
+        "title": "New Tax Regime",
+        "content": "The Finance Act, 2025 continues the optional new tax regime introduced earlier, which offers lower tax rates in exchange for foregoing most deductions and exemptions.",
+        "laymanExplanation": "The new tax regime is an optional alternative to the traditional tax regime. Under the new regime, you get lower tax rates, but you can't claim most deductions (like 80C, 80D, HRA, etc.). You can choose which regime suits you better based on your income and deductions. The Finance Act, 2025 may have modified the rates or conditions for the new regime.",
+        "citations": [
+          "Finance Act, 2025; The Income-tax Act, 1961"
+        ]
+      }
+    ],
+    "citations": [
+      "The Income-tax Act, 1961 as amended by Finance Act, 2025"
+    ]
+  },
+  "sections": {
+    "applicability": {
+      "id": "applicability",
+      "title": "Applicability",
+      "content": "The Act, as amended, continues to apply to the whole of India with the latest tax rates, deductions, and procedures as per Finance Act, 2025.",
+      "laymanExplanation": "The amended Act applies throughout India with the latest provisions from Finance Act, 2025. This means you must use the current tax rates, current deduction limits, and current compliance procedures when filing your returns and paying taxes.",
+      "citations": [
+        "The Income-tax Act, 1961 as amended by Finance Act, 2025"
+      ]
+    },
+    "obligations": {
+      "id": "obligations",
+      "title": "Current Compliance Requirements",
+      "content": "Taxpayers must comply with the latest requirements including updated return filing procedures, current TDS provisions, and modified assessment procedures as per the latest amendments.",
+      "laymanExplanation": "You must comply with the latest requirements: (1) Use current tax rates and slabs for the assessment year, (2) Apply current deduction limits and conditions, (3) Follow updated return filing procedures and deadlines, (4) Comply with current TDS rates and thresholds, (5) Use the latest e-filing systems and digital procedures.",
+      "citations": [
+        "The Income-tax Act, 1961 as amended by Finance Act, 2025"
+      ]
+    }
+  },
+  "officialText": {
+    "sections": []
+  },
+  "laymanExplanation": {
+    "sections": []
+  }
+}
+

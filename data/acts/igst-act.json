@@ -1,0 +1,79 @@
+{
+  "actId": "igst_act",
+  "overview": {
+    "id": "overview",
+    "title": "Overview - Integrated Goods and Services Tax Act, 2017",
+    "content": "The Integrated Goods and Services Tax Act, 2017 (IGST Act) is a comprehensive indirect tax legislation that governs the levy and collection of tax on inter-state supply of goods and services in India. Enacted on 12th April 2017, the IGST Act came into effect from 1st July 2017, as a crucial component of India's unified Goods and Services Tax (GST) regime.\n\nPurpose and Background\n\nThe IGST Act was introduced to handle the taxation of inter-state supplies of goods and services. Under the GST system, when goods or services are supplied between different states (inter-state supply), Integrated GST (IGST) is levied instead of separate Central GST (CGST) and State GST (SGST). This mechanism ensures seamless tax collection and distribution between states.\n\nThe Act addresses the complex issue of taxing inter-state transactions in a federal structure, ensuring that tax revenue is appropriately distributed to the consuming state while maintaining the integrity of the input tax credit chain.\n\nKey Features and Principles\n\nThe IGST Act is built on several fundamental principles:\n\n1. Inter-State Supply Taxation: IGST is levied on all inter-state supplies of goods and services, replacing the need for separate CGST and SGST.\n\n2. Destination-Based Tax: IGST ensures that tax revenue flows to the state where goods or services are consumed, not where they are produced.\n\n3. Seamless Input Tax Credit: IGST paid on purchases can be set off against IGST, CGST, or SGST liability, ensuring uninterrupted credit flow.\n\n4. Import and Export Treatment: IGST is also applicable on imports, while exports are zero-rated.\n\n5. Settlement Mechanism: The Act provides for settlement of IGST revenue between the Centre and States through a mechanism administered by the GST Council.\n\n6. Place of Supply Rules: Detailed rules determine whether a transaction is intra-state or inter-state, which determines whether CGST+SGST or IGST applies.\n\nHistorical Context\n\nThe IGST Act was enacted as part of the comprehensive GST reform that began with the Constitution (One Hundred and First Amendment) Act, 2016. The need for IGST arose from the requirement to tax inter-state transactions in a manner that:\n- Prevents tax cascading\n- Ensures proper revenue distribution\n- Maintains input tax credit chain\n- Simplifies compliance for businesses\n\nThe Act works in conjunction with the CGST Act and various State GST Acts to create a unified tax system.\n\nRelationship to Other Laws\n\nThe IGST Act operates alongside:\n\n1. Central Goods and Services Tax Act, 2017: CGST applies to intra-state supplies, while IGST applies to inter-state supplies.\n\n2. State GST Acts: SGST applies to intra-state supplies along with CGST, while IGST replaces both for inter-state supplies.\n\n3. Customs Act, 1962: IGST is levied on imports in addition to customs duty.\n\n4. GST Rules: The Integrated Goods and Services Tax Rules provide detailed procedures.\n\nRegulatory Framework\n\nThe Central Board of Indirect Taxes and Customs (CBIC) is the administrative authority for IGST. The GST Council determines the rates and procedures. The settlement of IGST revenue between Centre and States is managed through a sophisticated mechanism that ensures consuming states receive their due share.\n\nSignificance for Businesses and Professionals\n\nFor businesses engaged in inter-state trade, the IGST Act is critical:\n\n- Determining whether a transaction attracts IGST or CGST+SGST\n- Proper invoicing with IGST component\n- Claiming input tax credit on IGST paid\n- Understanding place of supply rules\n- Compliance with e-way bill requirements for inter-state movement\n- Handling import and export transactions\n- Filing returns with IGST details\n\nThe Act's provisions ensure that businesses can seamlessly trade across state borders without tax barriers, while ensuring proper revenue distribution to consuming states.",
+    "bareActText": "1. (1) This Act may be called the Integrated Goods and Services Tax Act, 2017.\n\n(2) It extends to the whole of India.\n\n(3) It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint:\n\nProvided that different dates may be appointed for different provisions of this Act and any reference in any such provision to the commencement of this Act shall be construed as a reference to the coming into force of that provision.",
+    "citations": [
+      "Section 1, Integrated Goods and Services Tax Act, 2017"
+    ]
+  },
+  "definitions": {
+    "id": "definitions",
+    "title": "Definitions - Section 2",
+    "content": "Section 2 of the Integrated Goods and Services Tax Act, 2017 contains key definitions. The Act adopts many definitions from the CGST Act to ensure consistency.",
+    "subsections": [
+      {
+        "id": "integrated-tax",
+        "title": "Integrated Tax",
+        "content": "Integrated tax means the integrated goods and services tax levied under this Act.",
+        "bareActText": "(15) \"integrated tax\" means the integrated goods and services tax levied under this Act;",
+        "laymanExplanation": "Integrated tax (IGST) is the tax levied on inter-state supplies. Instead of charging separate CGST and SGST when you sell across state borders, you charge IGST. The IGST rate is typically the sum of CGST and SGST rates. For example, if CGST is 9% and SGST is 9%, IGST would be 18% on the same item when sold inter-state.",
+        "citations": [
+          "Section 2(15), Integrated Goods and Services Tax Act, 2017"
+        ]
+      },
+      {
+        "id": "inter-state-supply",
+        "title": "Inter-State Supply",
+        "content": "Inter-state supply means supply of goods or services where the location of the supplier and the place of supply are in different states or union territories.",
+        "bareActText": "7. (1) Subject to the provisions of section 10, supply of goods, where the location of the supplier and the place of supply are in—\n(a) different States;\n(b) different Union territories; or\n(c) a State and a Union territory,\n\nshall be treated as a supply of goods in the course of inter-State trade or commerce.",
+        "laymanExplanation": "Inter-state supply happens when you sell goods or services from one state to another. For example, if you're in Delhi and you sell to someone in Mumbai, that's an inter-state supply and IGST applies. The key is that the supplier's location and the buyer's location (place of supply) are in different states.",
+        "citations": [
+          "Section 7, Integrated Goods and Services Tax Act, 2017"
+        ]
+      },
+      {
+        "id": "place-of-supply",
+        "title": "Place of Supply",
+        "content": "Place of supply determines whether a transaction is intra-state or inter-state, which in turn determines whether CGST+SGST or IGST applies.",
+        "laymanExplanation": "Place of supply is a crucial concept that determines where the supply is considered to have taken place. This determines whether you charge CGST+SGST (if place of supply is in the same state as supplier) or IGST (if place of supply is in a different state). The rules for determining place of supply differ for goods and services and can be complex.",
+        "citations": [
+          "Integrated Goods and Services Tax Act, 2017"
+        ]
+      }
+    ],
+    "citations": [
+      "Section 2, Integrated Goods and Services Tax Act, 2017"
+    ]
+  },
+  "sections": {
+    "applicability": {
+      "id": "applicability",
+      "title": "Applicability and Scope",
+      "content": "The IGST Act applies to the whole of India and governs the levy and collection of tax on all inter-state supplies of goods or services or both. It also applies to imports of goods and services.",
+      "bareActText": "1. (2) It extends to the whole of India.",
+      "laymanExplanation": "The IGST Act applies throughout India and covers all transactions where goods or services are supplied between different states (inter-state supplies). It also applies when you import goods or services from outside India. When you make an inter-state sale, you charge IGST instead of separate CGST and SGST.",
+      "citations": [
+        "Section 1, Integrated Goods and Services Tax Act, 2017"
+      ]
+    },
+    "obligations": {
+      "id": "obligations",
+      "title": "Compliance Obligations",
+      "content": "Businesses making inter-state supplies must comply with IGST requirements including proper invoicing, return filing, payment of tax, and maintenance of records.",
+      "laymanExplanation": "If your business involves inter-state supplies, you must: (1) Issue invoices showing IGST separately, (2) File returns with IGST details, (3) Pay IGST on time, (4) Generate e-way bills for inter-state movement of goods, (5) Maintain proper records. You can also claim input tax credit on IGST paid on your purchases.",
+      "citations": [
+        "Integrated Goods and Services Tax Act, 2017"
+      ]
+    }
+  },
+  "officialText": {
+    "sections": []
+  },
+  "laymanExplanation": {
+    "sections": []
+  }
+}
+

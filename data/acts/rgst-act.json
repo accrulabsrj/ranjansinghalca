@@ -1,0 +1,60 @@
+{
+  "actId": "rgst_act",
+  "overview": {
+    "id": "overview",
+    "title": "Overview - Rajasthan Goods and Services Tax Act, 2017",
+    "content": "The Rajasthan Goods and Services Tax Act, 2017 (RGST Act) is the state-level legislation that governs the levy and collection of tax on intra-state supply of goods and services within the state of Rajasthan. Enacted in 2017, the RGST Act came into effect from 1st July 2017, as part of India's unified Goods and Services Tax (GST) regime.\n\nPurpose and Background\n\nThe RGST Act was introduced by the Rajasthan State Legislature to implement the state component of the dual GST model. Under the GST system, when goods or services are supplied within Rajasthan (intra-state supply), both Central GST (CGST) and Rajasthan GST (RGST) are levied simultaneously. The RGST component goes to the Rajasthan State Government, while the CGST component goes to the Central Government.\n\nThe Act replaced multiple state-level taxes including Rajasthan Value Added Tax (RVAT), Entry Tax, Luxury Tax, Entertainment Tax, and various other state-specific levies. This consolidation simplified the tax structure and eliminated the cascading effect of taxes.\n\nKey Features and Principles\n\nThe RGST Act mirrors the structure of the Central Goods and Services Tax Act, 2017, ensuring uniformity across the country while allowing for state-specific provisions where necessary:\n\n1. Dual GST Model: Works in conjunction with CGST for intra-state supplies, with both taxes being levied at the same rate.\n\n2. Input Tax Credit: Allows seamless flow of input tax credit on RGST paid on purchases, which can be set off against RGST liability on sales.\n\n3. Uniform Tax Structure: Maintains consistency with other state GST acts to ensure ease of doing business across states.\n\n4. Technology-Driven: All compliance is done electronically through the GST Network (GSTN).\n\n5. Threshold Exemptions: Small businesses below the threshold limit (₹20 lakhs, or ₹10 lakhs for special category states) are exempt from registration.\n\nRelationship to Other Laws\n\nThe RGST Act operates alongside:\n\n1. Central Goods and Services Tax Act, 2017: Both CGST and RGST are levied simultaneously on intra-state supplies.\n\n2. Integrated Goods and Services Tax Act, 2017: For inter-state supplies from or to Rajasthan, IGST applies instead of CGST and RGST.\n\n3. Rajasthan GST Rules: State-specific rules provide detailed procedures for implementation.\n\n4. GST Council Decisions: The Act is subject to decisions and recommendations of the GST Council.\n\nRegulatory Framework\n\nThe Rajasthan Commercial Taxes Department is the administrative authority for RGST. The department is responsible for registration, assessment, collection, and enforcement of RGST within the state. All administrative functions are coordinated with the Central Board of Indirect Taxes and Customs (CBIC) to ensure seamless implementation.\n\nSignificance for Businesses\n\nFor businesses operating in Rajasthan, the RGST Act requires:\n\n- Registration if turnover exceeds threshold limits\n- Filing of returns (GSTR-1, GSTR-3B, etc.)\n- Payment of RGST along with CGST on intra-state supplies\n- Maintenance of proper books of accounts and records\n- Compliance with e-way bill requirements\n- Proper invoicing with both CGST and RGST components\n\nUnderstanding the RGST Act is essential for all businesses engaged in supply of goods or services within Rajasthan, as non-compliance can result in penalties, interest, and other consequences.",
+    "bareActText": "1. (1) This Act may be called the Rajasthan Goods and Services Tax Act, 2017.\n\n(2) It extends to the whole of the State of Rajasthan.\n\n(3) It shall come into force on such date as the State Government may, by notification in the Official Gazette, appoint.",
+    "citations": [
+      "Section 1, Rajasthan Goods and Services Tax Act, 2017"
+    ]
+  },
+  "definitions": {
+    "id": "definitions",
+    "title": "Definitions",
+    "content": "The RGST Act adopts the same definitions as the CGST Act to ensure uniformity. Key definitions include goods, services, supply, taxable person, input tax, output tax, and other terms consistent with the central legislation.",
+    "subsections": [
+      {
+        "id": "state-tax",
+        "title": "State Tax",
+        "content": "State tax means the tax levied under the Rajasthan Goods and Services Tax Act, 2017.",
+        "bareActText": "State tax means the tax levied under the Rajasthan Goods and Services Tax Act, 2017.",
+        "laymanExplanation": "State tax (RGST) is the tax component that goes to the Rajasthan State Government. When you make an intra-state supply (selling within Rajasthan), you charge both CGST (to Central Government) and RGST (to State Government) at the same rate. For example, if the GST rate is 18%, you charge 9% CGST and 9% RGST.",
+        "citations": [
+          "Rajasthan Goods and Services Tax Act, 2017"
+        ]
+      }
+    ],
+    "citations": [
+      "Rajasthan Goods and Services Tax Act, 2017"
+    ]
+  },
+  "sections": {
+    "applicability": {
+      "id": "applicability",
+      "title": "Applicability",
+      "content": "The RGST Act applies to the whole of the State of Rajasthan and governs the levy and collection of tax on all intra-state supplies of goods or services or both made within Rajasthan.",
+      "bareActText": "1. (2) It extends to the whole of the State of Rajasthan.",
+      "laymanExplanation": "The RGST Act applies to all transactions where goods or services are supplied within Rajasthan. When you buy or sell something within Rajasthan, both CGST and RGST are applicable. However, if you're buying from or selling to someone outside Rajasthan, then IGST applies instead.",
+      "citations": [
+        "Section 1, Rajasthan Goods and Services Tax Act, 2017"
+      ]
+    },
+    "obligations": {
+      "id": "obligations",
+      "title": "Registration and Compliance",
+      "content": "Businesses operating in Rajasthan must register under RGST if their turnover exceeds the threshold limit. They must file returns, pay taxes, maintain records, and comply with all GST requirements.",
+      "laymanExplanation": "If your business operates in Rajasthan and your turnover exceeds ₹20 lakhs, you must register under RGST (along with CGST). Once registered, you need to file returns, pay RGST along with CGST, issue proper invoices showing both tax components, and maintain all required records.",
+      "citations": [
+        "Rajasthan Goods and Services Tax Act, 2017"
+      ]
+    }
+  },
+  "officialText": {
+    "sections": []
+  },
+  "laymanExplanation": {
+    "sections": []
+  }
+}
+

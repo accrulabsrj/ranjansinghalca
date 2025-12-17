@@ -5,7 +5,12 @@ export type ActId =
   | "eu_ai_act"
   | "pdpl"
   | "it_act_2000"
-  | "saaa100";
+  | "saaa100"
+  | "cgst_act"
+  | "rgst_act"
+  | "igst_act"
+  | "income_tax_1961"
+  | "income_tax_new";
 
 export interface ActMeta {
   id: ActId;
@@ -76,6 +81,46 @@ export const ACTS: ActMeta[] = [
     officialSourcePath: "laws/Proposed Draft- SAAA 100 – Standard on Audit of Artificial Intelligence Agents.pdf",
     isDraft: true,
     disclaimer: "This is a draft proposal by CA Ranjan Singhal and is not a final standard. This document is provided for reference purposes only and should not be considered as an official or finalized standard.",
+  },
+  {
+    id: "cgst_act",
+    shortName: "CGST Act 2017",
+    fullName: "Central Goods and Services Tax Act, 2017",
+    jurisdiction: "India",
+    year: 2017,
+    officialSourcePath: "laws/CGST_Act_2017.pdf",
+  },
+  {
+    id: "rgst_act",
+    shortName: "RGST Act 2017",
+    fullName: "Rajasthan Goods and Services Tax Act, 2017",
+    jurisdiction: "India (Rajasthan)",
+    year: 2017,
+    officialSourcePath: "laws/RGST_Act_2017.pdf",
+  },
+  {
+    id: "igst_act",
+    shortName: "IGST Act 2017",
+    fullName: "Integrated Goods and Services Tax Act, 2017",
+    jurisdiction: "India",
+    year: 2017,
+    officialSourcePath: "laws/IGST_Act_2017.pdf",
+  },
+  {
+    id: "income_tax_1961",
+    shortName: "Income Tax Act 1961",
+    fullName: "The Income-tax Act, 1961",
+    jurisdiction: "India",
+    year: 1961,
+    officialSourcePath: "laws/Income_Tax_Act_1961.pdf",
+  },
+  {
+    id: "income_tax_new",
+    shortName: "Income Tax Act (Amended)",
+    fullName: "The Income-tax Act, 1961 (as amended by Finance Act, 2025)",
+    jurisdiction: "India",
+    year: 2025,
+    officialSourcePath: "laws/Income_Tax_Act_1961_Amended_2025.pdf",
   },
 ];
 

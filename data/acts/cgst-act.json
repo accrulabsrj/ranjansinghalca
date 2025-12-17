@@ -1,0 +1,121 @@
+{
+  "actId": "cgst_act",
+  "overview": {
+    "id": "overview",
+    "title": "Overview - Central Goods and Services Tax Act, 2017",
+    "content": "The Central Goods and Services Tax Act, 2017 (CGST Act) is a comprehensive indirect tax legislation that governs the levy and collection of tax on intra-state supply of goods and services in India. Enacted on 12th April 2017, the CGST Act came into effect from 1st July 2017, marking a historic transformation of India's indirect tax system.\n\nPurpose and Background\n\nThe CGST Act was introduced as part of the Goods and Services Tax (GST) regime, which replaced multiple indirect taxes including Central Excise Duty, Service Tax, Value Added Tax (VAT), Central Sales Tax, and various other state-level taxes. The Act was passed by the Parliament of India to implement the 'One Nation, One Tax' concept, creating a unified indirect tax structure across the country.\n\nThe GST regime operates on a dual model with both Central and State components. The CGST Act specifically deals with the Central component of GST levied on intra-state supplies, while the State Goods and Services Tax (SGST) Acts of respective states deal with the state component. For inter-state supplies, the Integrated Goods and Services Tax (IGST) Act applies.\n\nKey Features and Principles\n\nThe CGST Act is built on several fundamental principles:\n\n1. Destination-Based Consumption Tax: GST is levied at the point of consumption rather than origin, ensuring that the tax revenue goes to the state where the goods or services are consumed.\n\n2. Input Tax Credit (ITC): One of the most significant features is the seamless flow of input tax credit across the supply chain, eliminating the cascading effect of taxes (tax on tax).\n\n3. Dual GST Model: The tax is shared between the Centre and States, with CGST going to the Central Government and SGST going to the State Government.\n\n4. Comprehensive Coverage: The Act covers supply of goods and services, with very few exemptions, creating a broad tax base.\n\n5. Technology-Driven Compliance: The Act mandates electronic filing of returns and payments through the GST Network (GSTN), ensuring transparency and reducing tax evasion.\n\n6. Threshold Exemptions: Small businesses with turnover below specified thresholds are exempt from registration and tax payment.\n\nHistorical Context\n\nThe journey to GST began in 2000 when the Kelkar Task Force first proposed a unified tax system. After years of deliberation, the Constitution (One Hundred and First Amendment) Act, 2016 was passed, which amended the Constitution to enable the GST regime. This was followed by the enactment of:\n- Central Goods and Services Tax Act, 2017\n- Integrated Goods and Services Tax Act, 2017\n- Union Territory Goods and Services Tax Act, 2017\n- State-specific SGST Acts\n- Goods and Services Tax (Compensation to States) Act, 2017\n\nRelationship to Other Laws\n\nThe CGST Act operates alongside:\n\n1. State GST Acts: Each state has its own SGST Act that mirrors the CGST Act structure, with CGST and SGST being levied simultaneously on intra-state supplies.\n\n2. IGST Act, 2017: For inter-state supplies, IGST is levied instead of CGST and SGST.\n\n3. GST Rules: The Central Goods and Services Tax Rules, 2017 provide detailed procedures for implementation.\n\n4. Customs Act, 1962: Continues to apply for import and export of goods.\n\n5. Income Tax Act, 1961: Direct taxes continue to be governed separately.\n\nRegulatory Framework\n\nThe Act establishes the GST Council as the apex decision-making body for GST-related matters. The Council, chaired by the Union Finance Minister, includes representatives from all states and union territories. The Central Board of Indirect Taxes and Customs (CBIC) is the administrative authority for CGST.\n\nSignificance for Businesses and Professionals\n\nFor Chartered Accountants, tax professionals, and businesses, the CGST Act represents a fundamental shift in indirect tax compliance:\n\n- Comprehensive registration requirements for businesses\n- Monthly/quarterly return filing obligations\n- Input tax credit management and reconciliation\n- E-way bill requirements for goods movement\n- Reverse charge mechanism for specified supplies\n- Composition scheme for small businesses\n- Anti-profiteering provisions\n- Detailed invoicing and documentation requirements\n\nThe Act's penalty structure, with interest and penalties for non-compliance, makes understanding and implementing the Act's provisions critical for all businesses engaged in supply of goods or services in India.",
+    "bareActText": "1. (1) This Act may be called the Central Goods and Services Tax Act, 2017.\n\n(2) It extends to the whole of India.\n\n(3) It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint:\n\nProvided that different dates may be appointed for different provisions of this Act and any reference in any such provision to the commencement of this Act shall be construed as a reference to the coming into force of that provision.",
+    "citations": [
+      "Section 1, Central Goods and Services Tax Act, 2017"
+    ]
+  },
+  "definitions": {
+    "id": "definitions",
+    "title": "Definitions - Section 2",
+    "content": "Section 2 of the Central Goods and Services Tax Act, 2017 contains all the key definitions used throughout the Act. Understanding these definitions is crucial for proper interpretation and compliance with the Act.",
+    "subsections": [
+      {
+        "id": "goods",
+        "title": "Goods",
+        "content": "Goods means every kind of movable property other than money and securities but includes actionable claim, growing crops, grass and things attached to or forming part of the land which are agreed to be severed before supply or under a contract of supply.",
+        "bareActText": "(52) \"goods\" means every kind of movable property other than money and securities but includes actionable claim, growing crops, grass and things attached to or forming part of the land which are agreed to be severed before supply or under a contract of supply;",
+        "laymanExplanation": "Goods are essentially physical items that can be moved - like a car, a phone, furniture, or raw materials. However, money and securities (like stocks and bonds) are not considered goods. Interestingly, the definition also includes things like crops that will be harvested, or items attached to land that will be removed (like trees to be cut down). This broad definition ensures that most physical items are covered under GST.",
+        "citations": [
+          "Section 2(52), Central Goods and Services Tax Act, 2017"
+        ]
+      },
+      {
+        "id": "services",
+        "title": "Services",
+        "content": "Services means anything other than goods, money and securities but includes activities relating to the use of money or its conversion by cash or by any other mode, from one form, currency or denomination, to another form, currency or denomination for which a separate consideration is charged.",
+        "bareActText": "(102) \"services\" means anything other than goods, money and securities but includes activities relating to the use of money or its conversion by cash or by any other mode, from one form, currency or denomination, to another form, currency or denomination for which a separate consideration is charged;",
+        "laymanExplanation": "Services are essentially everything that is not goods, money, or securities. This includes professional services (like legal, accounting, consulting), hospitality services (hotels, restaurants), transportation, entertainment, and many others. The definition is intentionally broad - if it's not a physical item (goods) and not money or securities, it's likely a service. This ensures comprehensive coverage under GST.",
+        "citations": [
+          "Section 2(102), Central Goods and Services Tax Act, 2017"
+        ]
+      },
+      {
+        "id": "supply",
+        "title": "Supply",
+        "content": "Supply includes all forms of supply of goods or services or both such as sale, transfer, barter, exchange, licence, rental, lease or disposal made or agreed to be made for a consideration by a person in the course or furtherance of business.",
+        "bareActText": "7. (1) For the purposes of this Act, the expression \"supply\" includes—\n(a) all forms of supply of goods or services or both such as sale, transfer, barter, exchange, licence, rental, lease or disposal made or agreed to be made for a consideration by a person in the course or furtherance of business;",
+        "laymanExplanation": "Supply is the key taxable event under GST. It's a very broad term that covers almost any way you can provide goods or services to someone else - selling, renting, leasing, exchanging, or even bartering. The key requirements are: (1) it must be for consideration (payment, money, or something of value), and (2) it must be in the course of business. This means personal transactions (like selling your old car to a friend) might not be a 'supply' under GST, but business transactions definitely are.",
+        "citations": [
+          "Section 7(1)(a), Central Goods and Services Tax Act, 2017"
+        ]
+      },
+      {
+        "id": "taxable-person",
+        "title": "Taxable Person",
+        "content": "Taxable person means a person who is registered or liable to be registered under section 22 or section 24.",
+        "bareActText": "(107) \"taxable person\" means a person who is registered or liable to be registered under section 22 or section 24;",
+        "laymanExplanation": "A taxable person is someone who is either already registered under GST or should be registered. Registration is mandatory if your business turnover exceeds certain limits (currently ₹20 lakhs for most businesses, ₹10 lakhs for special category states). Once registered, you become a taxable person and must comply with all GST requirements like filing returns, paying taxes, and maintaining proper records.",
+        "citations": [
+          "Section 2(107), Central Goods and Services Tax Act, 2017"
+        ]
+      },
+      {
+        "id": "input-tax",
+        "title": "Input Tax",
+        "content": "Input tax in relation to a taxable person, means the central tax, State tax, integrated tax or Union territory tax charged on any supply of goods or services or both made to him and includes the tax payable under reverse charge mechanism.",
+        "bareActText": "(62) \"input tax\" in relation to a taxable person, means the central tax, State tax, integrated tax or Union territory tax charged on any supply of goods or services or both made to him and includes—\n(a) the integrated goods and services tax charged on import of goods;\n(b) the tax payable under the provisions of sub-sections (3) and (4) of section 9, but does not include the tax paid under the composition levy;",
+        "laymanExplanation": "Input tax is the GST you pay when you buy goods or services for your business. For example, if you're a manufacturer and you buy raw materials, the GST you pay on those materials is your input tax. This is important because you can claim this as input tax credit (ITC) to reduce the GST you owe on your sales. The concept of input tax credit is what makes GST a value-added tax - you only pay tax on the value you add, not on the entire value of your product.",
+        "citations": [
+          "Section 2(62), Central Goods and Services Tax Act, 2017"
+        ]
+      },
+      {
+        "id": "output-tax",
+        "title": "Output Tax",
+        "content": "Output tax in relation to a taxable person, means the tax chargeable under this Act on taxable supply of goods or services or both made by him or by his agent but excludes tax payable by him on reverse charge basis.",
+        "bareActText": "(82) \"output tax\" in relation to a taxable person, means the tax chargeable under this Act on taxable supply of goods or services or both made by him or by his agent but excludes tax payable by him on reverse charge basis;",
+        "laymanExplanation": "Output tax is the GST you charge and collect when you sell goods or services. For example, if you sell a product for ₹1,000 and the GST rate is 18%, you collect ₹180 as output tax. This is the tax you owe to the government. However, you can reduce this by the input tax credit (the GST you paid on your purchases). So if you collected ₹180 as output tax but paid ₹100 as input tax on your purchases, you only need to pay ₹80 to the government.",
+        "citations": [
+          "Section 2(82), Central Goods and Services Tax Act, 2017"
+        ]
+      }
+    ],
+    "citations": [
+      "Section 2, Central Goods and Services Tax Act, 2017"
+    ]
+  },
+  "sections": {
+    "applicability": {
+      "id": "applicability",
+      "title": "Applicability and Scope",
+      "content": "The CGST Act applies to the whole of India and governs the levy and collection of tax on all intra-state supplies of goods or services or both. The Act came into force on 1st July 2017, replacing multiple indirect taxes at the central level.",
+      "bareActText": "1. (1) This Act may be called the Central Goods and Services Tax Act, 2017.\n\n(2) It extends to the whole of India.\n\n(3) It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint.",
+      "laymanExplanation": "The CGST Act applies throughout India and covers all transactions where goods or services are supplied within the same state (intra-state supplies). When you buy something from a shop in your own state, both CGST (Central GST) and SGST (State GST) are charged. The Act replaced many old taxes like Central Excise, Service Tax, and others, creating one unified tax system.",
+      "citations": [
+        "Section 1, Central Goods and Services Tax Act, 2017"
+      ]
+    },
+    "obligations": {
+      "id": "obligations",
+      "title": "Registration and Compliance Obligations",
+      "content": "Every person who is liable to be registered under section 22 must apply for registration. The Act mandates various compliance obligations including registration, return filing, payment of tax, maintenance of records, and issuance of tax invoices.",
+      "bareActText": "22. (1) Every supplier shall be liable to be registered under this Act in the State or Union territory, other than special category States, from where he makes a taxable supply of goods or services or both, if his aggregate turnover in a financial year exceeds twenty lakh rupees:\n\nProvided that where such person makes taxable supplies of goods or services or both from any of the special category States, he shall be liable to be registered if his aggregate turnover in a financial year exceeds ten lakh rupees.",
+      "laymanExplanation": "If your business turnover exceeds ₹20 lakhs (₹10 lakhs in special states), you must register under GST. Once registered, you have several obligations: (1) File regular returns (monthly or quarterly), (2) Pay GST on time, (3) Issue proper tax invoices, (4) Maintain detailed records of all transactions, (5) Comply with e-way bill requirements for goods movement. Non-compliance can result in penalties and interest.",
+      "citations": [
+        "Section 22, Central Goods and Services Tax Act, 2017"
+      ]
+    },
+    "penalties": {
+      "id": "penalties",
+      "title": "Penalties and Offences",
+      "content": "The Act prescribes various penalties for non-compliance including late filing of returns, non-payment or short payment of tax, wrongful availment or utilization of input tax credit, and other contraventions.",
+      "bareActText": "73. (1) Where it appears to the proper officer that any person has not paid or short paid tax or has erroneously been refunded, or where input tax credit has been wrongly availed or utilized for any reason, other than the reason of fraud or any wilful misstatement or suppression of facts, he may serve a notice on such person requiring him to show cause why he should not pay the amount specified in the notice along with interest and penalty.",
+      "laymanExplanation": "If you don't comply with GST requirements, you can face penalties. Common penalties include: (1) Late fee for delayed return filing, (2) Interest on delayed tax payment, (3) Penalty for wrong input tax credit claims, (4) Penalty for not issuing invoices, (5) Heavy penalties for fraud or tax evasion. The penalties can be significant, so it's important to maintain proper compliance.",
+      "citations": [
+        "Section 73, Central Goods and Services Tax Act, 2017"
+      ]
+    }
+  },
+  "officialText": {
+    "sections": []
+  },
+  "laymanExplanation": {
+    "sections": []
+  }
+}
+

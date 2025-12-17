@@ -45,6 +45,16 @@ export async function getActDashboardDataAsync(actId: ActId): Promise<ActDashboa
         return await loadJSON('pdpl.json')
       case 'gdpr':
         return await loadJSON('gdpr.json')
+      case 'cgst_act':
+        return await loadJSON('cgst-act.json')
+      case 'rgst_act':
+        return await loadJSON('rgst-act.json')
+      case 'igst_act':
+        return await loadJSON('igst-act.json')
+      case 'income_tax_1961':
+        return await loadJSON('income-tax-1961.json')
+      case 'income_tax_new':
+        return await loadJSON('income-tax-new.json')
       default:
         return null
     }
@@ -63,6 +73,11 @@ const actDataCache: Record<ActId, ActDashboardData | null> = {
   pdpl: null,
   it_act_2000: null,
   saaa100: null,
+  cgst_act: null,
+  rgst_act: null,
+  igst_act: null,
+  income_tax_1961: null,
+  income_tax_new: null,
 }
 
 export function getActDashboardData(actId: ActId): ActDashboardData | null {

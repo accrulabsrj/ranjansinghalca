@@ -1,0 +1,119 @@
+{
+  "actId": "income_tax_1961",
+  "overview": {
+    "id": "overview",
+    "title": "Overview - The Income-tax Act, 1961",
+    "content": "The Income-tax Act, 1961 is India's primary legislation governing the levy, administration, collection, and recovery of income tax. Enacted on 13th September 1961, the Act came into force from 1st April 1962 and has been the cornerstone of India's direct tax system for over six decades.\n\nPurpose and Background\n\nThe Income-tax Act, 1961 was enacted to consolidate and amend the law relating to income tax and super-tax. It replaced the earlier Income-tax Act, 1922, providing a more comprehensive and modern framework for taxation of income in India. The Act has been amended numerous times through annual Finance Acts to keep pace with economic changes and policy requirements.\n\nThe Act applies to all income earned or received in India, as well as income that is deemed to accrue or arise in India. It covers various types of income including salary, business profits, capital gains, house property income, and income from other sources.\n\nKey Features and Principles\n\nThe Income-tax Act, 1961 is built on several fundamental principles:\n\n1. Residential Status: Tax liability depends on the residential status of the taxpayer (resident, non-resident, or resident but not ordinarily resident).\n\n2. Heads of Income: Income is classified into five heads - Salary, House Property, Profits and Gains of Business or Profession, Capital Gains, and Income from Other Sources.\n\n3. Progressive Tax Rates: The Act provides for progressive tax rates, with higher income attracting higher tax rates.\n\n4. Deductions and Exemptions: Various deductions and exemptions are available to reduce taxable income, such as Section 80C, 80D, 24(b) for home loan interest, etc.\n\n5. Advance Tax and TDS: The Act mandates payment of advance tax and deduction of tax at source (TDS) to ensure regular collection of taxes.\n\n6. Assessment and Appeals: Comprehensive procedures for assessment, reassessment, and appeals are provided.\n\n7. Penalties and Prosecution: The Act prescribes penalties for various defaults and prosecution for serious offences.\n\nHistorical Context\n\nThe Income-tax Act, 1961 was a significant modernization of India's tax laws. It was enacted at a time when India was building its industrial base and needed a robust tax system to fund development. Over the years, the Act has been amended extensively through:\n\n- Annual Finance Acts\n- Special economic legislation\n- Tax reform initiatives\n- International tax treaty implementations\n- Anti-avoidance measures\n\nThe Act has evolved to address modern challenges including digital economy taxation, transfer pricing, base erosion and profit shifting (BEPS), and international tax compliance.\n\nRelationship to Other Laws\n\nThe Income-tax Act, 1961 operates alongside:\n\n1. Income-tax Rules, 1962: Detailed rules for implementation of the Act.\n\n2. Finance Acts: Annual legislation that amends rates, introduces new provisions, and modifies existing ones.\n\n3. Double Taxation Avoidance Agreements (DTAA): Bilateral treaties that modify provisions of the Act for cross-border transactions.\n\n4. Companies Act, 2013: For corporate tax matters and compliance.\n\n5. Goods and Services Tax Acts: Indirect taxes operate separately from income tax.\n\nRegulatory Framework\n\nThe Central Board of Direct Taxes (CBDT) is the apex body for administration of the Income-tax Act. The Income Tax Department, under the Ministry of Finance, is responsible for assessment, collection, and enforcement. The Act provides for:\n\n- Assessment by Assessing Officers\n- Appeals to Commissioner (Appeals), Income Tax Appellate Tribunal (ITAT), High Courts, and Supreme Court\n- Settlement Commission for complex cases\n- Authority for Advance Rulings (AAR) for non-residents\n\nSignificance for Businesses and Professionals\n\nFor Chartered Accountants, tax professionals, and businesses, the Income-tax Act, 1961 is fundamental:\n\n- Determining tax liability for individuals, HUFs, companies, and other entities\n- Planning tax-efficient structures and transactions\n- Compliance with filing requirements and deadlines\n- Understanding deductions, exemptions, and incentives\n- Handling international tax matters and transfer pricing\n- Managing advance tax and TDS obligations\n- Representing clients in assessments and appeals\n- Advising on tax-efficient investment and business decisions\n\nThe Act's comprehensive nature, with over 300 sections and numerous amendments, makes it essential for all tax professionals and businesses to stay updated with its provisions.",
+    "bareActText": "1. (1) This Act may be called the Income-tax Act, 1961.\n\n(2) It extends to the whole of India.\n\n(3) Save as otherwise provided in this Act, it shall come into force on the 1st day of April, 1962.",
+    "citations": [
+      "Section 1, The Income-tax Act, 1961"
+    ]
+  },
+  "definitions": {
+    "id": "definitions",
+    "title": "Definitions - Section 2",
+    "content": "Section 2 of the Income-tax Act, 1961 contains comprehensive definitions of key terms used throughout the Act. Understanding these definitions is crucial for proper interpretation and compliance.",
+    "subsections": [
+      {
+        "id": "assessment",
+        "title": "Assessment",
+        "content": "Assessment includes reassessment and means the process of determining the tax liability of an assessee.",
+        "bareActText": "(8) \"assessment\" includes reassessment;",
+        "laymanExplanation": "Assessment is the process where the Income Tax Department determines how much tax you owe. This happens after you file your return - the department may accept it as filed, or they may scrutinize it and make adjustments. Reassessment means the department can reopen a past year's assessment if they find that income was not properly disclosed.",
+        "citations": [
+          "Section 2(8), The Income-tax Act, 1961"
+        ]
+      },
+      {
+        "id": "assessee",
+        "title": "Assessee",
+        "content": "Assessee means a person by whom any tax or any other sum of money is payable under this Act, and includes every person in respect of whom any proceeding under this Act has been taken for the assessment of his income or loss.",
+        "bareActText": "(7) \"assessee\" means a person by whom any tax or any other sum of money is payable under this Act, and includes—\n(a) every person in respect of whom any proceeding under this Act has been taken for the assessment of his income or of the income of any other person in respect of which he is assessable, or of the loss sustained by him or by such other person, or of the amount of refund due to him or to such other person;\n(b) every person who is deemed to be an assessee under any provision of this Act;\n(c) every person who is deemed to be an assessee in default under any provision of this Act;",
+        "laymanExplanation": "An assessee is simply a person who is liable to pay income tax. This includes individuals, companies, HUFs (Hindu Undivided Families), partnerships, and any other entity that earns income. If the tax department has started any proceedings against you to determine your tax liability, you become an assessee.",
+        "citations": [
+          "Section 2(7), The Income-tax Act, 1961"
+        ]
+      },
+      {
+        "id": "income",
+        "title": "Income",
+        "content": "Income includes various types of receipts and gains, though the Act does not provide an exhaustive definition, leaving it to judicial interpretation.",
+        "bareActText": "Section 2(24) provides an inclusive definition of income, which includes profits and gains, dividends, voluntary contributions, value of perquisites, capital gains, and various other receipts.",
+        "laymanExplanation": "Income is a broad term that includes almost anything of value you receive - salary, business profits, rent, interest, dividends, capital gains from selling assets, and many other types of receipts. The Act doesn't give a complete definition, so courts have interpreted it broadly to include any benefit or advantage in money or money's worth.",
+        "citations": [
+          "Section 2(24), The Income-tax Act, 1961"
+        ]
+      },
+      {
+        "id": "person",
+        "title": "Person",
+        "content": "Person includes an individual, a Hindu undivided family, a company, a firm, an association of persons or a body of individuals, a local authority, and every artificial juridical person.",
+        "bareActText": "(31) \"person\" includes—\n(i) an individual;\n(ii) a Hindu undivided family;\n(iii) a company;\n(iv) a firm;\n(v) an association of persons or a body of individuals, whether incorporated or not;\n(vi) a local authority;\n(vii) every artificial juridical person, not falling within any of the preceding sub-clauses;",
+        "laymanExplanation": "Person is a very broad term in tax law. It's not just individuals - it includes companies, partnerships, HUFs, associations, trusts, and even artificial entities like corporations. Basically, any entity that can earn income and pay tax is considered a 'person' under the Act.",
+        "citations": [
+          "Section 2(31), The Income-tax Act, 1961"
+        ]
+      },
+      {
+        "id": "previous-year",
+        "title": "Previous Year",
+        "content": "Previous year means the financial year immediately preceding the assessment year.",
+        "bareActText": "(34) \"previous year\" means the previous year as defined in section 3;",
+        "laymanExplanation": "Previous year is the financial year (April to March) in which you earn income. For example, if you earn income from April 2023 to March 2024, that's your previous year 2023-24. This income is then assessed and taxed in the next year (2024-25), which is called the assessment year. So you earn in the previous year, and get assessed in the assessment year.",
+        "citations": [
+          "Section 2(34), Section 3, The Income-tax Act, 1961"
+        ]
+      },
+      {
+        "id": "assessment-year",
+        "title": "Assessment Year",
+        "content": "Assessment year means the period of twelve months commencing on the 1st day of April every year.",
+        "bareActText": "(9) \"assessment year\" means the period of twelve months commencing on the 1st day of April every year;",
+        "laymanExplanation": "Assessment year is the financial year (April to March) in which your income from the previous year is assessed and taxed. For example, if you earned income in 2023-24 (previous year), you file your return and pay tax in 2024-25 (assessment year). The assessment year always follows the previous year.",
+        "citations": [
+          "Section 2(9), The Income-tax Act, 1961"
+        ]
+      }
+    ],
+    "citations": [
+      "Section 2, The Income-tax Act, 1961"
+    ]
+  },
+  "sections": {
+    "applicability": {
+      "id": "applicability",
+      "title": "Applicability and Scope",
+      "content": "The Income-tax Act, 1961 applies to the whole of India and governs taxation of all income that accrues or arises in India, or is received or deemed to be received in India. The Act applies based on the residential status of the taxpayer.",
+      "bareActText": "1. (2) It extends to the whole of India.",
+      "laymanExplanation": "The Income-tax Act applies throughout India. However, your tax liability depends on your residential status. Residents are taxed on their worldwide income, while non-residents are taxed only on income that accrues or arises in India, or is received in India. The Act has detailed rules to determine residential status.",
+      "citations": [
+        "Section 1, The Income-tax Act, 1961"
+      ]
+    },
+    "obligations": {
+      "id": "obligations",
+      "title": "Tax Obligations and Compliance",
+      "content": "Taxpayers have various obligations under the Act including filing of returns, payment of advance tax, deduction of tax at source (TDS), maintenance of books of accounts, and compliance with assessment procedures.",
+      "laymanExplanation": "As a taxpayer, you have several obligations: (1) File your income tax return by the due date, (2) Pay advance tax if your tax liability exceeds ₹10,000, (3) Deduct TDS when making certain payments, (4) Maintain proper books of accounts and documents, (5) Respond to notices from the tax department, (6) Pay tax on time to avoid interest and penalties.",
+      "citations": [
+        "The Income-tax Act, 1961"
+      ]
+    },
+    "penalties": {
+      "id": "penalties",
+      "title": "Penalties and Prosecution",
+      "content": "The Act prescribes various penalties for non-compliance including late filing of returns, concealment of income, failure to deduct TDS, and other defaults. Serious offences can lead to prosecution.",
+      "laymanExplanation": "If you don't comply with tax requirements, you can face penalties: (1) Late filing fee if you file your return after the due date, (2) Penalty for concealing income or furnishing inaccurate particulars, (3) Penalty for not deducting TDS, (4) Interest on delayed tax payments, (5) Prosecution for serious offences like tax evasion. Penalties can be significant, so compliance is important.",
+      "citations": [
+        "The Income-tax Act, 1961"
+      ]
+    }
+  },
+  "officialText": {
+    "sections": []
+  },
+  "laymanExplanation": {
+    "sections": []
+  }
+}
+
